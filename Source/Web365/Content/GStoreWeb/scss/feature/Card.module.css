@@ -1,0 +1,100 @@
+.iconfeature {
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  border: 2px solid #f0bb45;
+  border-radius: 16px;
+  position: relative;
+}
+
+.iconfeature i {
+  color: #eb3971;
+  font-size: 26px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.iconfeature:hover {
+  border-color: #eb3971;
+}
+
+.iconfeature:hover i {
+  color: #f0bb45;
+  -webkit-animation: animated 2.5s alternate;
+          animation: animated 2.5s alternate;
+}
+
+#features h2 {
+  text-align: center;
+  font-family: "Quicksand",sans-serif !important;
+  font-weight: bold !important;
+}
+
+#features p {
+  font-weight: 500;
+}
+
+@-webkit-keyframes animated {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  20% {
+    -webkit-transform: translate(-70%, -70%);
+            transform: translate(-70%, -70%);
+  }
+  40% {
+    -webkit-transform: translate(-70%, 70%);
+            transform: translate(-70%, 70%);
+  }
+  60% {
+    -webkit-transform: translate(70%, 70%);
+            transform: translate(70%, 70%);
+  }
+  80% {
+    -webkit-transform: translate(70%, -70%);
+            transform: translate(70%, -70%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+
+@keyframes animated {
+  0% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+  20% {
+    -webkit-transform: translate(-70%, -70%);
+            transform: translate(-70%, -70%);
+  }
+  40% {
+    -webkit-transform: translate(-70%, 70%);
+            transform: translate(-70%, 70%);
+  }
+  60% {
+    -webkit-transform: translate(70%, 70%);
+            transform: translate(70%, 70%);
+  }
+  80% {
+    -webkit-transform: translate(70%, -70%);
+            transform: translate(70%, -70%);
+  }
+  100% {
+    -webkit-transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
+  }
+}
+/*# sourceMappingURL=Card.module.css.map */

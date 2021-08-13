@@ -1,0 +1,130 @@
+﻿@using Web365Utility
+@model Web365Domain.Other.LayoutGroupItem
+
+@{
+    Layout = null;
+}
+
+
+<div class="tb_news_letter_wrapper">
+    <div class="container">
+        <div class="tb_nl_heading_wrapper">
+            <i class="fa fa-envelope"></i>
+            <h2> Đăng kí để nhận Thêm  <span>Thông Tin</span></h2>
+
+        </div>
+
+        <div class="tb_nl_form_wrapper">
+            <input type="text" placeholder="Email.....">
+
+            <div class="letter_btn_wrapper">
+                <a href="#">
+                    <div class="blob-btn letter_btn">
+                        Đăng Ký
+                        <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                            </span>
+                        </span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="tb_estimate_form_wrapper tb_toppadder90 tb_bottompadder90">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <form>
+                    <div class="tb_es_main_section">
+                        <div class="tb_es_input_width">
+                            <div class="contect_form1">
+                                <input type="text" name="full_name" placeholder="Họ Tên" class="require">
+                            </div>
+                        </div>
+                        <div class="tb_es_input_width">
+                            <div class="contect_form1">
+                                <input type="email" name="email" placeholder="Email" class="require" data-valid="email" data-error="Email should be valid.">
+                            </div>
+                        </div>
+                        <div class="tb_es_input_width">
+                            <div class="contect_form1">
+                                <input type="text" name="phone" placeholder="Số Điện Thoại">
+                            </div>
+                        </div>
+                        <div class="tb_es_input_width_full">
+                            <div class="contect_form4">
+                                <textarea rows="6" name="message" placeholder="Ghi Chú" class="require"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="tb_es_btn_div">
+
+                            <div class="response"></div>
+                            <div class="tb_es_btn_wrapper tb_toppadder20">
+                                <button type="button" class="submitForm">Gửi</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+                <div class="tb_work_txt_wrapper">
+                    <div class="abt_txt_box">
+                        <div class="tb_left_heading_wraper">
+                            <h4 style="font-size: 30px;">Điền Vào Mẫu Theo Yêu Cầu </h4>
+
+                        </div>
+
+                        <p style="font-size: 20px;">
+                            <i class="fa fa-check"></i>
+                            Hãy đảm bảo mọi thông tin quý khách cung cấp là chính xác.
+                            <br>
+                            <i class="fa fa-check"></i>
+                            BIDLAND sẽ liên hệ với quý khách ngay sau khi nhận được thông tin. <br>
+                            Xin Chân Thành Cảm Ơn!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@*@if (Model != null && Model.LayoutContents != null && Model.LayoutContents.Any())
+    {
+        <div class="testimonials customer-review">
+            <div class="container">
+                <div class="center-title margin-btm-10">
+                    <h1>@Model.Name</h1>
+                    <div class="border-width center-align"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="testi-slider owl-carousel owl-theme customer-review-list">
+                            @foreach (var item in Model.LayoutContents)
+                            {
+                                <div class="item">
+                                    <p>
+                                        @Html.Raw(item.Detail)
+                                    </p>
+                                    <div class="testimonials-author">
+                                        <img src="@Web365Utility.GetPathPicture(item.UrlPicture)" title="@item.Name" />
+                                        <h5>@item.Name</h5>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }*@

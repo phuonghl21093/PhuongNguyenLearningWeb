@@ -1,0 +1,43 @@
+﻿@using Web365.App_Code 
+@using Web365Utility 
+@model Web365Models.ListArticleModel
+@{ Layout = null; }
+@if (Model != null)
+{
+    <div class="ts-highlight-achievement gray-bg">
+        <div class="container">
+            <div class="center-title margin-btm-30">
+                <h1>@ResourceLanguage.AchievementHighlight</h1>
+                <div class="border-width center-align"></div>
+            </div>
+            <div class="owl-carousel owl-theme" id="highlightAchievement">
+                @foreach (var item in Model.List)
+                {
+                    <div class="item">
+                        <div class="service-box">
+                            <div class="service-thumb">
+                                <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" style="background-image:url('@Web365Utility.GetPathPicture(item.Picture.FileName)')"></a>
+                            </div>
+                            <div class="service-desc">
+                                <h4><a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Title, 60, "..."))</a></h4>
+                                <div class="border-width"></div>
+                                <p>
+                                    @Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Summary, 270, "..."))
+                                </p>
+                                <div class="text-right">
+                                    <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" class="btn btn-link">@ResourceLanguage.ViewDetail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        @if (Model.total > ConfigWeb.AchievementHighlightQuantity)
+        {
+            <div class="text-center">
+                <a href="/su-kien-noi-bat" class="btn btn-xl btn-skin" style="background: #c42635;">@ResourceLanguage.AllAchievementHighlight<i class="ion-android-arrow-forward"></i></a>
+            </div>
+        }
+    </div>
+}

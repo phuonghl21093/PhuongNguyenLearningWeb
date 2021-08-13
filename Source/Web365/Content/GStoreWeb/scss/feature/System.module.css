@@ -1,0 +1,128 @@
+.container .title {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.container p {
+  margin: 0;
+}
+
+.title-page {
+  height: 70vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.title-page h1 {
+  font-weight: bold;
+}
+
+.img {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  text-align: justify;
+}
+
+.content .title-text {
+  padding: 20px 0px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right {
+  text-align: end !important;
+}
+
+.right-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 968px) {
+  .content {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    display: block;
+  }
+  .column .content {
+    padding-bottom: 20px;
+    font-size: 15px;
+  }
+  .img {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container p {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=System.module.css.map */

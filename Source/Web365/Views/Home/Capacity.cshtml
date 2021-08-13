@@ -1,0 +1,76 @@
+﻿@using Web365.App_Code
+@using Web365Utility
+@using Web365Domain
+@model Web365Models.ListArticleModel
+@{
+    Layout = null;
+    var articleGroup = ViewBag.ArticleGroup as ArticleGroupItem;
+    List<Web365Domain.ArticleItem> ltsArticle = ViewBag.ltsArticle;
+}
+@*<div class="jp_banner_jobs_categories_wrapper">
+    <div class="container-fluid">
+        <div class="row">
+
+            @if (ltsArticle != null && ltsArticle.Any())
+            {
+                var i = 0;
+                foreach (var item in ltsArticle)
+                {
+                    <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.TitleAscii)">
+                        <div class="jp_top_jobs_category_wrapper @(i%2==0 ? "" : "jp_top_clr_category_wrapper") ">
+                            <div class="jp_top_jobs_category">
+                                <div class="jp_top_category_icon">
+                                    <i class="@item.IconCss"></i>
+                                </div>
+                                <h3>
+                                    @item.Title
+                                </h3>
+                                <p>@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Summary, 700, "..."))</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    {
+                        i++;
+                    }
+                }
+            }
+
+        </div>
+    </div>
+</div>*@
+<section class="container section__introduction row__up container__get">
+    <div data-aos="fade-up" class="feature__container">
+        <h2>Tính năng vượt trội trên ứng dụng <span>G-Store</span></h2>
+        <p class="title">
+            Tải ứng dụng ngay để trải nghiệm thực tế những tính năng hấp dẫn và
+            thông minh để kết nối chia sẻ hàng hóa, dịch vụ với hàng ngàn người
+            trên thế giới
+        </p>
+        <div class="row box__feature">
+            @if (ltsArticle != null && ltsArticle.Any())
+            {
+                var i = 0;
+                foreach (var item in ltsArticle)
+                {
+        <div class="col-xs-12 col-sm-6 col-lg-3 fixed">
+            <div class="images">
+                <img src="~/Content/GStoreWeb/images/img/images/features_icon_s.png" alt="" />
+                <img class="img2" style="width:50px; height:50px;"  src="@Web365Utility.GetPathPicture(item.Picture.FileName)" alt=""/>
+                                 @*src="~/Content/GStoreWeb/images/img/images/1-2.png" alt=""*@ 
+            </div>
+            <div class="content">
+                <p>@item.Title</p>
+                <p>
+                    @Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Summary, 700, "..."))
+                </p>
+            </div>
+        </div>
+                    {
+                        i++;
+                    }
+                }
+            }
+        </div>
+        </div>
+</section>

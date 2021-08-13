@@ -1,0 +1,64 @@
+﻿@using Web365.App_Code
+@model Web365Domain.ArticleItem
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Model != null)
+{
+    <div class="space10"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="sidebar-widget">
+                    @Html.Action("OtherArticlesInCate", new { currentCate = Model.ArticleType.ID, currentArticleId = Model.ID, parentName = Model.ArticleType.Name })
+                </div>
+            </div>
+            <!--col-->
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-sm-12 blog-inner">
+                        <div>
+                            <h3>@Model.Title</h3>
+                            <div class="border-width" style="margin: 10px 0;"></div>
+                        </div>
+                        <div class="post-meta">
+                            <ul class="list-inline">
+                                <li><a href="javascript:;"><i class="ion-person"></i> @(String.IsNullOrEmpty(Model.CreatedBy) ? "ThaiSonCorp" : Model.CreatedBy)</a></li>
+                                <li><a href="javascript:;"><i class="ion-ios-clock"></i> @Model.DateCreated</a></li>
+                                <li><a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, Model.ArticleType.NameAscii)"><i class="ion-pound"></i> @Model.ArticleType.Name</a></li>
+                            </ul>
+                        </div>
+                        <p>
+                            @Html.Raw(Model.Summary)
+                        </p>
+                        <p>
+                            @Html.Raw(Model.Detail)
+                        </p>
+                    </div>
+                    @if (Model.ListPicture != null)
+                    {
+                        <div class="col-md-12">
+                            <div class="space40"></div>
+                            <div class="fotorama" data-nav="thumbs" data-allowfullscreen="true" data-autoplay="true" data-loop="true">
+                                @foreach (var pictureItem in Model.ListPicture)
+                                {
+                                    <a href="#" data-caption="@pictureItem.Alt"><img src="@Web365Utility.Web365Utility.GetPathPicture(pictureItem.FileName)"></a>
+                                }
+                                @*<a href="images/dautubatdongsan21.jpg" data-caption="Tòa nhà Tổng công ty Thái Sơn"><img src="images/dautubatdongsan2.jpg"></a>
+                                    <a href="images/dautubatdongsan31.jpg" data-caption="Khu chung cư công nghệ cao Hòa Lạc"><img src="images/dautubatdongsan3.jpg"></a>
+                                    <a href="images/dautubatdongsan41.jpg" data-caption="Khu nghỉ dưỡng ven biển miền Trung"><img src="images/dautubatdongsan4.jpg"></a>
+                                    <a href="images/dautubatdongsan51.jpg" data-caption="Dự án tòa tháp Thái Sơn"><img src="images/dautubatdongsan5.jpg"></a>
+                                    <a href="images/dautubatdongsan62.jpg" data-caption="Showroom oto Audi"><img src="images/dautubatdongsan6.jpg"></a>*@
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <!--row-->
+    </div>
+    <div class="space20"></div>
+}

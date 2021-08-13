@@ -1,0 +1,26 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Models
+@model IEnumerable<ArticleItem>
+@{
+    Layout = null;
+}
+@if (Model != null && Model.Any())
+{
+        <div id="categories-2" class="widget widget_categories">
+            <h3 class="widget-title"><span>@ViewBag.ParentName</span></h3>
+            <ul class="list-unstyled side-nav">
+
+                @foreach (var item in Model)
+                {
+                    <li @(Request.Url.AbsoluteUri.IndexOf(item.TitleAscii) >= 0 ? "class=active" : "")>
+                        @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, item.Title, item.ArticleType.NameAscii + "/" + item.TitleAscii)
+                    </li>
+                }
+            </ul>
+        </div>
+        <div>
+            @Html.Action("FeaturedEvents")
+            @Html.Action("TypicalFaces")
+        </div>
+}

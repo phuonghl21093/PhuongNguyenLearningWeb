@@ -1,0 +1,25 @@
+﻿@using Web365.App_Code
+@model IEnumerable<Web365Domain.ArticleTypeItem>
+@{
+    Layout = null;
+}
+@if (Model != null && Model.Any())
+{
+    <aside id="sidebar-wrapper" class="col-md-3">
+        <div id="categories-2" class="widget widget_categories">
+            <h3 class="widget-title"><span>@ViewBag.ParentName</span></h3>
+            <ul>
+                @foreach (var item in Model)
+                {
+                    <li class="cat-item">
+                        @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, item.Name, item.NameAscii)
+                    </li>
+                }
+            </ul>
+        </div>
+        <div>
+            @*@Html.Action("FeaturedEvents")
+            @Html.Action("TypicalFaces")*@
+        </div>
+    </aside>
+}

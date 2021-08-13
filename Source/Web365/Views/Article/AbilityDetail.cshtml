@@ -1,0 +1,137 @@
+﻿@using Web365Domain
+@using Web365Utility
+@model IEnumerable<Web365Models.ListArticleModel>
+@{
+    Layout = null;
+    var articleType = ViewBag.Type as ArticleTypeItem;
+}
+
+@if (Model != null && Model.Any())
+{
+    <style>
+        .people_content_name {
+            font-weight: bold;
+        }
+    </style>
+    <main id="main-wrapper">
+        <!-- post entry -->
+        <article id="post-269"
+                 class="blog-single post-269 post type-post status-publish format-standard has-post-thumbnail hentry category-contracts tag-contracts">
+            <!--<h2 class="post-title">@Html.Raw(articleType.Name)</h2>-->
+            <div class="post-meta">
+                <ul class="list-inline">
+                    <li><a href="javascript:;"><i class="ion-person"></i>@(String.IsNullOrEmpty(articleType.CreatedBy) ? "ThaiSonCorp" : articleType.CreatedBy)</a></li>
+                    <li><a href="javascript:;"><i class="ion-ios-clock"></i> @articleType.DateCreated</a></li>
+                </ul>
+            </div>
+            <div class="post-content">
+                @Html.Raw(articleType.Detail)
+            </div>
+            <!--<div class="text-center">-->
+            <!--<a href="wp-content/uploads/blog01-1200x600.jpg" title="Wilmcote House: Thermal vision"-->
+            <!--rel="prettyPhoto">-->
+            <!--<img src="wp-content/uploads/csr_pic.jpg" class="attachment-slicetheme-large size-slicetheme-large wp-post-image" alt="blog01"/></a>-->
+            <!--</div>-->
+            <div class="post-content" style="display:none;">
+                <div class="post-content">
+                    <table class="ablility-human-resource" style="margin: 0px 0 0 0px; width: 100%" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            @foreach (var group in Model)
+                            {
+                                <tr>
+                                    <td valign="top" align="center">
+                                        @if (group.Group != null)
+                                        {
+                                            <div class="people_content_title">
+                                                @group.Group.Name
+                                            </div>
+                                        }
+                                        <div class="people_content_desc">
+                                            @for (var i = 1; i < group.List.Count; i += 3)
+                                            {
+                                                if (i != 1 && i < group.List.Count - 1 && i + 3 > group.List.Count)
+                                                {
+
+                                                    <table style="margin: 0px 0 0 0px;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            @for (var k = 0; k < group.List.Count - i; k++)
+                                                            {
+                                                                var __current = group.List.ElementAt(i);
+                                                                <tr>
+                                                                    <td valign="top" align="center">
+                                                                        <div class="people_content_box">
+                                                                            <div class="people_content_img">
+                                                                                <img src="@Web365Utility.GetPathPicture(__current.Picture.FileName)" style="border: 0px" width="200">
+                                                                            </div>
+                                                                            <div class="people_content_name">
+                                                                                <span class="people_content_link">@__current.Title</span>
+                                                                            </div>
+                                                                            <div class="people_content_name2">
+                                                                                <p style="text-align:center;">@Html.Raw(__current.Summary)</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            }
+                                                        </tbody>
+                                                    </table>
+                                                }
+                                                else
+                                                {
+                                                    <table style="margin: 0px 0 0 0px;" cellspacing="0" cellpadding="0" border="0">
+                                                        <tbody>
+                                                            @if (i == 1)
+                                                            {
+                                                                <tr>
+                                                                    <td colspan="3" valign="top" align="center">
+                                                                        <div class="people_content_box">
+                                                                            <div class="people_content_img">
+                                                                                <img src="@Web365Utility.GetPathPicture(group.List.ElementAt(0).Picture.FileName)" style="border: 2px solid #f09a49;" width="200">
+                                                                            </div>
+                                                                            <div class="people_content_name">
+                                                                                <span class="people_content_link">@group.List.ElementAt(0).Title</span>
+                                                                            </div>
+                                                                            <div class="people_content_name2">
+                                                                                <p style="text-align:center;">@Html.Raw(group.List.ElementAt(0).Summary)</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                </tr>
+                                                            }
+                                                            <tr>
+                                                                @for (var j = i; j < i + 3 && j < group.List.Count; j++)
+                                                                {
+                                                                    var _current = group.List.ElementAt(j);
+                                                                    <td valign="top" align="center">
+                                                                        <div class="people_content_box">
+                                                                            <div class="people_content_img">
+                                                                                <img src="@Web365Utility.GetPathPicture(_current.Picture.FileName)" style="border: 2px solid #f09a49;" width="200">
+                                                                            </div>
+                                                                            <div class="people_content_name">
+                                                                                <span class="people_content_link">@_current.Title</span>
+                                                                            </div>
+                                                                            <div class="people_content_name2">
+                                                                                <p style="text-align:center;">@Html.Raw(_current.Summary)</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </td>
+                                                                }
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                }
+                                            }
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                            <!---->
+                        </tbody>
+                    </table>
+                    <p></p>
+                </div>
+            </div>
+        </article>
+        <!-- end post entry -->
+    </main>
+}

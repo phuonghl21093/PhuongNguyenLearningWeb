@@ -1,0 +1,102 @@
+﻿@using Web365.App_Code
+@using Web365Utility
+@model Web365Models.ListArticleModel
+@{
+    Layout = null;
+}
+@if (Model != null && Model.List != null && Model.List.Any())
+{
+    <style>
+        #main-wrapper {
+            display: inline-block
+        }
+
+        @@media screen and (min-width: 992px) {
+                .portfolio-image img {
+                    height: 330px;
+                }
+        } 
+        
+        @@media screen and (min-width: 768px) and (max-width: 992px) {
+                .portfolio-image img {
+                    height: 510px;
+                }
+        }
+
+        @@media screen and (max-width: 768px){
+                .portfolio-image img {
+                    height: auto;
+                }
+        }
+    </style>
+    <!-- main-container -->
+    <main class="col-md-9">
+        <!-- post entry -->
+        <div id="main-wrapper" class="st-portfolio nospace hicon-portfolio">
+            <div class="portfolioHolder portfolio96ea3c5a4cb896b6243b37eed0f22850 zoom-gallery"
+                 data-layout="fitRows">
+                @foreach (var item in Model.List)
+                {
+                    if (item.Picture != null)
+                    {
+                        <a href="@Web365Utility.GetPathPicture(item.Picture.FileName)" class="post-item col-md-4 col-sm-6 col-xs-12 building">
+                            <div class="portfolio-container style-1">
+                                <div class="portfolio-image">
+
+                                    <img data-url="@Web365Utility.GetPathPicture(item.Picture.FileName)"
+                                         src="@Web365Utility.GetPathThumbPicture(item.Picture.FileName)"
+                                         alt="portfolio12" />
+                                    <div class="zoom-overlay"></div>
+                                </div>
+                                <div class="portfolio-content">
+                                    <h4>@item.Title</h4>
+                                    @*<p>
+                                            @Html.Raw(item.Detail)
+                                        </p>
+                                        <div class="portfolio-link">
+                                            @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, ResourceLanguage.Detail, item.ArticleType.NameAscii + "/" + item.TitleAscii)
+                                        </div>*@
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </a>
+                    }
+                }
+            </div>
+        </div>
+        <!-- end post entry -->
+        @Html.Pager(ConfigWeb.ListCertificate, (int)ViewBag.Page, Model.total).Options(o => o.DisplayTemplate("BootstrapPagination").MaxNrOfPages(5))
+    </main>
+}
+
+<script>
+    document.getElementById('libs').addEventListener('load', function () {
+			setTimeout(function(){
+        jQuery('.zoom-gallery').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            closeOnContentClick: false,
+            closeBtnInside: false,
+            mainClass: 'mfp-with-zoom mfp-img-mobile',
+            image: {
+                verticalFit: true,
+                titleSrc: function (item) {
+                    return item.el.attr('title');
+                }
+            },
+            gallery: {
+                enabled: true
+            },
+            zoom: {
+                enabled: true,
+                duration: 300, // don't foget to change the duration also in CSS
+                opener: function (element) {
+                    //var url = jQuery(element.find('img')).data('url');
+                    //return jQuery("<img src='" + url + "'></img>");
+                    return element.find('img');
+                }
+            }
+        });
+    }, 1000);
+        });
+</script>

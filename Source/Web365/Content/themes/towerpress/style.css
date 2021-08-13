@@ -1,0 +1,19 @@
+/*	
+Theme Name: TowerPress
+Theme URI: https://themeforest.net/item/towerpress-building-construction-wordpress-theme/17546681
+Description: Building & Construction WordPress Theme
+Author: SliceTheme
+Author URI: http://themeforest.net/user/SliceTheme
+Version: 1.0
+Text Domain: towerpress
+Tags: custom-background, custom-colors, custom-menu, post-formats, theme-options, translation-ready
+License: -
+License URI: -
+*/
+.text-truncate {
+    width: inherit;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inherit;
+}

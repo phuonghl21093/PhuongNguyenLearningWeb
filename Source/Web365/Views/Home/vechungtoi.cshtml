@@ -1,0 +1,140 @@
+﻿@model Web365Domain.ArticleItem
+
+@*<div id="aboutus" class="container-fluid" data-aos="fade-up">
+        <div class="title">
+            <h2>@Model.Title</h2>
+            <p>@Model.Summary</p>
+        </div>
+        @Html.Raw(Model.Detail)
+    </div>*@
+<div id="aboutus" class="container-fluid" data-aos="fade-in">
+    <div class="title">
+        <h2>Về chúng tôi</h2>
+        <p>G-Store luôn nỗ lực hàng ngày nhằm mang lại những giá trị vượt bậc, sự tiện lợi, nhanh chóng cho mọi khách hàng, cộng đồng sử dụng ứng dụng G-Store</p>
+    </div>
+
+    <div class="panel-group faq-inner-accordion"
+         id="accordion"
+         role="tablist">
+        <div class="panel panel-default" style="background-color: #ffffff">
+            <div class="panel-heading" role="tab">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse"
+                       data-parent="#accordion"
+                       href="#first-question-1"
+                       class="btn-accordion"
+                       aria-expanded="true"
+                       role="button">
+                        <i class="fa fa-plus"></i>
+                        Triết lý mà G-STORE theo đuổi là gì?
+                    </a>
+                </h4>
+            </div>
+            <div id="first-question-1"
+                 class="panel-collapse collapse in"
+                 aria-expanded="true"
+                 role="tabpanel"
+                 style="">
+                <div class="panel-body">
+                    Với triết lý: MINH BẠCH, NHIỆT HUYẾT, TẬN TÂM, AN TOÀN. G-Store sẽ
+                    là sự tập hợp, kết nối các nguồn lực toàn cầu nhằm mục đích xây
+                    dựng các sản phẩm, dịch vụ với nền tảng công nghệ 4.0 tạo ra lợi
+                    ích cho cộng đồng và xã hội
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="background-color: #ffffff">
+            <div class="panel-heading" role="tab">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse"
+                       data-parent="#accordion"
+                       href="#first-question-2"
+                       class="btn-accordion collapsed"
+                       aria-expanded="false"
+                       role="button">
+                        <i class="fa fa-plus"></i>
+                        <i class="ti-minus minus"></i>
+                        Tầm nhìn &amp; sứ mệnh của G-STORE là gì?
+                    </a>
+                </h4>
+            </div>
+            <div id="first-question-2"
+                 class="panel-collapse collapse"
+                 aria-expanded="false"
+                 role="tabpanel"
+                 style="height: 0px">
+                <div class="panel-body">
+                    Tầm nhìn: Trở thành công ty công nghệ nằm trong top khu vực châu Á
+                    trong 5 năm tới, với giá trị lõi là giải pháp chia sẻ hàng hóa,
+                    dịch vụ trong xã hội. Sứ mệnh: Kết nối nhu cầu và khả năng cung
+                    cấp sản phẩm, dịch vụ trong lĩnh vực trao đổi hàng hóa, dịch vụ
+                    thông qua nền tảng công nghệ 4.0. Khẳng định lại giá trị của nền
+                    kinh tế chia sẻ trong cộng đồng. Tạo ra nền tảng kết nối các giá
+                    trị đích thực và đặt giá trị cộng đồng lên ưu tiên cao nhất.
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="background-color: #ffffff">
+            <div class="panel-heading" role="tab">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse"
+                       data-parent="#accordion"
+                       href="#first-question-3"
+                       class="btn-accordion collapsed"
+                       aria-expanded="false"
+                       role="button">
+                        <i class="fa fa-plus"></i>
+                        <i class="ti-minus minus"></i>
+                        Làm thế nào để tải và tham gia mua bán trên G-STORE?
+                    </a>
+                </h4>
+            </div>
+            <div id="first-question-3"
+                 class="panel-collapse collapse"
+                 aria-expanded="false"
+                 role="tabpanel">
+                <div class="panel-body">
+                    <ul>
+                        <li>
+                            Bước 1: Cập nhật ứng dụng G-Store phiên bản mới nhất trên kho
+                            ứng dụng Appstore &amp; Google Play
+                        </li>
+                        <li>Bước 2: Đăng nhập vào tài khoản</li>
+                        <li>
+                            Bước 3: Nạp tiền vào ví G-Store bằng cách liên kết với ví Momo
+                        </li>
+                        <li>
+                            Bước 4: Khách hàng trải nghiệm Mua-bán trên sàn giao dịch
+                            G-Store.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="background-color: #ffffff">
+            <div class="panel-heading" role="tab">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse"
+                       data-parent="#accordion"
+                       href="#first-question-4"
+                       class="btn-accordion collapsed"
+                       aria-expanded="false"
+                       role="button">
+                        <i class="fa fa-plus"></i>
+                        <i class="ti-minus minus"></i>
+                        Để trở thành đối tác của G-STORE thì tôi phải làm gì?
+                    </a>
+                </h4>
+            </div>
+            <div id="first-question-4"
+                 class="panel-collapse collapse"
+                 aria-expanded="false"
+                 role="tabpanel">
+                <div class="panel-body">
+                    Hãy liên hệ ngay với chúng tôi để được tư vấn, giải đáp về quyền
+                    lợi và nghĩa vụ của đối tác
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

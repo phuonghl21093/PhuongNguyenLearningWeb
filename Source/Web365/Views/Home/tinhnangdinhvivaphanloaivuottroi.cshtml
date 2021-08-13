@@ -1,0 +1,14 @@
+﻿
+@model Web365Domain.ArticleItem
+
+<div class="container fontQuicksand row__up" id="features" data-aos="fade-up">
+    <h2 class="d-flex justify-content-center font-weight-bold">
+        @Model.Title
+    </h2>
+    <p class="title">
+        @Model.Summary
+    </p>
+    @Html.Raw(Model.Detail)
+</div>
+
+   

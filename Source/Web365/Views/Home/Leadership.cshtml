@@ -1,0 +1,114 @@
+﻿
+@using Web365.App_Code
+@using Web365Utility
+@using Web365Domain
+@model Web365Models.ListArticleModel
+@{
+    ViewBag.Title = "leadership";
+    var articleGroup = ViewBag.ArticleGroup as ArticleGroupItem;
+    List<Web365Domain.ArticleItem> ltsArticle = ViewBag.ltsArticle;
+}
+
+<div class="team_wrapper jarallax">
+    <div class="team_overlay"></div>
+    <div class="team_overlay_left_img">
+        <img src="~/Content/BIDELAND/images/team_ruler.png" alt="img">
+    </div>
+    <div class="team_overlay_right_img">
+        <img src="~/Content/BIDELAND/images/team_ruler2.png" alt="img">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                <div class="tb_left_heading_wraper tb_center_dark_heading pb20">
+
+                    <h3>Ban Lãnh Đạo </h3>
+                    <h2><span></span></h2>
+                </div>
+            </div>
+
+            <!-- section_heading start -->
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                <div class="team_slider_wrapper">
+                    <div class="owl-carousel owl-theme" id="owl-carousel-leader-ship">
+
+                        @if (ltsArticle != null && ltsArticle.Any())
+                        {
+                            foreach (var item in ltsArticle)
+                            {
+                                <div class="item">
+                                    <div class="team_slider_cntnt">
+                                        <div class="team_wrapper_overlay">
+                                            <figure>
+                                                <img src="@(item.Picture != null ? Web365Utility.GetPathPicture(item.Picture.FileName) : "")" alt="@(item.Picture != null ? item.Picture.Alt : "")">
+                                            </figure>
+                                        </div>
+
+                                        <div class="team_slider_btm_info">
+                                            <h3><a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)">@item.Title</a></h3>
+                                            <p> @Html.Raw(item.Summary) </p>
+                                        </div>
+                                        @*<div class="team_slider_btm_hover">
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+
+                                                </ul>
+                                            </div>*@
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    $('#owl-carousel-leader-ship').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        autoplay: true,
+        nav: true,
+        navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            375: {
+                items: 2,
+                nav: true
+            },
+            425: {
+                items: 3,
+                nav: true
+            },
+            768: {
+                items: 4,
+                nav: true
+            },
+            1024: {
+                items: 5,
+                nav: true
+            },
+            1440: {
+                items: 5,
+                nav: true
+            },
+
+            2560: {
+                items: 5,
+                nav: true,
+            }
+        }
+    })
+
+</script>

@@ -1,0 +1,224 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Utility
+@model ArticleItem
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var otherProjects = ViewBag.OtherProjects as List<ArticleItem>;
+}
+
+<div id="mcn-breadcrumb" class="m-gioithieu">
+    <div class="container">
+        <div class="bread-crumb">
+            <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                <span typeof="v:Breadcrumb">
+                    <a href="/" rel="v:url" property="v:title">@ResourceLanguage.Home <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <span rel="v:child" typeof="v:Breadcrumb">
+                        <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, @Model.ArticleType.NameAscii)" rel="v:url" property="v:title">@Model.ArticleType.Name <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <span class="breadcrumb_last">@Model.Title</span>
+                    </span>
+                </span>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="project_single_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                <div class="tb_left_heading_wraper tb_center_dark_heading  tb_white_heding tb_bottompadder30">
+                    <h4>@ResourceLanguage.ProjectDetail</h4>
+                    <h3>@Model.Title</h3>
+                    <h2><span></span></h2>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                <article class="port-post-wrapper port_img_section">
+                    @if (Model.ListPicture != null && Model.ListPicture.Any())
+                    {
+                        <div class="post-thumbnail">
+                            <div id="blog_section_slider" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                    @for (var i = 0; i < Model.ListPicture.Count(); i++)
+                                    {
+                                        <div class="item @(i==1?"active" : "")">
+                                            <img src="@Web365Utility.GetPathPicture(Model.ListPicture[i].FileName)" alt="@Model.ListPicture[i].Name" class="img-responsive">
+                                        </div>
+                                    } 
+                                </div>
+
+                                <a class="left carousel-control" href="#blog_section_slider" role="button" data-slide="prev">
+                                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#blog_section_slider" role="button" data-slide="next">
+                                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                        <div class="row">
+                            <div class="port-content">
+                                <header class="entry-header">
+                                    <h4>@Html.Raw(Model.Summary)</h4>
+                                    <div class="entry-meta">
+                                        <ul class="list-inline">
+
+                                            <li>
+                                                <i class="fa fa-calendar"></i> @(Model.DateCreated.HasValue ? Model.DateCreated.Value.ToString("dd/MM/yyyy") : "")
+                                            </li>
+
+                                        </ul>
+
+                                        <div class="sharethis-inline-share-buttons"></div>
+                                    </div>
+                                    <!-- /.entry-meta -->
+                                </header>
+                                <!-- /.entry-header -->
+
+                                <div class="entry-content tb_toppadder20">
+                                    @Html.Raw(Model.Detail)
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 bs_btm_pader">
+                        @Html.Action("RightBarInNews", new { typeId = Model.ArticleType.ID })
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</div>
+
+ 
+<div class="tb_pj_single_wrapper jarallax">
+    <div class="team_overlay"></div>
+    <div class="ps_overlay_left_img">
+        <img src="~/Content/BIDELAND/images/ruler.png" alt="img">
+    </div>
+    <div class="ps_overlay_right_img">
+        <img src="~/Content/BIDELAND/images/ruler1.png" alt="img">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                <div class="tb_left_heading_wraper tb_center_dark_heading tb_bottompadder50">
+                    <h3>@ResourceLanguage.OtherNews </h3>
+                    <h2><span></span></h2>
+                </div>
+            </div>
+            @if (otherProjects != null && otherProjects.Any())
+            { 
+                <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                    <div class="owl-carousel owl-theme" id="projct_slider_wrapper">
+                        @foreach (var item in otherProjects.Take(12))
+                        { 
+                            <div class="">
+                                <div class="gallery-list">
+                                    <div class="sp_img_box_overlay"></div>
+                                    <div class="over">
+
+                                        <img style="height:150px" src="@Web365Utility.GetPathPicture(item.Picture.FileName)" alt="@item.Title" class="img-responsive" />
+
+                                        <div class="tab_img_overlay tab_img_overlay_2">
+                                            <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">
+                                                <h1>@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Title, 100, "..."))</h1>
+                                            </a>
+                                        </div>
+                                        <div class="tab_icon_overlay tab_icon_overlay_2">
+                                            <ul>
+                                                <li>
+                                                    <a href="@Web365Utility.GetPathPicture(item.Picture.FileName)" class="venobox info" data-title="@item.Title" data-gall="gall12">
+                                                        <i class="fa fa-arrows-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li><a href="#"><i class="fa fa-link"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+
+
+
+
+            }
+
+        </div>
+    </div>
+</div>
+<script>
+    $('#projct_slider_wrapper').owlCarousel({
+        loop: false,
+        margin: 10,
+        responsiveClass: true,
+        autoplay: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            375: {
+                items: 2,
+                nav: true
+            },
+            425: {
+                items: 2,
+                nav: true
+            },
+            768: {
+                items: 3,
+                nav: true
+            },
+            1024: {
+                items: 4,
+                nav: true
+            },
+            1440: {
+                items: 5,
+                nav: true
+            },
+
+            2560: {
+                items: 5,
+                nav: true,
+            }
+        }
+    })
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+﻿@model Web365Models.VideoModel
+@{
+    Layout = null;
+}
+@if (Model != null && Model.List != null && Model.List.Any())
+{
+    <div class="st-heading style-1 text-left">
+        <h3 class="box-title">@ResourceLanguage.FeaturedVideos</h3>
+        @*<div class="box-content">We are always working hard to build the real values.</div>*@
+    </div>
+    foreach (var item in Model.List)
+    {
+        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1470320972347">
+            <div class="ab-color-01 wpb_column vc_column_container vc_col-sm-4">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="st-promobox">
+                            <a class="links popup-video" href="@item.Link">
+                                <div class="box-image">
+                                    <span>
+                                        <img width="596" height="380" src="@Web365Utility.Web365Utility.GetPathPicture(item.Picture.FileName)" class="attachment-full size-full" alt="">
+                                    </span>
+                                </div>
+                                <div class="box-content">
+                                    <div class="box-content-inner">
+                                        <h4 class="box-title">@item.Name</h4>
+                                        @*<div class="box-subtitle">
+                                            @Html.Raw(item.Detail)
+                                        </div>*@
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}

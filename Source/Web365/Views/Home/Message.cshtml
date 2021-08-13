@@ -1,0 +1,43 @@
+﻿@model Web365Domain.LayoutContentItem
+@{
+    Layout = null;
+}
+@if (Model != null)
+{
+    <div class="wpb_column vc_column_container vc_col-sm-6 hicon-custom-effect">
+        <div class="vc_column-inner">
+            <div class="wpb_wrapper">
+                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1471186177227 vc_row-has-fill">
+                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                        <div class="vc_column-inner vc_custom_1471185231461">
+                            <div class="wpb_wrapper">
+                                <div class="hicon-img wpb_single_image wpb_content_element vc_align_left vc_custom_1471185881874">
+                                    <figure class="wpb_wrapper vc_figure">
+                                        <div class="vc_single_image-wrapper vc_box_border_grey">
+                                            @*<img width="450" height="780" src="~/Content/uploads/tp_image02.jpg" class="vc_single_image-img attachment-full" alt="tp_image02" />*@
+                                            <img width="450" height="780" src="@Web365Utility.Web365Utility.GetPathPicture(Model.UrlPicture)" class="vc_single_image-img attachment-full" alt="@Model.Name"/>
+                                        </div>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                        <div class="vc_column-inner vc_custom_1471185891545">
+                            <div class="wpb_wrapper">
+                                <div class="st-heading style-1 text-left">
+                                    <h3 class="box-title"> @Model.Name </h3>
+                                </div>
+                                <div class="wpb_text_column wpb_content_element">
+                                    <div class="wpb_wrapper">
+                                        <p> @Html.Raw(Model.Detail) </p>
+                                </div>
+                            </div> @*<div class="wpb_single_image wpb_content_element vc_align_left vc_custom_1471185970269"><figure class="wpb_wrapper vc_figure"><div class="vc_single_image-wrapper vc_box_border_grey"><img width="170" height="42" src="~/Content/uploads/signature.png" class="vc_single_image-img attachment-full" alt="signature" /></div></figure></div>*@
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,12 @@
+﻿@using Web365.App_Code
+@model Web365Domain.ArticleItem
+@{
+
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Raw(Model.Detail)
+

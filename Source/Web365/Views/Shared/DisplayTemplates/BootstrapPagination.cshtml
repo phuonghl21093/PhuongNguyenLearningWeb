@@ -1,0 +1,64 @@
+﻿@using System.Text.RegularExpressions
+@model PaginationModel
+
+@if (Model != null && Model.PaginationLinks != null && Model.PaginationLinks.Count(c=>c.PageIndex.HasValue) > 1)
+{ 
+    <nav class="navigation pagination" role="navigation">
+        <div class="nav-links">
+            @foreach (var link in Model.PaginationLinks)
+            {
+                link.Url = Request.Url != null ? Request.Url.ToString().Replace(":" + Request.Url.Port, "") : string.Empty;
+
+                @BuildLink(link)
+            }
+        </div>
+    </nav>
+}
+
+@helper BuildLink(PaginationLink link)
+{
+
+    if (link.PageIndex.HasValue)
+    {
+        var regexPage = new Regex(@"(?<=[?&]page=)[^?&]+");
+        TagBuilder tagBuilder;
+        if (link.IsCurrent)
+        {
+            tagBuilder = new TagBuilder("span");
+            tagBuilder.AddCssClass("current");
+        }
+        else
+        {
+            tagBuilder = new TagBuilder("a");
+        }
+        if (!link.Active)
+        {
+            tagBuilder.AddCssClass("disabled");
+        }
+
+        tagBuilder.AddCssClass("page-numbers");
+
+
+        if (!regexPage.IsMatch(link.Url))
+        {
+            tagBuilder.MergeAttribute("href", link.Url.Contains("?") ? link.Url + "&page=" + link.PageIndex : link.Url + "?page=" + link.PageIndex);
+        }
+        else
+        {
+            tagBuilder.MergeAttribute("href", regexPage.Replace(link.Url, link.PageIndex.ToString()));
+        }
+
+        // Ajax support
+        if (Model.AjaxOptions != null)
+        {
+            foreach (var ajaxOption in Model.AjaxOptions.ToUnobtrusiveHtmlAttributes())
+            {
+                tagBuilder.MergeAttribute(ajaxOption.Key, ajaxOption.Value.ToString(), true);
+            }
+        }
+
+        tagBuilder.SetInnerText(link.DisplayText);
+
+        @Html.Raw(tagBuilder.ToString())
+    }
+}

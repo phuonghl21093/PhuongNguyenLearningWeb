@@ -1,0 +1,59 @@
+﻿@using Web365.App_Code
+@model Web365Models.ListArticleModel
+@{
+    Layout = null;
+}
+
+
+    <div class="container__top">
+        <div id="particles-js"></div>
+        <div class="container container__get">
+            <div data-aos="fade-up" class="row row__intro">
+                <div class="intro__content col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    @if (Model != null && Model.List != null && Model.List.Any())
+                    {
+                        for (var i = 0; i < Model.List.Count; i++)
+                        {
+                            <h2>@Model.List.ElementAt(i).Title</h2>
+                            <p>
+                                @Html.Raw(Model.List.ElementAt(i).Summary)
+                            </p>
+                        }
+
+                    }
+                    <div class="row__btn">
+                        <a href="#download">
+                            <button>
+                                <i class="far fa-arrow-alt-circle-down"></i> Tải ứng dụng
+                            </button>
+                        </a>
+                        <a href="tel:0866631088">
+                            <button>
+                                <i class="fas fa-mobile-alt"></i> Liên hệ ngay
+                            </button>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="intro__img col-8 col-xs-6 col-sm-6 col-md-4 col-lg-4">
+                    <img src="~/Content/GStoreWeb/images/img/images/phone_white-4.png" />
+                </div>
+
+            </div>
+        </div>
+        <svg class="wave wave-1"
+             xmlns="http://www.w3.org/2000/svg"
+             viewbox="0 0 1440 320">
+            <path fill="#fff"
+                  fill-opacity=".15"
+                  d="M0,160L20,144C40,128,80,96,120,74.7C160,53,200,43,240,64C280,85,320,139,360,170.7C400,203,440,213,480,197.3C520,181,560,139,600,128C640,117,680,139,720,144C760,149,800,139,840,117.3C880,96,920,64,960,80C1000,96,1040,160,1080,197.3C1120,235,1160,245,1200,240C1240,235,1280,213,1320,181.3C1360,149,1400,107,1420,85.3L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path>
+        </svg>
+        <svg class="wave wave-2"
+             xmlns="http://www.w3.org/2000/svg"
+             viewbox="0 0 1440 320">
+            <path fill="#fff"
+                  fill-opacity=".05"
+                  d="M0,160L20,144C40,128,80,96,120,74.7C160,53,200,43,240,64C280,85,320,139,360,170.7C400,203,440,213,480,197.3C520,181,560,139,600,128C640,117,680,139,720,144C760,149,800,139,840,117.3C880,96,920,64,960,80C1000,96,1040,160,1080,197.3C1120,235,1160,245,1200,240C1240,235,1280,213,1320,181.3C1360,149,1400,107,1420,85.3L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"></path>
+        </svg>
+    </div>

@@ -1,0 +1,108 @@
+/*Order*/
+
+{
+	"ShopId": 1,
+	"Name": "test",
+	"CostShip": "59",
+	"TotalValue": "0",
+	"ShipFrom": {
+		"ShopId": 1,
+		"Name": "Nguyễn Văn Phê",
+		"Phone": "0987654336",
+		"AddressDetail": "",
+		"Address": "hghgjhgjhgjhgjhgjg",
+		"XPoint": 21.01921,
+		"YPoint": 105.76726600000006
+	},
+	"ListShipTo": [{
+		"Name": "Nguyễn Văn Phê Đơn 01",
+		"AddressDetail": "",
+		"Address": "396 Cầu Giấy, Hà Nội, Việt Nam",
+		"XPoint": 21.036222999999996,
+		"YPoint": 105.790493,
+		"ShipCost": 0,
+		"Prepay": 0,
+		"Note": "",
+		"DateEnd": "Giao ngay"
+	}, {
+		"Name": "Nguyễn Văn Phê Đơn 02",
+		"AddressDetail": "",
+		"Address": "99 Lại Yên, Hà Nội, Việt Nam",
+		"XPoint": 21.025738199999996,
+		"YPoint": 105.7087653,
+		"ShipCost": 0,
+		"Prepay": 0,
+		"Note": "17",
+		"DateEnd": "Chiều nay"
+	}],
+	"IsGroup": true,
+	"IsNear": false,
+	"IsSafe": false
+}
+A6:08:49:CF:90:52:B3:51:D1:7C:06:71:21:35:61:F7:F1:8A:53:EB
+
+fb message api
+button template
+
+"attachment":{
+"type":"template",
+"payload":{
+"template_type":"button",
+"text":"What do you want to do next?",
+"buttons":[
+  {
+	"type":"web_url",
+	"url":"https://petersapparel.parseapp.com",
+	"title":"Show Website"
+  },
+  {
+	"type":"postback",
+	"title":"Start Chatting",
+	"payload":"USER_DEFINED_PAYLOAD"
+  }
+]
+}
+}
+
+@note [nội dung]
+ @phone [số điện thoại]
+ @dep [tiền ứng] (vd: 30k)
+ @ship [phí vận chuyển (vd: 200k)]
+ 
+ {"Id": 0,"TypeId": 6,"ShipperId": 0,"ShopId": 3,"Name": "Don hang moi 123","ShipId": 1,"NotifyId": 10000,"Title": "Don hang moi 123" }
+ 
+ {"Id" = facebookItem.Id,"PostId" = "628810487239665_1010070935780283",
+                                "Name" = "Vo Thi Thanh Phuong",
+                                "UserId" = "100000297701718",
+                                "Content" = "2 đơn: Vincom bà triệu đi Ngọc Lâm (16h) và Tôn Đức Thắng (17h), ứng 300, ship 50, lh 09.4568.4588",
+                                "DateCreated" = "25-08-2016 11:20:00",
+                                "Distance" = "",
+                               "Phone" = "01635905133"}
+
+{
+  "object": "page",
+  "entry": [
+    {
+      "id": "648867841932772",
+      "time": 1473394474771,
+      "messaging": [
+        {
+          "sender": {
+            "id": "1272380766128218"
+          },
+          "recipient": {
+            "id": "648867841932772"
+          },
+          "timestamp": 1473394474740,
+          "message": {
+            "mid": "mid.1473394474732:11b774c43de0027740",
+            "seq": 2327,
+            "text": "nayf"
+          }
+        }
+      ]
+    }
+  ]
+}
+ 
+ 

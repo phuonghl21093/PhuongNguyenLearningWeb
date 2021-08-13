@@ -1,0 +1,34 @@
+﻿@using System.Text.RegularExpressions
+@model Web365Domain.Other.LayoutGroupItem
+
+@{
+    Layout = null;
+}
+
+@if (Model != null && Model.LayoutContents != null && Model.LayoutContents.Any())
+{
+    <div class="vc_row wpb_row vc_row-fluid vc_custom_1471196818154 vc_row-has-fill wpb_section wpb_padding">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model.LayoutContents)
+                {
+                    <div class="wpb_column vc_column_container vc_col-sm-3">
+                        <div class="vc_column-inner ">
+                            <div class="wpb_wrapper">
+                                <div class="st-counter style-icon icon-top">
+                                    <div class="box-icon"><span><i class="fa @item.IconClassCss"></i></span></div>
+                                    <div class="box-inner">
+                                        <div class="counter-number" data-to="@Regex.Replace(item.Detail, "<.*?>", String.Empty)">
+                                            @Regex.Replace(item.Detail, "<.*?>", String.Empty)
+                                        </div>
+                                        <h4 class="box-title">@item.Name</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}

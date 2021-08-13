@@ -1,0 +1,120 @@
+﻿@using Web365.App_Code
+@using Web365Utility
+@model Web365Domain.ArticleTypeItem
+@{
+    ViewBag.Title = Model.Name;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    List<Web365Domain.ArticleTypeItem> ltsArticleProjectType = ViewBag.ltsArticleProjectType;
+}
+<div id="mcn-breadcrumb" class="m-gioithieu">
+    <div class="container">
+        <div class="bread-crumb">
+            <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                <span typeof="v:Breadcrumb">
+                    <a href="/" rel="v:url" property="v:title">@ResourceLanguage.Home <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <span rel="v:child" typeof="v:Breadcrumb">
+                       @* <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, @Model.NameAscii)" rel="v:url" property="v:title">@Model.Name <i class="fa fa-angle-right" aria-hidden="true"></i></a>*@
+                        <span class="breadcrumb_last">@Model.Name</span>
+                    </span>
+                </span>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="featured_work_wrapper pt20 pb20">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                    <div class="tb_left_heading_wraper tb_center_dark_heading  tb_white_heding tb_bottompadder30">
+                        <h3>@ResourceLanguage.Projects</h3>
+                        <h2><span></span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-area">
+
+            <div class="row">
+                <div id="gallery">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="filter filter-demo portfolio-nav galery_2_wraper">
+                            <ul>
+
+
+                                <li class="button galery_hover_div is-checked" data-filter="*">
+                                    <div class="gallery_cont1_img">
+                                        <i class="flaticon-house"></i>
+                                    </div>
+                                    <span>Tất cả</span>
+                                </li>
+
+                                @if (ltsArticleProjectType != null && ltsArticleProjectType.Any())
+                                {
+                                    foreach (var item in ltsArticleProjectType)
+                                    {
+                                        <li class="button galery_hover_div" data-filter=".type@(item.ID)">
+                                            <div class="@(string.IsNullOrEmpty(Model.IconCss) ? "gallery_cont1_img" : item.IconCss)">
+                                                <i class="@item.IconCss"></i>
+                                            </div>
+                                            <span>@item.Name</span>
+                                        </li>
+                                    }
+                                }
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid galler_2_btm_section">
+
+                        @if (Model.Articles != null && Model.Articles.Any())
+                        {
+                            foreach (var item in Model.Articles)
+                            {
+                        <div class="grid-item type@(item.TypeID) col-md-4 col-sm-4 col-xs-4">
+
+                            <div class="item pb20">
+                                <div class="rst-img boximg">
+                                    <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)">
+                                        <img src="@Web365Utility.GetPathThumbPicture(item.Picture.FileName)" class="img-responsive center-block wp-post-image" alt="@item.Title" sizes="(max-width: 900px) 100vw, 900px">
+                                        <h4 class="bosiw">@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, HiconHtmlHelper.TruncateContentInHtml(item.Title, 30, "..."), item.ArticleType.NameAscii + "/" + item.TitleAscii)</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                            @*<div class="gallery-list img-effect zoom-slow">
+                                <div class="sp_img_box_overlay"></div>
+                                <div class="over">
+
+                                    <img src="@(item.Picture != null ? Web365Utility.GetPathThumbPicture(item.Picture.FileName) : "")" alt="@(item.Picture != null ? item.Picture.Alt : "")" class="img-responsive" />
+
+                                    <div class="tab_img_overlay">
+                                        <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)">
+                                            <h1>@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Title, 100, "..."))</h1>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>*@
+
+
+                        </div>
+                            }
+                        }
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,86 @@
+﻿@using System.Text.RegularExpressions
+@model PaginationModel
+
+@if (Model != null && Model.PaginationLinks != null && Model.PaginationLinks.Count(c => c.PageIndex.HasValue) > 1)
+{
+    @*<ul class="pagination">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">«</span>
+                </a>
+            </li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">»</span>
+                </a>
+            </li>
+        </ul>*@
+    <nav>
+        <ul class="pagination">
+            @foreach (var link in Model.PaginationLinks)
+            {
+                link.Url = (Request.Url != null ? Request.Url.ToString()
+                    //.Replace(":" + Request.Url.Port, "") 
+                    : string.Empty);
+                @BuildLink(link)
+            }
+        </ul>
+    </nav>
+}
+
+@helper BuildLink(PaginationLink link)
+{
+
+if (link.PageIndex.HasValue)
+{
+    var regexPage = new Regex(@"(?<=[?&]page=)[^?&]+");
+    TagBuilder tagBuilder;
+    //if (link.IsCurrent)
+    //{
+    //    tagBuilder = new TagBuilder("a");
+    //    tagBuilder.AddCssClass("active");
+    //}
+    //else
+    //{
+    tagBuilder = new TagBuilder("a");
+    //}
+    //if (!link.Active)
+    //{
+    //    tagBuilder.AddCssClass("disabled");
+    //}
+
+    //tagBuilder.AddCssClass("page-numbers");
+    if (link.Url != null)
+    {
+        if (!regexPage.IsMatch(link.Url))
+        {
+            tagBuilder.MergeAttribute("href", link.Url.Contains("?") ? link.Url + "&page=" + link.PageIndex : link.Url + "?page=" + link.PageIndex);
+        }
+        else
+        {
+            tagBuilder.MergeAttribute("href", regexPage.Replace(link.Url, link.PageIndex.ToString()));
+        }
+    }
+    // Ajax support
+    if (Model.AjaxOptions != null)
+    {
+        foreach (var ajaxOption in Model.AjaxOptions.ToUnobtrusiveHtmlAttributes())
+        {
+            tagBuilder.MergeAttribute(ajaxOption.Key, ajaxOption.Value.ToString(), true);
+        }
+    }
+
+    tagBuilder.SetInnerText(link.DisplayText);
+    if (link.IsCurrent)
+    {
+            @Html.Raw("<li class=active>" + tagBuilder.ToString() + "</li>")
+    }
+    else
+    {
+            @Html.Raw("<li>" + tagBuilder.ToString() + "</li>")
+    }
+}
+}

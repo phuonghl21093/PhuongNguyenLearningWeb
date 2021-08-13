@@ -1,0 +1,290 @@
+﻿@using Web365.App_Code
+@using Web365Models
+@model Web365Domain.LayoutContentItem
+@{
+    Layout = null;
+    var introduce = ViewBag.Introduces as ListArticleModel;
+    var topService = ViewBag.TopServices as ListArticleModel;
+}
+
+<!--<div class="footer_wrapper">
+    <div class="footer_wrapper_second">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                    <div class="wrapper_second_about pb20">
+                        <div class="wrapper_first_image">-->
+@*<a href="/"><img src="~/Content/BIDELAND/images/logo.png" class="img-responsive" alt="logo" /></a>*@
+<!--<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.1773814052267!2d106.48058551525978!3d10.643324064545643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310acc615152eb35%3A0xa5db545b27e0849e!2zMjMxIE5ndXnhu4VuIEjhu691IFRo4buNLCBUVC4gQuG6v24gTOG7qWMsIELhur9uIEzhu6ljLCBMb25nIEFuLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1602918567185!5m2!1svi!2s" width="100%" height="310" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+</div>-->
+@*<div class="abotus_content tb_toppadder30">
+        <p>Đất đai là thứ duy nhất trên thế giới quan trọng hơn bất cứ thứ gì</p>
+    </div>*@
+<!--</div>
+                </div>
+
+
+                <div class="col-lg-8 col-sm-8 pb20 pt20">
+                    <div class="wrapper_second_useful wrapper_second_useful_2 pb20">
+                        <ul>
+                            <li>
+                                <h1 style="color: #FFF;font-weight: bold;">CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ PHÁT TRIỂN BẤT ĐỘNG SẢN BIDLAND GROUP</h1>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-location-arrow"></i>@HiconHelper.RemoveHtmlTag(ViewBag.Address.Content)
+                            </li>
+
+                            <li>
+                                <i class="fa fa-phone-square"></i>@HiconHelper.RemoveHtmlTag(ViewBag.Phone.Content)
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-envelope-square"></i>@HiconHelper.RemoveHtmlTag(ViewBag.Email.Content)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section3_bottom_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="btm_foter_box">
+                <div class="tb_foter_left">
+                    <div class="section3_copyright">
+                        <p><i class="fa fa-copyright"></i> 2020 <a href="/">  the BIDLAND GROUP </a>. all right reserved.</p>
+                    </div>
+
+
+                </div>
+                <div class="tb_foter_right">
+                    <div class="copyright_icon_wrapper">
+                        <div class="section3_copyright_middle">
+                            <p>Design by <i class="fa fa-heart"></i> <a href="/"> BIDLAND GROUP </a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+<footer class="footer__images">
+    <div class="container__footer">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 logo__footer logo__container">
+                <div class="logo__inside">
+                    <img src="/Content/GStoreWeb/images/img/images/logo4.png" />
+                </div>
+                <p>G-Store tech company</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-footer">
+                <ul class="list__footer">
+                    <li>Ứng dụng kết nối thông minh G-STORE</li>
+                    <li>
+                        Giải pháp hàng đầu trong lĩnh vực chia sẻ, trao đổi hàng hóa,
+                        dịch vụ
+                    </li>
+                    <li class="logo__social">
+                        <a href="https://www.facebook.com/G-STORE-K%E1%BA%BFt-N%E1%BB%91i-Gi%C3%A1-Tr%E1%BB%8B-107704574832148"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-android"></i></a>
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-footer">
+                <ul class="list__footer">
+                    <li>Địa chỉ liên hệ</li>
+                    <li class="row__footer row__ft">
+                        <p><i class="fas fa-map-marker-alt"></i></p>
+                        <p>
+                            @HiconHelper.RemoveHtmlTag(ViewBag.Address.Content)
+                        </p>
+                    </li>
+                    <li class="row__footer">
+                        <p><i class="fas fa-mobile-alt"></i></p>
+                        <p>@HiconHelper.RemoveHtmlTag(ViewBag.Phone.Content)</p>
+                    </li>
+                    <li class="row__footer">
+                        <p><i class="far fa-envelope"></i></p>
+                        <p>@HiconHelper.RemoveHtmlTag(ViewBag.Email.Content)</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end v3 class gom-all-in-one -->
+<!--<div class="modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div role="form" class="wpcf7" id="wpcf7-f3367-o2" lang="vi" dir="ltr">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <div class="screen-reader-response"></div>
+                    <div class="aml-one-number-content" style="padding: 16px 32px 32px 32px;">
+                        <div class="aml-bold-contact-title">Liên hệ với chúng tôi theo hotline</div>
+                        <div class="aml-contact-name aml-line-clamp-2">Chăm sóc khách hàng</div>
+                        <div class="aml-bold-phone-number">
+                            @HiconHelper.RemoveHtmlTag(ViewBag.Phone.Content)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="modal" id="feedBackModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Đăng Ký Nhận Thông Tin Chi Tiết Dự Án</h4>
+            </div>
+
+            <div class="modal-body">
+                <div role="form" class="wpcf7" id="wpcf7-f3367-o2" lang="vi" dir="ltr">
+                    <div class="screen-reader-response">Bảng giá bán, hợp đồng mua bán, chính sách cho vay vốn, chương trình khuyến mại mới nhất.</div>
+                    <form method="post" action="@Url.Action("SendContactInfo", "Customer")" id="contactInfoFormFooter" name="contactInfoFormFooter" class="b-contact">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-12 margin-btm-20">
+                                        <input type="text" name="FullName" class="form-control" placeholder="@ResourceLanguage.FullName">
+                                    </div>
+                                    <div class="col-sm-12 margin-btm-20">
+                                        <input type="text" name="Email" class="form-control" placeholder="@ResourceLanguage.EmailAdress *">
+                                    </div>
+                                    <div class="col-sm-12 margin-btm-20">
+                                        <input type="text" name="Title" class="form-control" placeholder="@ResourceLanguage.Title">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <textarea name="Message" class="form-control margin-btm-20" rows="5" placeholder="@ResourceLanguage.MessageContent"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="data-status animated fadeInDown">(*) Quý khách điền đầy đủ thông tin để nhận được thông tin dự án chính xác nhất.</div>-->
+<!-- data submit status -->
+<!--</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-right">
+                                <button type="submit" name="submit" class="btn btn-xl btn-skin margin-b-20">Đăng ký</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
+@*<div id="feedBack">
+        <div id="feedback-header">
+            <a href="javascript:;" class="btn-left" data-toggle="modal" data-target="#feedBackModal">
+                <strong>
+                    <span class="title-feedBack">Đăng Ký Nhận Bảng Giá</span>
+                </strong>
+            </a>
+        </div>
+    </div>*@
+<div id="button-contact-vr">
+    <div id="gom-all-in-one">
+        <!-- v3 -->
+        <!-- contact -->
+        <!-- end contact -->
+        <!-- viber -->
+        <div id="viber-vr" class="button-contact">
+            <div class="phone-vr">
+                <div class="phone-vr-circle-fill"></div>
+                <div class="phone-vr-img-circle">
+                    <a href="viber://add?number=0392905996">
+                        <img src="/Content/GStoreWeb/images/img/images/viber.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end viber -->
+        <!-- zalo -->
+        <div id="zalo-vr" class="button-contact">
+            <div class="phone-vr">
+                <div class="phone-vr-circle-fill"></div>
+                <div class="phone-vr-img-circle">
+                    <a href="https://www.facebook.com/G-STORE-K%E1%BA%BFt-N%E1%BB%91i-Gi%C3%A1-Tr%E1%BB%8B-107704574832148">
+                        <img src="/Content/GStoreWeb/images/img/images/facebook3.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end zalo -->
+        <!-- Phone -->
+        <div id="phone-vr" class="button-contact">
+            <div class="phone-vr">
+                <div class="phone-vr-circle-fill"></div>
+                <div class="phone-vr-img-circle">
+                    <a href="tel:0247.3026.899">
+                        <img src="/Content/GStoreWeb/images/img/images/phone.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end phone -->
+    </div>
+</div>
+    <!-- end v3 class gom-all-in-one -->
+
+
+<script type="text/javascript">
+    jQuery("form[name='contactInfoFormFooter']").submit(function (e) {
+        e.preventDefault();
+    }).validate({
+        rules: {
+            Email: {
+                email: true,
+                required: true
+            }
+        },
+        messages: {
+            Email: {
+                email: 'Bạn cần nhập đ&#250;ng định dạng email',
+                required: 'Bạn phải nhập email'
+            }
+        },
+        submitHandler: function (form) {
+            jQuery.post(form.action, {
+                dto: {
+                    FullName: jQuery("input[name='FullName']").val(),
+                    Email: jQuery("input[name='Email']").val(),
+                    Title: jQuery("input[name='Title']").val(),
+                    Message: jQuery("textarea[name='Message']").val()
+                }
+            }, function (res) {
+                if (!res.error) {
+                    var message = '';
+                    if ('vi' == 'vi') {
+                        message = "Chúng tôi đã nhận được thông tin liện hệ từ bạn.\nChúng tôi sẽ liên lạc với bạn sớm nhất có thể.\nCảm ơn!";
+                    } else {
+                        message = "We have received your message.\nWe will contact you as soon as possible.\nThanks!";
+                    }
+                    web365.utility.toastSuccess(message);
+                    form.reset();
+                }
+            });
+            $('#myModal').modal('toggle');
+        }
+    });
+
+</script>
+

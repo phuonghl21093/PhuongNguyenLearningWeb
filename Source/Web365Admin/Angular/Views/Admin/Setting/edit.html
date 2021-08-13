@@ -1,0 +1,57 @@
+﻿<form name="modified_form" class="form-horizontal" id="modified-form" ng-submit="submit($event)" ng-controller="settingModified" novalidate>
+    <div class="content-modal">
+        <div class="modal-header">
+            <a href="javascript:;" class="close" ng-click="cancel()">×</a>
+            <h3 class="modal-title" ng-if="data.ID == 0 && data.LanguageId == DEFAULT_LANGUAGE_ID">Thêm mới cấu hình websiteb</h3>
+            <h3 class="modal-title" ng-if="data.ID == 0 && data.LanguageId != DEFAULT_LANGUAGE_ID">Thêm mới bản dịch cấu hình websiteb: Ngôn ngữ {{data.LanguageName}}</h3>
+            <h3 class="modal-title" ng-if="data.ID != 0">Chỉnh sửa cấu hình websiteb: {{data.Name}}</h3>
+        </div>
+        <div class="modal-body">
+            <div class="row-fluid">
+                <input type="hidden" name="ID" ng-value="data.ID" ng-model="data.ID" />
+                <input type="hidden" name="LanguageId" ng-value="data.LanguageId" ng-model="data.LanguageId" />
+                <input type="hidden" name="RootId" ng-value="data.RootId" ng-model="data.RootId"/>
+
+                <div class="control-group" ng-class="{error: modified_form.Name.$dirty && modified_form.Name.$invalid}">
+                    <label class="control-label" for="Name">Tên cấu hình websiteb:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Name" ng-model="data.Name" field="NameAscii" toascii dataid="{{data.ID}}" required />
+                            <span for="Name" class="help-inline" ng-if="modified_form.Name.$error.required">Bạn cần nhập tên nội dung</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Description">Tóm tắt bài viết:</label>
+                    <div class="controls">
+                        <input type="hidden" name="Description" ng-value="data.Description" />
+                        <div class="wysiwyg-editor editor" ng-bind-html="renderHtml(data.Description)" wysiwyg>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Content">Chi tiết cấu hình websiteb:</label>
+                    <div class="controls">
+                        <textarea name="Content" ng-model="data.Content" ck-editor></textarea>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="IsShow">Hiển thị:</label>
+                    <div class="controls">
+                        <div class="span3">
+                            <label>
+                                <input type="checkbox" class="ace-switch ace-switch-1" name="IsShow" ng-value="data.IsShow" ng-model="data.IsShow" />
+                                <span class="lbl"></span>
+                                <input type="hidden" name="IsShow" ng-value="data.IsShow" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Lưu</button>
+            <a href="javascript:;" class="btn btn-warning" ng-click="cancel()">Thoát</a>
+        </div>
+    </div>
+</form>

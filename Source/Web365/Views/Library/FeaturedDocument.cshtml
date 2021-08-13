@@ -1,0 +1,36 @@
+﻿@model Web365Models.FileModel
+@{
+    Layout = null;
+}
+@if (Model != null && Model.List != null && Model.List.Any())
+{
+    <div class="st-heading style-1 text-left">
+        <h3 class="box-title">@ResourceLanguage.FeaturedDocuments</h3>
+    </div>
+    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1470321034551">
+        @foreach (var item in Model.List)
+        {
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <div class="st-pricingbox style-1 box-featured">
+                        <div class="box-meta">
+                            <h4>@item.Name</h4>
+                            <div class="box-price">
+                            </div>
+                        </div>
+                        <div class="box-content">
+                            <ul>
+                                <li>@Html.Raw(item.Detail)</li>
+                            </ul>
+                        </div>
+                        <div class="box-link">
+                            <a href="@Web365Utility.Web365Utility.GetPathFile(item.FileName)" target="_blank">@ResourceLanguage.Download</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+}

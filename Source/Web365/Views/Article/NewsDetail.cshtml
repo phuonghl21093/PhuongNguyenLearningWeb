@@ -1,0 +1,222 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Utility
+@model ArticleItem
+@{
+
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    ViewBag.Image = (Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "");
+    ViewBag.Url = HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, Model.ArticleType.NameAscii + "/" + Model.TitleAscii);
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var otherProjects = ViewBag.OtherProjects as List<ArticleItem>;
+}
+
+
+@*<div id="mcn-breadcrumb" class="m-gioithieu">
+        <div class="container">
+            <div class="bread-crumb">
+                <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                    <span typeof="v:Breadcrumb">
+                        <a href="/" rel="v:url" property="v:title">@ResourceLanguage.Home <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        <span rel="v:child" typeof="v:Breadcrumb">
+                            <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, @Model.ArticleType.NameAscii)" rel="v:url" property="v:title">@Model.ArticleType.Name <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            <span class="breadcrumb_last">@Model.Title</span>
+                        </span>
+                    </span>
+                </span>
+            </div>
+        </div>
+    </div>*@
+<div class="container-fluid title-page">
+    <h1>@Model.Title</h1>
+</div>
+<!--<div class="tb_blog_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="blog_wrapper_catt">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="blog_box_wrapper blog_box_padding">
+
+                                <div class="mcn-title-post text-left custom-title-page">
+                                    <h2><span>@Model.Title</span></h2>
+                                    <div class="clearfix">
+                                        <ul class="list-inline pull-left">-->
+@*<li><a href="javascript:;"><i class="fa fa-user" style=" color: #0064AF;"></i>@Html.Raw(Model.CreatedBy)</a></li>*@
+<!--<li><a href="javascript:;"><i class="fa fa-calendar" style=" color: #0064AF;"></i> @Model.DateCreated.Value.ToString("dd/MM/yyyy")</a></li>
+                                        </ul>
+
+                                        <div class="sharethis-inline-share-buttons"></div>
+                                    </div>
+                                </div>
+
+                                <div class="blog_img_wraper blog_img_wraper_2" style=" text-align: center;">
+                                    <img style="width: auto;max-width: 100%;" src="@(Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "")" alt="@(Model.Picture != null ? Model.Picture.Alt : "")">
+                                </div>
+                                <div class="btc_blog_cate_cont_wrapper">
+                                    @Html.Raw(Model.Detail)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 bs_btm_pader">
+                @Html.Action("RightBarInNews", new { typeId = Model.ArticleType.ID })
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<div class="container row__up" id="features">
+
+    <div class="sharethis-inline-share-buttons"></div>
+    <p class="blog__date" style="margin-bottom: 30px">
+        <i class="far fa-calendar-alt"></i> @Model.DateCreated.Value.ToString("dd/MM/yyyy")
+    </p>
+
+    <div class="row row__blog">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <img style="width: auto;max-width: 100%;" src="@(Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "")" alt="@(Model.Picture != null ? Model.Picture.Alt : "")">
+            <p>
+                @Html.Raw(Model.Detail)
+            </p>
+        </div>
+        <div class="nearest__post col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <!-- searchfield -->
+            <form class="search__box layout__container" role="search" action="@("vi".Equals(Culture) ? "/tim-kiem" : "/search")" id="searchform" method="get">
+                <p class="title__box__nearest">Tìm Kiếm</p>
+                <div class="input__search__blogs">
+                    <input type="text" class="form-control" name="s" placeholder="@ResourceLanguage.EnterSearchKeyword">
+                    <div class="icon__search">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </form>
+            <!-- get posts -->
+            @Html.Action("RightBarInNews", new { typeId = Model.ArticleType.ID })
+        </div>
+    </div>
+    <div class="container__blog__involve row__up blog__pages">
+        <h2>@ResourceLanguage.OtherNews </h2>
+        <p></p>
+        @if (otherProjects != null && otherProjects.Any())
+        {
+            <div class="swiper-container mySwiper blog__involve">
+                <div class="swiper-wrapper">
+                    @foreach (var item in otherProjects.Take(6))
+                    {
+                        <div class="swiper-slide">
+                            <div class="images__swiper">
+                                <img style="height:150px" src="@Web365Utility.GetPathPicture(item.Picture.FileName)" alt="@item.Title"
+                                     loading="lazy" />
+                            </div>
+                            <div class="container__content">
+                                <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">
+                                    @Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Title, 100, "..."))
+                                </a>
+                                
+                            </div>
+                        </div>
+                    }
+                    </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        }
+        </div>
+</div>
+
+@*<div class="tb_pj_single_wrapper jarallax">
+        <div class="team_overlay"></div>
+        <div class="ps_overlay_left_img">
+            <img src="~/Content/BIDELAND/images/ruler.png" alt="img">
+        </div>
+        <div class="ps_overlay_right_img">
+            <img src="~/Content/BIDELAND/images/ruler1.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-xs-12 col-sm-12 col-lg-offset-3">
+                    <div class="tb_left_heading_wraper tb_center_dark_heading tb_bottompadder50">
+                        <h3>@ResourceLanguage.OtherNews </h3>
+                        <h2><span></span></h2>
+                    </div>
+                </div>
+                @if (otherProjects != null && otherProjects.Any())
+                {
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                        <div class="owl-carousel owl-theme" id="projct_slider_wrapper">
+                            @foreach (var item in otherProjects.Take(12))
+                            {
+                                <div class="">
+                                    <div class="gallery-area gallery-list">
+                                        <div class="sp_img_box_overlay"></div>
+                                        <div class="over">
+
+                                            <img style="height:150px" src="@Web365Utility.GetPathPicture(item.Picture.FileName)" alt="@item.Title" class="img-responsive" />
+
+                                            <div class="tab_img_overlay tab_img_overlay_2">
+                                                <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">
+                                                    <h1>@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Title, 100, "..."))</h1>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>*@
+<script>
+    $('#projct_slider_wrapper').owlCarousel({
+        loop: false,
+        margin: 10,
+        responsiveClass: true,
+        autoplay: true,
+        nav: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            375: {
+                items: 2,
+                nav: true
+            },
+            425: {
+                items: 2,
+                nav: true
+            },
+            768: {
+                items: 3,
+                nav: true
+            },
+            1024: {
+                items: 4,
+                nav: true
+            },
+            1440: {
+                items: 5,
+                nav: true
+            },
+
+            2560: {
+                items: 5,
+                nav: true,
+            }
+        }
+    })
+
+</script>
+

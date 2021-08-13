@@ -1,0 +1,83 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@model Web365Models.ListArticleModel
+
+@{
+    Layout = null;
+    var articleGroup = ViewBag.ArticleGroup as ArticleGroupItem;
+}
+<style>
+    .post-slider .hicon-slider-link h4 {
+        color: #3e2115;
+        font-size: 16px;
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .post-slider .hicon-slider-link > h4:hover > a, .post-slider .hicon-slider-link > a:hover {
+        color: #f79e19;
+    }
+
+    .featured-news-image-background {
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .news-image-background
+    {
+         height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+</style>
+@if (articleGroup != null && Model != null && Model.List != null && Model.List.Any())
+{
+    <div class="vc_row wpb_row vc_row-fluid vc_custom_1471198040046 wpb_section wpb_padding">
+        <div class="container">
+            <div class="row">
+                <div class="wpb_column vc_column_container vc_col-sm-12">
+                    <div class="vc_column-inner ">
+                        <div class="wpb_wrapper">
+                            <div class="st-heading style-1 text-left">
+                                <h3 class="box-title">@articleGroup.Name</h3>
+                            </div>
+                            <div class="st-blog">
+                                <div class="row">
+                                    <!-- post entry -->
+                                    <article id="post-268"
+                                             class="post-268 post type-post status-publish format-gallery has-post-thumbnail hentry category-housing tag-housing tag-leisure post_format-post-format-gallery col-sm-12">
+                                        <div class="blog-container">
+                                            <div class="post-slider owl-carousel">
+                                                @foreach (var item in Model.List)
+                                                {
+                                                    <div class="hicon-slider-title">
+                                                        <div class="featured-news-image-background" style="background-image: url('@Web365Utility.Web365Utility.GetPathPicture(item.Picture.FileName)')"></div>
+                                                        <div class="hicon-slider-link">
+                                                            <h4>
+                                                                <small class="text-uppercase">
+                                                                    @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, item.ArticleType.Name, item.ArticleType.NameAscii) :
+                                                                </small>
+                                                                @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, item.Title, item.ArticleType.NameAscii + "/" + item.TitleAscii)
+                                                            </h4>
+                                                            <span>
+                                                                @Html.Raw(item.Summary)
+                                                            </span>
+                                                            @*@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, item.Title, item.ArticleType.NameAscii + "/" + item.TitleAscii)*@
+                                                        </div>
+                                                    </div>
+                                                }
+                                            </div>
+                                        </div>
+                                    </article>
+                                    <!-- end post entry -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,95 @@
+﻿@model Web365Domain.ArticleItem
+
+
+@*<div class="overlay__primary"></div>
+<section class="row__up download__container" id="download">
+    <div class="container container__get" data-aos="fade-up">
+        <div class="row justify-content-between align-items-center download__row">
+            <div class="
+              col-12 col-xs-12 col-sm-12 col-md-7 col-lg-6
+              content__download
+            ">
+                <h3>@Model.Title</h3>
+                <p>@Model.Summary</p>
+                <div class="btn__row">
+                    <button class="btn__dl" id="1"><i class="fab fa-apple"></i> Tải trên appstore</button>
+                    <button class="btn__dl" id="2"><i class="fab fa-android"></i> Tải trên CHPLAY</button>
+                </div>
+            </div>
+            <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                <img src="~/Content/GStoreWeb/images/img/images/Application.png" />
+            </div>
+        </div>
+        <div class="download__showup">
+            <div class="download__links">
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<div class="btn__row">
+    <button class="btn__dl" id="1"><i class="fab fa-apple"></i> Tải trên appstore</button>
+    <button class="btn__dl" id="2"><i class="fab fa-android"></i> Tải trên CHPLAY</button>
+</div>
+          </div>
+<div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5">
+    <img src="Content/GStoreWeb/images/img/images/Application.png" />
+</div>
+        </div>
+<div class="download__showup">
+    <div class="download__links">
+
+    </div>*@
+
+    <div class="overlay__primary"></div>
+    <section class="row__up download__container" id="download">
+        <div class="container container__get" data-aos="fade-up">
+            <div class="row justify-content-between align-items-center download__row">
+                <div class="
+              col-12 col-xs-12 col-sm-12 col-md-7 col-lg-6
+              content__download
+            ">
+                    <h3>@Model.Title</h3>
+                    <p>@Model.Summary</p>
+                    <div class="btn__row">
+                        <button class="btn__dl" id="1"><i class="fab fa-apple"></i> Tải trên appstore</button>
+                        <button class="btn__dl btn__dl-2" id="2"><i class="fab fa-android"></i> Tải trên CHPLAY</button>
+                    </div>
+                </div>
+                <div class="col-12 col-xs-12 col-sm-12 col-md-5 col-lg-5">
+                    <img src="Content/GStoreWeb/images/img/images/Application.png" />
+                </div>
+            </div>
+            <div class="download__showup">
+                <div class="download__links">
+                    <!-- appstore -->
+                    <p>Cách 1: Truy cập Appstore</p>
+                    <a href='https://apps.apple.com/vn/app/g-store/id1537350489'>
+                        <div class="btn__download">
+                            <button class='btn__ios'><i class="fab fa-apple"></i> Appstore</button>
+                        </div>
+                    </a>
+                    <p>Cách 2: Quét QR Code</p>
+                    <div class="images__download__qr">
+                        <img src='~/Content/GStoreWeb/images/img/images/Appstore.png' />
+                    </div>
+                    <button class='btn__close'><i class="fas fa-times"></i></button>
+                </div>
+                <!-- adr -->
+                <div class="download__links download__links-2">
+                    <p>Cách 1: Truy cập Android</p>
+                    <a href='https://apps.apple.com/vn/app/g-store/id1537350489'>
+                        <div class="btn__download">
+                            <button class='btn__adr'><i class="fab fa-android"></i> Appstore</button>
+                        </div>
+                    </a>
+                    <p>Cách 2: Quét QR Code</p>
+                    <div class="images__download__qr">
+                        <img src='Content/GStoreWeb/images/img/images/Andr.png' />
+                    </div>
+                    <button class='btn__close btn__close-2'><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>

@@ -1,0 +1,305 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+}
+
+.nav__bar {
+  height: 12vh;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .7s;
+  transition: all .7s;
+  padding: 10px 8%;
+  position: fixed;
+  width: 100%;
+  z-index: 1000000;
+}
+
+.nav__bar .nav__logo {
+  width: 120px;
+}
+
+.nav__bar .nav__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.nav__bar .list__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
+.nav__bar .list__nav li {
+  margin: 0px 15px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  padding: 5px 0px;
+  position: relative;
+}
+
+.nav__bar .list__nav li::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  width: 0%;
+  background: white;
+  height: 2px;
+  -webkit-transition: all .7s ease-in-out;
+  transition: all .7s ease-in-out;
+}
+
+.nav__bar .list__nav li:hover:before {
+  width: 100%;
+}
+
+.nav__bar a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 7px;
+  font-size: 15px;
+}
+
+.nav__bar .hamburger {
+  display: none;
+}
+
+.add__class {
+  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.add__class .hamburger div {
+  background: #000000 !important;
+}
+
+.add__class a {
+  color: black;
+}
+
+.add__class .list__nav li::before {
+  background: #4bc7ed;
+}
+
+.add__class .hamburger div {
+  background: #000000 !important;
+}
+
+.hamburger__transform div:nth-child(2) {
+  display: none;
+}
+
+.hamburger__transform div:nth-child(1) {
+  -webkit-transform: rotate(45deg) translateY(3px);
+          transform: rotate(45deg) translateY(3px);
+}
+
+.hamburger__transform div:nth-child(3) {
+  -webkit-transform: rotate(-45deg) translateY(-3px);
+          transform: rotate(-45deg) translateY(-3px);
+}
+
+.list__types {
+  position: absolute;
+  top: calc(100% + 20px);
+  width: 220px;
+  right: 0;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  opacity: 0;
+  padding: 20px;
+  z-index: -100;
+  visibility: hidden;
+}
+
+.list__types a {
+  color: #000000;
+}
+
+.list__types a:hover {
+  color: #eb3971;
+}
+
+.news__documents {
+  position: relative;
+}
+
+.news__documents::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 20px;
+  width: 100%;
+  content: '';
+}
+
+.news__documents:hover .list__types {
+  opacity: 1;
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+  background: #fff;
+  z-index: 3;
+  visibility: visible;
+}
+
+@media screen and (max-width: 1340px) {
+  .nav__bar {
+    padding: 10px 3%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .nav__bar .hamburger {
+    display: block !important;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .nav__bar .hamburger div {
+    width: 20px;
+    height: 2px;
+    margin: 3px 0px;
+    background: #fff;
+    -webkit-transition: all .7s;
+    transition: all .7s;
+  }
+  .nav__bar .list__types {
+    display: none;
+  }
+  .nav__bar .list__nav {
+    -webkit-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out;
+    position: absolute;
+    font-size: 16px;
+    top: 12vh;
+    height: 60vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    -webkit-transform: translateY(-160%);
+            transform: translateY(-160%);
+    -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  .nav__bar .list__nav a {
+    color: black !important;
+  }
+  .nav__bar .list__nav li:hover::before {
+    background: #4bc7ed;
+  }
+  .list__nav__back ul {
+    -webkit-transform: translateY(0%) !important;
+            transform: translateY(0%) !important;
+  }
+  .list__nav__back .hamburger div {
+    background: black !important;
+  }
+  .list__types {
+    position: static;
+  }
+  .news__documents::after {
+    display: none;
+  }
+  .list__types {
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 20px !important;
+    display: block;
+  }
+  .list__types a {
+    border: none !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav__bar .list__nav {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000000000;
+  display: block;
+  overflow: hidden;
+}
+
+.icon {
+  font-size: 80px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -40px;
+  margin-left: -40px;
+  -webkit-animation-name: fade-out;
+          animation-name: fade-out;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,19 @@
+﻿<div class="modal-header">
+    <h3 class="modal-title">Chọn ngôn ngữ</h3>
+</div>
+<div class="modal-body">
+    <form name="language-select" class="control-group">
+        <label class="control-label bolder blue">Ngôn ngữ</label>
+
+        <div class="radio" ng-repeat="item in languages">
+            <label>
+                <input name="language-radio" type="radio" class="ace" value="{{item.ID}}" ng-model="languageSelected.id">
+                <span class="lbl">{{item.Name}}</span>
+            </label>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="select()">Xong</button>
+    <button class="btn btn-warning" ng-click="dismiss()">Thoát</button>
+</div>

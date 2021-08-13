@@ -1,0 +1,120 @@
+﻿@using Web365.App_Code
+@model Web365Domain.ArticleItem
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/Content/BIDELAND/css/contact.css" rel="stylesheet" />
+@if (Model != null)
+{
+
+    @*<div class="article-page"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.1773814052267!2d106.48058551525978!3d10.643324064545643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310acc615152eb35%3A0xa5db545b27e0849e!2zMjMxIE5ndXnhu4VuIEjhu691IFRo4buNLCBUVC4gQuG6v24gTOG7qWMsIELhur9uIEzhu6ljLCBMb25nIEFuLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1602918567185!5m2!1svi!2s" width="100%" height="310" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>*@
+     
+    <div class="">
+        <div class="space30"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 margin-btm-30">
+                    <form method="post" action="@Url.Action("SendContactInfo", "Customer")" id="contactInfoForm" name="contactInfoForm" class="b-contact">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-sm-12 margin-btm-20">
+                                        <input type="text" name="FullName" class="form-control" placeholder="@ResourceLanguage.FullName *">
+                                    </div>
+                                    <div class="col-sm-12 margin-btm-20">
+                                        <input type="text" name="Email" class="form-control" placeholder="@ResourceLanguage.EmailAdress">
+                                    </div>
+                                    <div class="col-sm-12 margin-btm-20">
+                                        <input type="text" name="Title" class="form-control" placeholder="@ResourceLanguage.Title">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <textarea name="Message" class="form-control margin-btm-20" rows="10" placeholder="@ResourceLanguage.MessageContent"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="data-status animated fadeInDown"></div> <!-- data submit status -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 text-right">
+                                <button type="submit" name="submit" class="btn btn-xl btn-skin margin-b-20">@ResourceLanguage.SendMail</button>
+                            </div>
+                        </div>
+                    </form>
+                </div><!--contact col end-->
+                <div class="col-sm-4">
+                    <h3 class="contact-title">@Html.Raw(Model.Summary)</h3>
+                    @Html.Raw(Model.Detail)
+                    <div class="sidebar-widget">
+                        <ul class="list-inline social">
+                            @if (ViewBag.Facebook != null)
+                            {
+                                <li><a href="@HiconHelper.RemoveHtmlTag(ViewBag.Facebook.Content)" title="Facebook" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                            }
+                            @if (ViewBag.Twitter != null)
+                            {
+                                <li><a href="@HiconHelper.RemoveHtmlTag(ViewBag.Twitter.Content)" title="Twitter" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                            }
+                            <li><a href="javascript:;"><i class="ion-social-googleplus"></i></a></li>
+                            <li><a href="javascript:;"><i class="ion-social-linkedin"></i></a></li>
+                            @if (ViewBag.Instagram != null)
+                            {
+                                <li><a href="@HiconHelper.RemoveHtmlTag(ViewBag.Instagram.Content)" title="Instagram"><i class="ion-social-instagram"></i></a></li>
+                            }
+                        </ul>
+                    </div><!--sidebar widget-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @section scripts {
+        <script type="text/javascript">
+            jQuery("form[name='contactInfoForm']").submit(function (e) {
+                e.preventDefault();
+            }).validate({
+                rules: {
+                    Email: {
+                        email: true,
+                        required: true
+                    }
+                },
+                messages: {
+                    Email: {
+                        email: 'Bạn cần nhập đ&#250;ng định dạng email',
+                        required: 'Bạn phải nhập email'
+                    }
+                },
+                submitHandler: function (form) {
+                    jQuery.post(form.action, {
+                        dto: {
+                            FullName: jQuery("input[name='FullName']").val(),
+                            Email: jQuery("input[name='Email']").val(),
+                            Title: jQuery("input[name='Title']").val(),
+                            Message: jQuery("textarea[name='Message']").val()
+                        }
+                    }, function (res) {
+                        if (!res.error) {
+                            var message = '';
+                            if ('vi' == 'vi') {
+                                message = "Chúng tôi đã nhận được thông tin liện hệ từ bạn.\nChúng tôi sẽ liên lạc với bạn sớm nhất có thể.\nCảm ơn!";
+                            } else {
+                                message = "We have received your message.\nWe will contact you as soon as possible.\nThanks!";
+                            }
+                            web365.utility.toastSuccess(message); 
+                            form.reset();
+                        }
+                    });
+
+                }
+            }); 
+        </script>
+    }
+} 

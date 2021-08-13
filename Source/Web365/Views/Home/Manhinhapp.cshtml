@@ -1,0 +1,20 @@
+﻿@model Web365Domain.ArticleItem
+
+
+<div id="screen" class="container fontQuicksand row__up" data-aos="fade-up">
+    <div class="title">
+        <h2>@Model.Title</h2>
+        <p>
+            @Model.Summary
+        </p>
+    </div>
+    <div class="swiper-container">
+        <!-- swiper slides -->
+        <div class="swiper-container mySwiper3">
+            @Html.Raw(Model.Detail)
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>

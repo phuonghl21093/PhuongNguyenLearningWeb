@@ -1,0 +1,42 @@
+﻿@using System.Text.RegularExpressions
+@helper HelperName(string name)
+{
+    // your helper can contain code and/or markup, e.g.
+    // var msg = "Hello " + name;
+    // <p>@msg</p>
+    // For more information, visit http://go.microsoft.com/fwlink/?LinkID=204658
+}
+
+@helper Truncate(string input, int length)
+{
+    if (string.IsNullOrEmpty(input))
+    {
+        return;
+    }
+
+    var inputTarget = Regex.Replace(input, "<.*?>", String.Empty);
+    inputTarget = Regex.Replace(inputTarget, @"&(.|\n)*?;", string.Empty);
+    @*if (inputTarget.Length <= length)
+    {
+        @inputTarget
+    }
+    else
+    {
+        @inputTarget.Substring(0, length)<text>...</text>
+    }*@
+    @inputTarget
+}
+
+@helper RemoveHtmlTag(string input)
+{
+    if (string.IsNullOrEmpty(input))
+    {
+        return;
+    }
+
+    var inputTarget = Regex.Replace(input, "<.*?>", String.Empty);
+    inputTarget = Regex.Replace(inputTarget, @"&(.|\n)*?;", string.Empty);
+    @inputTarget
+}
+
+

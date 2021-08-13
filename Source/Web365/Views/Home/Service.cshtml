@@ -1,0 +1,124 @@
+﻿@using Web365.App_Code
+@using Web365Utility
+@using Web365Domain
+@model Web365Models.ListArticleModel
+@{
+    Layout = null;
+    var articleGroup = ViewBag.ArticleGroup as ArticleGroupItem;
+    List<Web365Domain.ArticleItem> ltsArticle = ViewBag.ltsArticle;
+
+    var idx = 1;
+    var style = "";
+}
+<link href="~/Content/BIDELAND/css/sliderService.css" rel="stylesheet" />
+
+
+<div class="lvhd">
+    <div class="container">
+        <div class="center-title margin-btm-20 field-work">
+            <h4>Lĩnh vực hoạt động</h4>
+        </div>
+        <div class="lvhd-content zoomIn animated">
+            <div class="lvhd-diamond">
+                @if (ltsArticle != null && ltsArticle.Any())
+                {
+                    foreach (var item in ltsArticle.Take(6))
+                    {
+                        <div class="diamond" data-order="@idx" data-url="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, String.Format("{0}/{1}", item.ArticleType.NameAscii, item.TitleAscii))" data-item="@item.ID"
+                             @switch (idx) { case 1: style = "top: 0;left: calc(25% - 30px);"; break; case 2: style = "top: 0;left: calc(75% - 30px);"; break; case 3: style = "top: 85px;left: -15px;"; break; case 4: style = "top: 258px;left: calc(23.3333% - 30px);"; break; case 5: style = "top: 256px;left: calc(70.66% - 30px);"; break; case 6: style = "top: 85px;left: calc(100% - 60px);"; break; case 7: style = "top: 265px;left: calc(25% - 30px);"; break; case 8: style = "top: 265px;left: calc(75% - 60px);"; break; case 9: style = "top: 410px;left: calc(50% - 40px);"; break; }
+                             style="@style">
+                            <h3 style="@(idx == 1 || idx == 2 ? "top: -35px;" : "" )">@item.Title</h3>
+                            <div class="diamond-item">
+                                <span class="circle-icon"><img src="@(String.IsNullOrEmpty(item.Picture.FileName) ? "/Content/images/noimage.png" : Web365Utility.GetPathThumbPicture(item.Picture.FileName))" alt="@item.Title"></span>
+                                <span style="background-image: url(@(!String.IsNullOrEmpty(item.PictureFirst.FileName) ? Web365Utility.GetPathThumbPicture(item.PictureFirst.FileName) : "/Content/images/noimage.png"));" class="circle-image"></span>
+                            </div>
+                            <div class="lvhd-summary" data-item="@item.ID">@Html.Raw(item.Detail)</div>
+                        </div>
+                        idx++;
+                    }
+                }
+                <div class="diamond" data-order="7" data-url="#" data-item="0"
+                     style="top: 112px; left: calc(51% - 30px);">
+                    <h3 style="top: 105px; left: -36px;">Bidland Group</h3>
+                    <div>
+                        <span><img src="./Content/BIDELAND/images/icon/logo.png" /></span>
+                        @*<span style="background-image: url(./Content/BIDELAND/images/icon/logo.png)" class="circle-image"></span>*@
+                    </div>
+                    <div class="lvhd-summary" data-item="0">Bidland Group</div>
+                </div>
+
+
+                <span class="diamond-line" style="width: 50%;top: 30px;left: 25%;"></span>
+                <span class="diamond-line" style="width: 165px;top: 30px;left: 25%;transform: rotate(150deg);"></span>
+
+                <span class="diamond-line" style="width: 150px;top: 34px;left: 142px;transform: rotate(43deg);"></span>
+                <span class="diamond-line" style="width: 150px;top: 30px;left: 79%;transform: rotate(137deg);"></span>
+                <span class="diamond-line" style="width: 165px;top: 30px;left: 75%;transform: rotate(32deg);"></span>
+                <span class="diamond-line" style="width: 234px;top: calc(85px + 30px);left: 0%;transform: rotate(52deg);"></span>
+                <span class="diamond-line" style="width: 235px;top: calc(84px + 30px);left: 30px;transform: rotate(15deg);"></span>
+
+
+                <span class="diamond-line" style="width: 176px;top: 170px;left: 296px;transform: rotate(143.5deg);"></span>
+                <span class="diamond-line" style="width: 144px;top: 190px;left: 56.6666%;transform: rotate(58deg);"></span>
+                <span class="diamond-line" style="width: 212px;top: 160px;left: calc(59.66% - 0px);transform: rotate(-12deg);"></span>
+                <span class="diamond-line" style="width: 230px;top: calc(150px - 30px);left: 100%;transform: rotate(130deg);"></span>
+                <span class="diamond-line" style="width: 275px;top: calc(269px + 30px);left: calc(25% - 0px);transform: rotate(0deg);"></span>
+
+
+
+            </div>
+            <div class="lvhd-des">
+                <h3></h3>
+                <span class="lvhd-des-close"><i class="fa fa-times"></i></span>
+                <div class="lvhd-des-content"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(".lvhd-des-close").click(function (e) {
+        e.preventDefault();
+        $(".diamond").removeClass("active");
+        $(".lvhd-diamond").removeClass("move-left");
+        $(".lvhd-des").removeClass("show");
+    }); var lvhdData = [];
+    if ($(".diamond") && $(".diamond").length > 0) {
+        $.each($(".diamond .lvhd-summary"), function (idx, val) {
+            lvhdData.push({ type: parseInt($(val).attr("data-item")), content: $(val).html() });
+        });
+    }
+
+    var currentDiamond = 0;
+    $(document).mouseup(function (e) {
+        var container = $(".diamond, .lvhd-des");
+        if (!container.is(e.target) // if the target of the click isn't the container...
+            && container.has(e.target).length === 0) // ... nor a descendant of the container
+        {
+            $(".lvhd-des").removeClass("show");
+            setTimeout(function () {
+                $(".lvhd-diamond").removeClass("move-left");
+                $(".diamond").removeClass("active");
+            }, 500);
+        }
+    });
+
+    $(".diamond").click(function (e) {
+        if (!$(this).hasClass("active")) {
+            $(".diamond").removeClass("active");
+            $(this).addClass("active");
+            $(".lvhd-diamond").addClass("move-left");
+            $(".lvhd-des").removeClass("show");
+            // gán nội dung của lĩnh vực hoạt động
+            var title = $(this).find("h3");
+            var content = $(this).find("div.lvhd-summary");
+            setTimeout(function () {
+                $(".lvhd-des>h3").html($(title).html());
+                $(".lvhd-des .lvhd-des-content").html($(content).html());
+                $(".lvhd-des").addClass("show");
+            }, 500);
+        }
+        if (window.innerWidth <= 768 && $(this).attr("data-url") && $(this).attr("data-url").length > 0) {
+            location.href = $(this).attr("data-url");
+        }
+    });
+</script>

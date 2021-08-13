@@ -1,0 +1,68 @@
+﻿@using Web365.App_Code
+@model IEnumerable<Web365Domain.FileTypeItem>
+@{
+    ViewBag.Title = ResourceLanguage.DocumentLibrary;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="title-wrapper" style="background-image: url('/Content/uploads/tp_image05.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-holder">
+                    <div class="title-holder-cell text-left">
+                        <h1 class="page-title"><span>@ResourceLanguage.VideoLibrary</span></h1>
+                        <ol class="breadcrumb">
+                            <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, ResourceLanguage.Home, string.Empty)</li>
+                            <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, ResourceLanguage.Library, "vi".Equals(Culture) ? "thu-vien" : "library")</li>
+                            <li>@ResourceLanguage.DocumentLibrary</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="content-wrapper" class="not-vc">
+    <div class="container">
+        <div class="row">
+            <!--Main content-->
+            @if (Model != null)
+            {
+                foreach (var type in Model)
+                {
+                    <div class="st-heading style-1 text-left">
+                        <h3 class="box-title">@type.Name</h3>
+                    </div>
+                    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1470321034551">
+                        @foreach (var item in type.Files)
+                        {
+                            <div class="wpb_column vc_column_container vc_col-sm-3">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <div class="st-pricingbox style-1 box-featured">
+                                            <div class="box-meta">
+                                                <h4>@item.Name</h4>
+                                                <div class="box-price">
+                                                </div>
+                                            </div>
+                                            <div class="box-content">
+                                                <ul>
+                                                    <li>@Html.Raw(item.Detail)</li>
+                                                </ul>
+                                            </div>
+                                            <div class="box-link">
+                                                <a href="@Web365Utility.Web365Utility.GetPathFile(item.FileName)" target="_blank">@ResourceLanguage.Download</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            }
+            <!--End Main content-->
+        </div>
+    </div>
+</div>

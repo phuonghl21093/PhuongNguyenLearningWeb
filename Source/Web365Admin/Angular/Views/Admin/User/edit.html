@@ -1,0 +1,106 @@
+﻿<form class="form-horizontal" id="modified-form" name="frmUser" ng-submit="submit($event)" ng-controller="userModified">
+    <div class="content-modal">
+        <div class="modal-header">
+            <a href="javascript:;" class="close" ng-click="cancel()">×</a>
+            <h3 class="modal-title" ng-if="data.Id === null">Thêm mới quản trị viên</h3>
+            <h3 class="modal-title" ng-if="data.Id !== null">Chỉnh sửa quản trị viên: {{data.UserName}}</h3>
+        </div>
+        <div class="modal-body">
+            <div class="row-fluid">
+                <input type="hidden" name="Id" ng-value="data.Id" ng-model="data.Id" />
+                <div class="control-group">
+                    <label class="control-label" for="Name">Tên đăng nhập:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" readonly="readonly" class="span6" name="UserName" ng-model="data.UserName" ng-if="data.Id !== null" />
+                            <input type="text" class="span6" name="UserName" ng-model="data.UserName" ng-if="data.Id === null" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="data.Id === null">
+                    <label class="control-label" for="PasswordHash">Mật khẩu:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="password" class="span6" name="PasswordHash" ng-model="data.PasswordHash" required ng-pattern="/^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!%*#?&]{8,}$/"/>
+                            <i style="display:block; font-size:11px;">Mật khẩu ít nhất phải có 6 ký tự và bao gồm số, chữ thường &Aacute; chữ hoa </i>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="data.Id !== null">
+                    <label class="control-label" for="FirstName">Tên họ quản trị viên:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="FirstName" ng-model="data.FirstName" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="data.Id !== null">
+                    <label class="control-label" for="LastName">Tên quản trị viên:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="LastName" ng-model="data.LastName" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="data.Id !== null">
+                    <label class="control-label" for="Gender">Giới tính:</label>
+                    <div class="controls">
+                        <div class="span3">
+                            <label>
+                                <input type="checkbox" class="ace-switch ace-switch-1" name="Gender" ng-value="data.Gender" ng-model="data.Gender" />
+                                <span class="lbl gender"></span>
+                                <input type="hidden" name="Gender" ng-value="data.Gender" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group">
+                    <label class="control-label" for="Email">Email quản trị viên:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="email" class="span6" name="Email" ng-model="data.Email" required ng-pattern="/^[a-z]+[a-z0-9._]+@[a-z]+\.[a-z.]{2,5}$/"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="data.Id !== null">
+                    <label class="control-label" for="PhoneNumber">Số ĐT quản trị viên:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="PhoneNumber" ng-model="data.PhoneNumber" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="data.Id !== null">
+                    <label class="control-label" for="Address">Địa chỉ quản trị viên:</label>
+                    <div class="controls">
+                        <div class="span12">
+                            <input type="text" class="span6" name="Address" ng-model="data.Address" />
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="data.Id !== null">
+                    <label class="control-label" for="IsShow">Hiển thị:</label>
+                    <div class="controls">
+                        <div class="span3">
+                            <label>                                                               
+                                <input type="checkbox" class="ace-switch ace-switch-1" name="IsActive" ng-value="data.IsActive" ng-model="data.IsActive" />                                
+                                <span class="lbl"></span>
+                                <input type="hidden" name="IsActive" ng-value="data.IsActive" />
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="control-group" ng-if="false">
+                    <label class="control-label" for="Note">Chi tiết quản trị viên:</label>
+                    <div class="controls">
+                        <textarea name="Note" ng-model="data.Note" ck-editor></textarea>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="submit" class="btn btn-primary" ng-disabled="frmUser.$invalid">Lưu</button>
+            <a href="javascript:;" class="btn btn-warning" ng-click="cancel()">Thoát</a>
+        </div>
+    </div>
+</form>

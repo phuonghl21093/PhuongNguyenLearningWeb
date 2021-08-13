@@ -1,0 +1,990 @@
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365.dll.config
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\en\Web365.resources.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Antlr3.Runtime.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Elmah.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Elmah.Mvc.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\EntityFramework.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\EntityFramework.SqlServer.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Google.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Web.Infrastructure.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\MvcPaging.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Ninject.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Ninject.Web.Common.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Ninject.Web.Mvc.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Owin.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Helpers.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Mvc.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Optimization.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Razor.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.WebPages.Deployment.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.WebPages.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.WebPages.Razor.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Base.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Business.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Cached.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365DA.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Domain.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Models.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Utility.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\WebActivatorEx.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\WebGrease.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Newtonsoft.Json.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\EPPlus.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\ImageResizer.dll
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Base.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Business.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Cached.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365DA.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Domain.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Models.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Web365Utility.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\EntityFramework.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\EntityFramework.SqlServer.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Ninject.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Ninject.Web.Common.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Ninject.Web.Mvc.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Helpers.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Mvc.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Optimization.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.Razor.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.WebPages.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.WebPages.Deployment.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\System.Web.WebPages.Razor.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Antlr3.Runtime.pdb
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Google.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\Newtonsoft.Json.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\EPPlus.xml
+E:\GHD\TFS\Hicon\Web365\Web365\bin\ImageResizer.xml
+E:\GHD\TFS\Hicon\Web365\Web365\obj\Debug\Web365.csprojResolveAssemblyReference.cache
+E:\GHD\TFS\Hicon\Web365\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+E:\GHD\TFS\Hicon\Web365\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+E:\GHD\TFS\Hicon\Web365\Web365\obj\Debug\Web365.csproj.GenerateResource.Cache
+E:\GHD\TFS\Hicon\Web365\Web365\obj\Debug\en\Web365.resources.dll
+E:\GHD\TFS\Hicon\Web365\Web365\obj\Debug\Web365.dll
+E:\GHD\TFS\Hicon\Web365\Web365\obj\Debug\Web365.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365.dll.config
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\en\Web365.resources.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Antlr3.Runtime.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\ClearScript.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Elmah.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Elmah.Mvc.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\EntityFramework.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\EntityFramework.SqlServer.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JSPool.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\MsieJavaScriptEngine.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\MvcPaging.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Newtonsoft.Json.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Ninject.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Common.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Mvc.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Owin.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\React.Core.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Helpers.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Mvc.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Optimization.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Razor.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Razor.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\VroomJs.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Base.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Business.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Cached.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365DA.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Domain.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Models.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Utility.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\WebActivatorEx.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\WebGrease.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\EPPlus.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\ImageResizer.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Base.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Business.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Cached.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365DA.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Domain.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Models.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Web365Utility.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\EntityFramework.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\EntityFramework.SqlServer.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\JSPool.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\MsieJavaScriptEngine.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Newtonsoft.Json.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Ninject.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Common.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Mvc.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\React.Core.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Helpers.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Mvc.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Optimization.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.Razor.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Razor.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\VroomJs.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Antlr3.Runtime.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\EPPlus.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\ImageResizer.xml
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.csprojResolveAssemblyReference.cache
+E:\GHD\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+E:\GHD\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+E:\GHD\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.Cache
+E:\GHD\TFS\ThaiSon\Source\Web365\obj\Debug\en\Web365.resources.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.dll
+E:\GHD\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365.dll.config
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\en\Web365.resources.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Antlr3.Runtime.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\ClearScript.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Elmah.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Elmah.Mvc.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\EntityFramework.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\EntityFramework.SqlServer.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JSPool.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\MsieJavaScriptEngine.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\MvcPaging.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Newtonsoft.Json.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Ninject.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Common.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Mvc.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Owin.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\React.Core.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Helpers.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Mvc.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Optimization.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Razor.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Razor.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\VroomJs.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Base.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Business.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Cached.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365DA.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Domain.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Models.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Utility.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\WebActivatorEx.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\WebGrease.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\EPPlus.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\ImageResizer.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Base.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Business.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Cached.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365DA.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Domain.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Models.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Web365Utility.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\EntityFramework.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\EntityFramework.SqlServer.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\JSPool.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\MsieJavaScriptEngine.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Newtonsoft.Json.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Ninject.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Common.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Ninject.Web.Mvc.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\React.Core.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Helpers.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Mvc.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Optimization.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.Razor.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\System.Web.WebPages.Razor.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\VroomJs.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Antlr3.Runtime.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\EPPlus.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\ImageResizer.xml
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.csprojResolveAssemblyReference.cache
+E:\Projects\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+E:\Projects\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+E:\Projects\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.Cache
+E:\Projects\TFS\ThaiSon\Source\Web365\obj\Debug\en\Web365.resources.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.dll
+E:\Projects\TFS\ThaiSon\Source\Web365\obj\Debug\Web365.pdb
+D:\Source\Source\Web365\obj\Debug\Web365.csprojAssemblyReference.cache
+D:\Source\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+D:\Source\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+D:\Source\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.cache
+D:\Source\Source\Web365\obj\Debug\Web365.csproj.CoreCompileInputs.cache
+D:\Source\Source\Web365\obj\Debug\Web365.dll
+D:\Source\Source\Web365\obj\Debug\Web365.pdb
+D:\Source\Source\Web365\bin\Web365.dll.config
+D:\Source\Source\Web365\bin\Web365.dll
+D:\Source\Source\Web365\bin\Web365.pdb
+D:\Source\Source\Web365\bin\en\Web365.resources.dll
+D:\Source\Source\Web365\bin\Antlr3.Runtime.dll
+D:\Source\Source\Web365\bin\ClearScript.dll
+D:\Source\Source\Web365\bin\Elmah.dll
+D:\Source\Source\Web365\bin\Elmah.Mvc.dll
+D:\Source\Source\Web365\bin\EntityFramework.dll
+D:\Source\Source\Web365\bin\EntityFramework.SqlServer.dll
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+D:\Source\Source\Web365\bin\JSPool.dll
+D:\Source\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Source\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Source\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Source\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+D:\Source\Source\Web365\bin\MsieJavaScriptEngine.dll
+D:\Source\Source\Web365\bin\MvcPaging.dll
+D:\Source\Source\Web365\bin\Newtonsoft.Json.dll
+D:\Source\Source\Web365\bin\Ninject.dll
+D:\Source\Source\Web365\bin\Ninject.Web.Common.dll
+D:\Source\Source\Web365\bin\Ninject.Web.Mvc.dll
+D:\Source\Source\Web365\bin\Owin.dll
+D:\Source\Source\Web365\bin\React.Core.dll
+D:\Source\Source\Web365\bin\System.Web.Helpers.dll
+D:\Source\Source\Web365\bin\System.Web.Mvc.dll
+D:\Source\Source\Web365\bin\System.Web.Optimization.dll
+D:\Source\Source\Web365\bin\System.Web.Razor.dll
+D:\Source\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+D:\Source\Source\Web365\bin\System.Web.WebPages.dll
+D:\Source\Source\Web365\bin\System.Web.WebPages.Razor.dll
+D:\Source\Source\Web365\bin\VroomJs.dll
+D:\Source\Source\Web365\bin\Web365Base.dll
+D:\Source\Source\Web365\bin\Web365Business.dll
+D:\Source\Source\Web365\bin\Web365Cached.dll
+D:\Source\Source\Web365\bin\Web365DA.dll
+D:\Source\Source\Web365\bin\Web365Domain.dll
+D:\Source\Source\Web365\bin\Web365Models.dll
+D:\Source\Source\Web365\bin\Web365Utility.dll
+D:\Source\Source\Web365\bin\WebActivatorEx.dll
+D:\Source\Source\Web365\bin\WebGrease.dll
+D:\Source\Source\Web365\bin\EPPlus.dll
+D:\Source\Source\Web365\bin\ImageResizer.dll
+D:\Source\Source\Web365\bin\Web365Base.pdb
+D:\Source\Source\Web365\bin\Web365Base.dll.config
+D:\Source\Source\Web365\bin\Web365Business.pdb
+D:\Source\Source\Web365\bin\Web365Business.dll.config
+D:\Source\Source\Web365\bin\Web365Cached.pdb
+D:\Source\Source\Web365\bin\Web365DA.pdb
+D:\Source\Source\Web365\bin\Web365DA.dll.config
+D:\Source\Source\Web365\bin\Web365Domain.pdb
+D:\Source\Source\Web365\bin\Web365Models.pdb
+D:\Source\Source\Web365\bin\Web365Utility.pdb
+D:\Source\Source\Web365\bin\EntityFramework.xml
+D:\Source\Source\Web365\bin\EntityFramework.SqlServer.xml
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+D:\Source\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+D:\Source\Source\Web365\bin\JSPool.xml
+D:\Source\Source\Web365\bin\MsieJavaScriptEngine.xml
+D:\Source\Source\Web365\bin\Newtonsoft.Json.xml
+D:\Source\Source\Web365\bin\Ninject.xml
+D:\Source\Source\Web365\bin\Ninject.Web.Common.xml
+D:\Source\Source\Web365\bin\Ninject.Web.Mvc.xml
+D:\Source\Source\Web365\bin\React.Core.xml
+D:\Source\Source\Web365\bin\System.Web.Helpers.xml
+D:\Source\Source\Web365\bin\System.Web.Mvc.xml
+D:\Source\Source\Web365\bin\System.Web.Optimization.xml
+D:\Source\Source\Web365\bin\System.Web.Razor.xml
+D:\Source\Source\Web365\bin\System.Web.WebPages.xml
+D:\Source\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+D:\Source\Source\Web365\bin\System.Web.WebPages.Razor.xml
+D:\Source\Source\Web365\bin\VroomJs.xml
+D:\Source\Source\Web365\bin\Antlr3.Runtime.pdb
+D:\Source\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Source\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Source\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Source\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Source\Source\Web365\bin\EPPlus.xml
+D:\Source\Source\Web365\bin\ImageResizer.xml
+D:\Source\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+D:\Source\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+D:\Source\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+D:\Source\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+D:\Source\Source\Web365\obj\Debug\en\Web365.resources.dll
+D:\Source\Source\Web365\obj\Debug\Web365.csproj.CopyComplete
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365.dll.config
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\en\Web365.resources.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Antlr3.Runtime.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\ClearScript.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Elmah.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Elmah.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\EntityFramework.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\EntityFramework.SqlServer.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\JSPool.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\MsieJavaScriptEngine.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\MvcPaging.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Newtonsoft.Json.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Ninject.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Ninject.Web.Common.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Ninject.Web.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Owin.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\React.Core.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Helpers.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Optimization.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Razor.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.WebPages.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.WebPages.Razor.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\VroomJs.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Base.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Business.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Cached.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365DA.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Domain.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Models.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Utility.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\WebActivatorEx.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\WebGrease.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\EPPlus.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\ImageResizer.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Base.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Base.dll.config
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Business.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Business.dll.config
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Cached.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365DA.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365DA.dll.config
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Domain.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Models.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\Web365Utility.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\EntityFramework.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\EntityFramework.SqlServer.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\JSPool.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\MsieJavaScriptEngine.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Newtonsoft.Json.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Ninject.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Ninject.Web.Common.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Ninject.Web.Mvc.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\React.Core.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Helpers.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Mvc.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Optimization.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.Razor.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.WebPages.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\System.Web.WebPages.Razor.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\VroomJs.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Antlr3.Runtime.pdb
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\EPPlus.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\ImageResizer.xml
+G:\CongViec\WebCongTy\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+G:\CongViec\WebCongTy\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.csprojAssemblyReference.cache
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.cache
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.csproj.CoreCompileInputs.cache
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\en\Web365.resources.dll
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.csproj.CopyComplete
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.dll
+G:\CongViec\WebCongTy\Source\Web365\obj\Debug\Web365.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\en\Web365.resources.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Antlr3.Runtime.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\ClearScript.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Elmah.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Elmah.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\EntityFramework.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\EntityFramework.SqlServer.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JSPool.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\MsieJavaScriptEngine.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\MvcPaging.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Newtonsoft.Json.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Ninject.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Ninject.Web.Common.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Ninject.Web.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\React.Core.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Helpers.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Optimization.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Razor.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.WebPages.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.WebPages.Razor.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\VroomJs.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Base.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Business.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Cached.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365DA.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Domain.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Models.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Utility.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\WebActivatorEx.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\WebGrease.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\EPPlus.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\ImageResizer.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Base.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Base.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Business.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Business.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Cached.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365DA.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365DA.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Domain.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Models.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Web365Utility.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\EntityFramework.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\EntityFramework.SqlServer.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\JSPool.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\MsieJavaScriptEngine.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Newtonsoft.Json.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Ninject.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Ninject.Web.Common.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Ninject.Web.Mvc.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\React.Core.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Helpers.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Mvc.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Optimization.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.Razor.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.WebPages.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\System.Web.WebPages.Razor.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\VroomJs.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Antlr3.Runtime.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\EPPlus.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\ImageResizer.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.csprojAssemblyReference.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.csproj.CoreCompileInputs.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\en\Web365.resources.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.csproj.CopyComplete
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365\obj\Debug\Web365.pdb
+D:\ThaiSon\Source\Web365\bin\Web365.dll.config
+D:\ThaiSon\Source\Web365\bin\Web365.dll
+D:\ThaiSon\Source\Web365\bin\Web365.pdb
+D:\ThaiSon\Source\Web365\bin\en\Web365.resources.dll
+D:\ThaiSon\Source\Web365\bin\Antlr3.Runtime.dll
+D:\ThaiSon\Source\Web365\bin\ClearScript.dll
+D:\ThaiSon\Source\Web365\bin\Elmah.dll
+D:\ThaiSon\Source\Web365\bin\Elmah.Mvc.dll
+D:\ThaiSon\Source\Web365\bin\EntityFramework.dll
+D:\ThaiSon\Source\Web365\bin\EntityFramework.SqlServer.dll
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+D:\ThaiSon\Source\Web365\bin\JSPool.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ThaiSon\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+D:\ThaiSon\Source\Web365\bin\MsieJavaScriptEngine.dll
+D:\ThaiSon\Source\Web365\bin\MvcPaging.dll
+D:\ThaiSon\Source\Web365\bin\Newtonsoft.Json.dll
+D:\ThaiSon\Source\Web365\bin\Ninject.dll
+D:\ThaiSon\Source\Web365\bin\Ninject.Web.Common.dll
+D:\ThaiSon\Source\Web365\bin\Ninject.Web.Mvc.dll
+D:\ThaiSon\Source\Web365\bin\Owin.dll
+D:\ThaiSon\Source\Web365\bin\React.Core.dll
+D:\ThaiSon\Source\Web365\bin\System.Web.Helpers.dll
+D:\ThaiSon\Source\Web365\bin\System.Web.Mvc.dll
+D:\ThaiSon\Source\Web365\bin\System.Web.Optimization.dll
+D:\ThaiSon\Source\Web365\bin\System.Web.Razor.dll
+D:\ThaiSon\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+D:\ThaiSon\Source\Web365\bin\System.Web.WebPages.dll
+D:\ThaiSon\Source\Web365\bin\System.Web.WebPages.Razor.dll
+D:\ThaiSon\Source\Web365\bin\VroomJs.dll
+D:\ThaiSon\Source\Web365\bin\Web365Base.dll
+D:\ThaiSon\Source\Web365\bin\Web365Business.dll
+D:\ThaiSon\Source\Web365\bin\Web365Cached.dll
+D:\ThaiSon\Source\Web365\bin\Web365DA.dll
+D:\ThaiSon\Source\Web365\bin\Web365Domain.dll
+D:\ThaiSon\Source\Web365\bin\Web365Models.dll
+D:\ThaiSon\Source\Web365\bin\Web365Utility.dll
+D:\ThaiSon\Source\Web365\bin\WebActivatorEx.dll
+D:\ThaiSon\Source\Web365\bin\WebGrease.dll
+D:\ThaiSon\Source\Web365\bin\EPPlus.dll
+D:\ThaiSon\Source\Web365\bin\ImageResizer.dll
+D:\ThaiSon\Source\Web365\bin\Web365Base.pdb
+D:\ThaiSon\Source\Web365\bin\Web365Base.dll.config
+D:\ThaiSon\Source\Web365\bin\Web365Business.pdb
+D:\ThaiSon\Source\Web365\bin\Web365Business.dll.config
+D:\ThaiSon\Source\Web365\bin\Web365Cached.pdb
+D:\ThaiSon\Source\Web365\bin\Web365DA.pdb
+D:\ThaiSon\Source\Web365\bin\Web365DA.dll.config
+D:\ThaiSon\Source\Web365\bin\Web365Domain.pdb
+D:\ThaiSon\Source\Web365\bin\Web365Models.pdb
+D:\ThaiSon\Source\Web365\bin\Web365Utility.pdb
+D:\ThaiSon\Source\Web365\bin\EntityFramework.xml
+D:\ThaiSon\Source\Web365\bin\EntityFramework.SqlServer.xml
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+D:\ThaiSon\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+D:\ThaiSon\Source\Web365\bin\JSPool.xml
+D:\ThaiSon\Source\Web365\bin\MsieJavaScriptEngine.xml
+D:\ThaiSon\Source\Web365\bin\Newtonsoft.Json.xml
+D:\ThaiSon\Source\Web365\bin\Ninject.xml
+D:\ThaiSon\Source\Web365\bin\Ninject.Web.Common.xml
+D:\ThaiSon\Source\Web365\bin\Ninject.Web.Mvc.xml
+D:\ThaiSon\Source\Web365\bin\React.Core.xml
+D:\ThaiSon\Source\Web365\bin\System.Web.Helpers.xml
+D:\ThaiSon\Source\Web365\bin\System.Web.Mvc.xml
+D:\ThaiSon\Source\Web365\bin\System.Web.Optimization.xml
+D:\ThaiSon\Source\Web365\bin\System.Web.Razor.xml
+D:\ThaiSon\Source\Web365\bin\System.Web.WebPages.xml
+D:\ThaiSon\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+D:\ThaiSon\Source\Web365\bin\System.Web.WebPages.Razor.xml
+D:\ThaiSon\Source\Web365\bin\VroomJs.xml
+D:\ThaiSon\Source\Web365\bin\Antlr3.Runtime.pdb
+D:\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ThaiSon\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ThaiSon\Source\Web365\bin\EPPlus.xml
+D:\ThaiSon\Source\Web365\bin\ImageResizer.xml
+D:\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+D:\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+D:\ThaiSon\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+D:\ThaiSon\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.csprojAssemblyReference.cache
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.cache
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.csproj.CoreCompileInputs.cache
+D:\ThaiSon\Source\Web365\obj\Debug\en\Web365.resources.dll
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.csproj.CopyComplete
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.dll
+D:\ThaiSon\Source\Web365\obj\Debug\Web365.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\en\Web365.resources.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Antlr3.Runtime.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\ClearScript.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Elmah.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Elmah.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\EntityFramework.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\EntityFramework.SqlServer.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JSPool.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\MsieJavaScriptEngine.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\MvcPaging.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Newtonsoft.Json.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Ninject.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Ninject.Web.Common.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Ninject.Web.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\React.Core.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Helpers.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Optimization.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Razor.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.WebPages.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.WebPages.Razor.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\VroomJs.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Base.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Business.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Cached.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365DA.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Domain.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Models.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Utility.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\WebActivatorEx.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\WebGrease.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\EPPlus.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\ImageResizer.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Base.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Base.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Business.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Business.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Cached.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365DA.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365DA.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Domain.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Models.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Web365Utility.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\EntityFramework.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\EntityFramework.SqlServer.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\JSPool.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\MsieJavaScriptEngine.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Newtonsoft.Json.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Ninject.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Ninject.Web.Common.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Ninject.Web.Mvc.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\React.Core.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Helpers.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Mvc.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Optimization.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.Razor.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.WebPages.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\System.Web.WebPages.Razor.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\VroomJs.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Antlr3.Runtime.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\EPPlus.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\ImageResizer.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.csprojAssemblyReference.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.csproj.CoreCompileInputs.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\en\Web365.resources.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.csproj.CopyComplete
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365\obj\Debug\Web365.pdb
+G:\G-Store_Web\Source\Web365\bin\Web365.dll.config
+G:\G-Store_Web\Source\Web365\bin\Web365.dll
+G:\G-Store_Web\Source\Web365\bin\Web365.pdb
+G:\G-Store_Web\Source\Web365\bin\en\Web365.resources.dll
+G:\G-Store_Web\Source\Web365\bin\Antlr3.Runtime.dll
+G:\G-Store_Web\Source\Web365\bin\ClearScript.dll
+G:\G-Store_Web\Source\Web365\bin\Elmah.dll
+G:\G-Store_Web\Source\Web365\bin\Elmah.Mvc.dll
+G:\G-Store_Web\Source\Web365\bin\EntityFramework.dll
+G:\G-Store_Web\Source\Web365\bin\EntityFramework.SqlServer.dll
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.Core.dll
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.dll
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.V8.dll
+G:\G-Store_Web\Source\Web365\bin\JSPool.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.AspNet.Identity.Core.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Cookies.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Facebook.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Google.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.OAuth.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Twitter.dll
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Web.Infrastructure.dll
+G:\G-Store_Web\Source\Web365\bin\MsieJavaScriptEngine.dll
+G:\G-Store_Web\Source\Web365\bin\MvcPaging.dll
+G:\G-Store_Web\Source\Web365\bin\Newtonsoft.Json.dll
+G:\G-Store_Web\Source\Web365\bin\Ninject.dll
+G:\G-Store_Web\Source\Web365\bin\Ninject.Web.Common.dll
+G:\G-Store_Web\Source\Web365\bin\Ninject.Web.Mvc.dll
+G:\G-Store_Web\Source\Web365\bin\Owin.dll
+G:\G-Store_Web\Source\Web365\bin\React.Core.dll
+G:\G-Store_Web\Source\Web365\bin\System.Web.Helpers.dll
+G:\G-Store_Web\Source\Web365\bin\System.Web.Mvc.dll
+G:\G-Store_Web\Source\Web365\bin\System.Web.Optimization.dll
+G:\G-Store_Web\Source\Web365\bin\System.Web.Razor.dll
+G:\G-Store_Web\Source\Web365\bin\System.Web.WebPages.Deployment.dll
+G:\G-Store_Web\Source\Web365\bin\System.Web.WebPages.dll
+G:\G-Store_Web\Source\Web365\bin\System.Web.WebPages.Razor.dll
+G:\G-Store_Web\Source\Web365\bin\VroomJs.dll
+G:\G-Store_Web\Source\Web365\bin\Web365Base.dll
+G:\G-Store_Web\Source\Web365\bin\Web365Business.dll
+G:\G-Store_Web\Source\Web365\bin\Web365Cached.dll
+G:\G-Store_Web\Source\Web365\bin\Web365DA.dll
+G:\G-Store_Web\Source\Web365\bin\Web365Domain.dll
+G:\G-Store_Web\Source\Web365\bin\Web365Models.dll
+G:\G-Store_Web\Source\Web365\bin\Web365Utility.dll
+G:\G-Store_Web\Source\Web365\bin\WebActivatorEx.dll
+G:\G-Store_Web\Source\Web365\bin\WebGrease.dll
+G:\G-Store_Web\Source\Web365\bin\EPPlus.dll
+G:\G-Store_Web\Source\Web365\bin\ImageResizer.dll
+G:\G-Store_Web\Source\Web365\bin\Web365Base.pdb
+G:\G-Store_Web\Source\Web365\bin\Web365Base.dll.config
+G:\G-Store_Web\Source\Web365\bin\Web365Business.pdb
+G:\G-Store_Web\Source\Web365\bin\Web365Business.dll.config
+G:\G-Store_Web\Source\Web365\bin\Web365Cached.pdb
+G:\G-Store_Web\Source\Web365\bin\Web365DA.pdb
+G:\G-Store_Web\Source\Web365\bin\Web365DA.dll.config
+G:\G-Store_Web\Source\Web365\bin\Web365Domain.pdb
+G:\G-Store_Web\Source\Web365\bin\Web365Models.pdb
+G:\G-Store_Web\Source\Web365\bin\Web365Utility.pdb
+G:\G-Store_Web\Source\Web365\bin\EntityFramework.xml
+G:\G-Store_Web\Source\Web365\bin\EntityFramework.SqlServer.xml
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.Core.xml
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.Msie.xml
+G:\G-Store_Web\Source\Web365\bin\JavaScriptEngineSwitcher.V8.xml
+G:\G-Store_Web\Source\Web365\bin\JSPool.xml
+G:\G-Store_Web\Source\Web365\bin\MsieJavaScriptEngine.xml
+G:\G-Store_Web\Source\Web365\bin\Newtonsoft.Json.xml
+G:\G-Store_Web\Source\Web365\bin\Ninject.xml
+G:\G-Store_Web\Source\Web365\bin\Ninject.Web.Common.xml
+G:\G-Store_Web\Source\Web365\bin\Ninject.Web.Mvc.xml
+G:\G-Store_Web\Source\Web365\bin\React.Core.xml
+G:\G-Store_Web\Source\Web365\bin\System.Web.Helpers.xml
+G:\G-Store_Web\Source\Web365\bin\System.Web.Mvc.xml
+G:\G-Store_Web\Source\Web365\bin\System.Web.Optimization.xml
+G:\G-Store_Web\Source\Web365\bin\System.Web.Razor.xml
+G:\G-Store_Web\Source\Web365\bin\System.Web.WebPages.xml
+G:\G-Store_Web\Source\Web365\bin\System.Web.WebPages.Deployment.xml
+G:\G-Store_Web\Source\Web365\bin\System.Web.WebPages.Razor.xml
+G:\G-Store_Web\Source\Web365\bin\VroomJs.xml
+G:\G-Store_Web\Source\Web365\bin\Antlr3.Runtime.pdb
+G:\G-Store_Web\Source\Web365\bin\Microsoft.AspNet.Identity.Core.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Facebook.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Cookies.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.OAuth.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Google.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.Twitter.xml
+G:\G-Store_Web\Source\Web365\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\G-Store_Web\Source\Web365\bin\EPPlus.xml
+G:\G-Store_Web\Source\Web365\bin\ImageResizer.xml
+G:\G-Store_Web\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+G:\G-Store_Web\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+G:\G-Store_Web\Source\Web365\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+G:\G-Store_Web\Source\Web365\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.csproj.AssemblyReference.cache
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.resources
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.App_LocalResources.ResourceLanguage.en.resources
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.csproj.GenerateResource.cache
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.csproj.CoreCompileInputs.cache
+G:\G-Store_Web\Source\Web365\obj\Debug\en\Web365.resources.dll
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.csproj.CopyComplete
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.dll
+G:\G-Store_Web\Source\Web365\obj\Debug\Web365.pdb

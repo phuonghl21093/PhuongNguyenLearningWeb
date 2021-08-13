@@ -1,0 +1,25 @@
+﻿@using Web365Utility
+@model Web365Models.ListArticleModel
+@{ Layout = null; }
+@if (Model != null && Model.total > 0)
+{
+    foreach (var item in Model.List)
+    {
+        <div class="post-item col-md-4 col-sm-6 col-xs-12 @item.ArticleType.NameAscii">
+
+            <div class="service-container style-2">
+                <div class="service-image">
+                    <a href="#"><img width="600" height="400" src="@Web365Utility.GetPathPicture(item.Picture.FileName)" class="attachment-slicetheme-service size-slicetheme-service wp-post-image" alt="Maecenas vitae` purus" srcset="@Web365Utility.GetPathPicture(item.Picture.FileName) 600w, @Web365Utility.GetPathPicture(item.Picture.FileName) 300w" sizes="(max-width: 600px) 100vw, 600px" /></a>
+                </div>
+                <div class="service-content">
+                    <h4><a href="/@item.ArticleType.ParentAscii/@item.ArticleType.NameAscii/@item.TitleAscii"> @item.Title </a></h4>
+                    <div> @Html.Raw(item.Summary) </div>
+                    <div class="service-link">
+                        <a href="/@item.ArticleType.ParentAscii/@item.ArticleType.NameAscii/@item.TitleAscii"> Xem chi tiết </a>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    }
+}

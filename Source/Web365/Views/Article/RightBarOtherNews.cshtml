@@ -1,0 +1,49 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@model IEnumerable<ArticleItem>
+@{
+    Layout = null;
+    var otherTypes = ViewBag.ListOtherCategory as List<ArticleTypeItem>;
+
+}
+
+<!--sidebar widget-->
+@if (Model != null && Model.Any())
+{
+    <div class="sidebar-widget">
+        <ul class="card-list list-unstyled">
+            @foreach (var item in Model)
+            {
+                <li>
+                    @HiconHtmlHelper.MakeLanguageHyperLinkWithHTML(ViewContext.RouteData, "<h4>" + item.Title + "</h4><span>" + item.DateCreated + "<em>" + item.ArticleType.Name + "</em></span>", item.ArticleType.NameAscii + "/" + item.TitleAscii)
+                </li>
+            }
+        </ul>
+    </div>
+}
+<!--sidebar widget-->
+
+
+
+
+
+
+@if (otherTypes != null && otherTypes.Any())
+{
+    <div class="sidebar-widget">
+        <h4><span>@ResourceLanguage.Categories</span></h4>
+        <ul class="category-list list-unstyled">
+            @foreach (var cate in otherTypes)
+                {
+                <li>
+                    @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, cate.Name, cate.NameAscii)
+                </li>
+            }
+        </ul>
+    </div>
+}
+<div id="search-2" class="widget widget_search">
+    <form role="search" action="@("vi".Equals(Culture) ? "/tim-kiem" : "/search")" id="searchform" method="get">
+        <input type="text" name="s" placeholder="@ResourceLanguage.Search">
+    </form>
+</div>

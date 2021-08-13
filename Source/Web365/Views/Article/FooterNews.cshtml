@@ -1,0 +1,34 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@model Web365Domain.ArticleGroupItem
+@{
+    Layout = null;
+}
+<!--sidebar widget-->
+@if (Model.ListArticle != null && Model.ListArticle.Any())
+{
+    <div class="row">
+        <div class="space20"></div>
+        <div class="col-md-12">
+            <div class="other-post">
+                <h4 style="text-transform: uppercase; font-weight: 600">@ResourceLanguage.OtherNews</h4>
+                <ul class="list-unstyled">
+                    @foreach (var item in Model.ListArticle)
+                    {
+                        <li>
+                            @HiconHtmlHelper.MakeLanguageHyperLinkWithHTML(ViewContext.RouteData, item.Title, item.ArticleType.NameAscii + "/" + item.TitleAscii)
+                            <ul class="list-inline">
+                                <li><a href="#"><i class="ion-person"></i> ThaiSonCorp</a></li>
+                                <li><a href="#"><i class="ion-ios-clock"></i> @item.DateCreated</a></li>
+                                <li><a href="#"><i class="ion-pound"></i> @item.ArticleType.Name</a></li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    
+}
+<!--sidebar widget-->

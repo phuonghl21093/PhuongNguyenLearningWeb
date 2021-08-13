@@ -1,0 +1,93 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@model Web365Domain.ArticleItem
+@{
+    
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var otherCates = ViewBag.OtherCategories as List<ArticleTypeItem>;
+    var otherArticles = ViewBag.OtherArticles as List<ArticleItem>;
+}
+Anh Phương
+<section id="title-wrapper" style="background-image: url('/Content/uploads/tp_image05.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-holder">
+                    <div class="title-holder-cell text-left">
+                        <h1 class="page-title"><span>@Model.Title</span></h1>
+                        <ol class="breadcrumb">
+                            <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, ResourceLanguage.Home, string.Empty)</li>
+                            <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, Model.ArticleType.Name, Model.ArticleType.NameAscii)</li>
+                            <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, Model.Title, Model.TitleAscii)</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="content-wrapper" class="not-vc">
+    <div class="container">
+        <div class="row">
+            <aside id="sidebar-wrapper" class="col-md-3">
+                <div id="categories-2" class="widget widget_categories">
+                    <h3 class="widget-title"><span>@ViewBag.ParentName</span></h3>
+                    <ul>
+                        @if (otherArticles != null && otherArticles.Any())
+                        {
+                            foreach (var item in otherArticles)
+                            {
+                                <li class="cat-item">
+                                    @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, item.Title, item.ArticleType.NameAscii + "/" + item.TitleAscii)
+                                </li>
+                            }
+                        }
+                        
+                        @if (otherCates != null && otherCates.Any())
+                        {
+                            foreach (var item in otherCates)
+                            {
+                                <li class="cat-item">
+                                    @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, item.Name, item.NameAscii)
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+                @*<div>
+                    @Html.Action("FeaturedEvents")
+                    @Html.Action("TypicalFaces")
+                </div>*@
+            </aside>
+            <main id="main-wrapper" class="col-md-9">
+                <!-- post entry -->
+                <article id="post-269"
+                         class="blog-single post-269 post type-post status-publish format-standard has-post-thumbnail hentry category-contracts tag-contracts">
+                    <h2 class="post-title">@Model.Title</h2>
+                    <div class="post-meta">
+                        <span class="post-author">
+                            <em>@ResourceLanguage.By</em>
+                            <a href="#" title="Posts by Craig Douglas" rel="author">
+                                ThaiSonCorp
+                            </a>
+                        </span>
+                        <span class="post-date">@Model.DateCreated</span>
+                    </div>
+                    <!--<div class="text-center">-->
+                    <!--<a href="wp-content/uploads/blog01-1200x600.jpg" title="Wilmcote House: Thermal vision"-->
+                    <!--rel="prettyPhoto">-->
+                    <!--<img src="wp-content/uploads/csr_pic.jpg" class="attachment-slicetheme-large size-slicetheme-large wp-post-image" alt="blog01"/></a>-->
+                    <!--</div>-->
+                    <div class="post-content">
+                        @Html.Raw(Model.Detail)
+                    </div>
+                </article>
+                <!-- end post entry -->
+            </main>
+        </div>
+    </div>
+</div>

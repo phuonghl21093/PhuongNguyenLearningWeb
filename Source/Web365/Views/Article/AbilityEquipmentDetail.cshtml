@@ -1,0 +1,45 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Utility
+@model Web365Models.ListArticleModel
+@{
+    Layout = null;
+}
+
+@if (Model != null && Model.List != null && Model.List.Any())
+{
+    <div class="row">
+        @foreach (var item in Model.List)
+        {
+            <div class="col-sm-6">
+                <div class="post nltb">
+                    @HiconHtmlHelper.MakeLanguageHyperLinkWithMultiAttr(ViewContext.RouteData, String.Empty, item.ArticleType.NameAscii + "/" + item.TitleAscii, new Dictionary<string, string> {
+                                   {"class","box-bg"},
+                                   {"style", "background-image:url('"+@Web365Utility.GetPathThumbPicture(item.Picture.FileName)+"')" }
+                                    })
+                    <div class="post-meta">
+                        <h4>
+                            <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">
+                                @item.Title
+                            </a>
+                        </h4>
+                        <ul class="list-inline">
+                            <li><a href="javascript:;"><i class="ion-ios-clock"></i> @item.DateCreated</a></li>
+                        </ul>
+                    </div>
+                    <div class="post-content">
+                        <div class="nltb-detail clearfix">
+                            @Html.Raw(item.Detail)
+                        </div>
+                        <div class="text-right">
+                            @HiconHtmlHelper.MakeLanguageHyperLinkWithMultiAttr(ViewContext.RouteData, ResourceLanguage.ViewDetail, item.ArticleType.NameAscii + "/" + item.TitleAscii, new Dictionary<string, string> { { "class", "btn btn-link" } })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <div class="text-right">
+        @Html.Pager(ConfigWeb.ListNewsInCate, (int)ViewBag.Page, Model.total).Options(o => o.DisplayTemplate("ProjectPagination").MaxNrOfPages(5))
+    </div>
+}

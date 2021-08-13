@@ -1,0 +1,666 @@
+D:\Source\Source\Web365Admin\bin\Web365Admin.dll.config
+D:\Source\Source\Web365Admin\bin\Web365Admin.dll
+D:\Source\Source\Web365Admin\bin\Web365Admin.pdb
+D:\Source\Source\Web365Admin\bin\Antlr3.Runtime.dll
+D:\Source\Source\Web365Admin\bin\CKFinder.dll
+D:\Source\Source\Web365Admin\bin\Elmah.dll
+D:\Source\Source\Web365Admin\bin\Elmah.Mvc.dll
+D:\Source\Source\Web365Admin\bin\EntityFramework.dll
+D:\Source\Source\Web365Admin\bin\EntityFramework.SqlServer.dll
+D:\Source\Source\Web365Admin\bin\Google.Apis.Analytics.v3.dll
+D:\Source\Source\Web365Admin\bin\Google.Apis.Auth.dll
+D:\Source\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.dll
+D:\Source\Source\Web365Admin\bin\Google.Apis.Core.dll
+D:\Source\Source\Web365Admin\bin\Google.Apis.dll
+D:\Source\Source\Web365Admin\bin\Google.Apis.PlatformServices.dll
+D:\Source\Source\Web365Admin\bin\log4net.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Source\Source\Web365Admin\bin\Microsoft.Web.Infrastructure.dll
+D:\Source\Source\Web365Admin\bin\Newtonsoft.Json.dll
+D:\Source\Source\Web365Admin\bin\Ninject.dll
+D:\Source\Source\Web365Admin\bin\Ninject.Web.Common.dll
+D:\Source\Source\Web365Admin\bin\Ninject.Web.Mvc.dll
+D:\Source\Source\Web365Admin\bin\Owin.dll
+D:\Source\Source\Web365Admin\bin\System.Web.Helpers.dll
+D:\Source\Source\Web365Admin\bin\System.Web.Mvc.dll
+D:\Source\Source\Web365Admin\bin\System.Web.Optimization.dll
+D:\Source\Source\Web365Admin\bin\System.Web.Razor.dll
+D:\Source\Source\Web365Admin\bin\System.Web.WebPages.Deployment.dll
+D:\Source\Source\Web365Admin\bin\System.Web.WebPages.dll
+D:\Source\Source\Web365Admin\bin\System.Web.WebPages.Razor.dll
+D:\Source\Source\Web365Admin\bin\Web365Base.dll
+D:\Source\Source\Web365Admin\bin\Web365Business.dll
+D:\Source\Source\Web365Admin\bin\Web365Cached.dll
+D:\Source\Source\Web365Admin\bin\Web365DA.dll
+D:\Source\Source\Web365Admin\bin\Web365Domain.dll
+D:\Source\Source\Web365Admin\bin\Web365Models.dll
+D:\Source\Source\Web365Admin\bin\Web365Utility.dll
+D:\Source\Source\Web365Admin\bin\WebActivatorEx.dll
+D:\Source\Source\Web365Admin\bin\WebGrease.dll
+D:\Source\Source\Web365Admin\bin\Zlib.Portable.dll
+D:\Source\Source\Web365Admin\bin\EPPlus.dll
+D:\Source\Source\Web365Admin\bin\ImageResizer.dll
+D:\Source\Source\Web365Admin\bin\Web365Base.pdb
+D:\Source\Source\Web365Admin\bin\Web365Base.dll.config
+D:\Source\Source\Web365Admin\bin\Web365Business.pdb
+D:\Source\Source\Web365Admin\bin\Web365Business.dll.config
+D:\Source\Source\Web365Admin\bin\Web365Cached.pdb
+D:\Source\Source\Web365Admin\bin\Web365DA.pdb
+D:\Source\Source\Web365Admin\bin\Web365DA.dll.config
+D:\Source\Source\Web365Admin\bin\Web365Domain.pdb
+D:\Source\Source\Web365Admin\bin\Web365Models.pdb
+D:\Source\Source\Web365Admin\bin\Web365Utility.pdb
+D:\Source\Source\Web365Admin\bin\CKFinder.pdb
+D:\Source\Source\Web365Admin\bin\Google.Apis.pdb
+D:\Source\Source\Web365Admin\bin\Google.Apis.xml
+D:\Source\Source\Web365Admin\bin\Google.Apis.Analytics.v3.pdb
+D:\Source\Source\Web365Admin\bin\Google.Apis.Analytics.v3.xml
+D:\Source\Source\Web365Admin\bin\Google.Apis.Auth.pdb
+D:\Source\Source\Web365Admin\bin\Google.Apis.Auth.xml
+D:\Source\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.pdb
+D:\Source\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.xml
+D:\Source\Source\Web365Admin\bin\Google.Apis.Core.pdb
+D:\Source\Source\Web365Admin\bin\Google.Apis.Core.xml
+D:\Source\Source\Web365Admin\bin\Google.Apis.PlatformServices.pdb
+D:\Source\Source\Web365Admin\bin\Google.Apis.PlatformServices.xml
+D:\Source\Source\Web365Admin\bin\log4net.xml
+D:\Source\Source\Web365Admin\bin\Newtonsoft.Json.xml
+D:\Source\Source\Web365Admin\bin\Ninject.xml
+D:\Source\Source\Web365Admin\bin\Ninject.Web.Common.xml
+D:\Source\Source\Web365Admin\bin\Ninject.Web.Mvc.xml
+D:\Source\Source\Web365Admin\bin\System.Web.Helpers.xml
+D:\Source\Source\Web365Admin\bin\System.Web.Mvc.xml
+D:\Source\Source\Web365Admin\bin\System.Web.Optimization.xml
+D:\Source\Source\Web365Admin\bin\System.Web.Razor.xml
+D:\Source\Source\Web365Admin\bin\System.Web.WebPages.xml
+D:\Source\Source\Web365Admin\bin\System.Web.WebPages.Deployment.xml
+D:\Source\Source\Web365Admin\bin\System.Web.WebPages.Razor.xml
+D:\Source\Source\Web365Admin\bin\Antlr3.Runtime.pdb
+D:\Source\Source\Web365Admin\bin\Zlib.Portable.xml
+D:\Source\Source\Web365Admin\bin\EntityFramework.xml
+D:\Source\Source\Web365Admin\bin\EntityFramework.SqlServer.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Source\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Source\Source\Web365Admin\bin\EPPlus.xml
+D:\Source\Source\Web365Admin\bin\ImageResizer.xml
+D:\Source\Source\Web365Admin\obj\Debug\Web365Admin.csprojAssemblyReference.cache
+D:\Source\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CoreCompileInputs.cache
+D:\Source\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CopyComplete
+D:\Source\Source\Web365Admin\obj\Debug\Web365Admin.dll
+D:\Source\Source\Web365Admin\obj\Debug\Web365Admin.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Admin.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Admin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Admin.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Antlr3.Runtime.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\CKFinder.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Elmah.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Elmah.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\EntityFramework.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\EntityFramework.SqlServer.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Analytics.v3.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Core.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.PlatformServices.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\log4net.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Web.Infrastructure.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Newtonsoft.Json.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Ninject.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Common.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Helpers.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Optimization.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Razor.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Deployment.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Razor.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Base.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Business.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Cached.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365DA.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Domain.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Models.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Utility.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\WebActivatorEx.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\WebGrease.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Zlib.Portable.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\EPPlus.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\ImageResizer.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Base.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Base.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Business.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Business.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Cached.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365DA.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365DA.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Domain.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Models.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Web365Utility.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\CKFinder.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Analytics.v3.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Analytics.v3.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Core.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.Core.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.PlatformServices.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Google.Apis.PlatformServices.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\log4net.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Newtonsoft.Json.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Ninject.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Common.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Mvc.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Helpers.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Mvc.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Optimization.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.Razor.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Deployment.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Razor.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Antlr3.Runtime.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Zlib.Portable.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\EntityFramework.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\EntityFramework.SqlServer.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\EPPlus.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\bin\ImageResizer.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.csprojAssemblyReference.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CoreCompileInputs.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CopyComplete
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Admin.dll.config
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Admin.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Admin.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Antlr3.Runtime.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\CKFinder.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Elmah.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Elmah.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\EntityFramework.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\EntityFramework.SqlServer.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Analytics.v3.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Core.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.PlatformServices.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\log4net.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Web.Infrastructure.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Newtonsoft.Json.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Ninject.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Common.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Owin.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Helpers.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Optimization.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Razor.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Deployment.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Razor.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Base.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Business.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Cached.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365DA.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Domain.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Models.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Utility.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\WebActivatorEx.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\WebGrease.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Zlib.Portable.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\EPPlus.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\ImageResizer.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Base.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Base.dll.config
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Business.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Business.dll.config
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Cached.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365DA.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365DA.dll.config
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Domain.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Models.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Web365Utility.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\CKFinder.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Analytics.v3.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Analytics.v3.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Core.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.Core.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.PlatformServices.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Google.Apis.PlatformServices.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\log4net.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Newtonsoft.Json.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Ninject.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Common.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Ninject.Web.Mvc.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Helpers.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Mvc.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Optimization.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.Razor.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Deployment.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\System.Web.WebPages.Razor.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Antlr3.Runtime.pdb
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Zlib.Portable.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\EntityFramework.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\EntityFramework.SqlServer.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\EPPlus.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\bin\ImageResizer.xml
+G:\CongViec\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.csprojAssemblyReference.cache
+G:\CongViec\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CoreCompileInputs.cache
+G:\CongViec\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CopyComplete
+G:\CongViec\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.dll
+G:\CongViec\WebCongTy\Source\Web365Admin\obj\Debug\Web365Admin.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Web365Admin.dll.config
+D:\ThaiSon\Source\Web365Admin\bin\Web365Admin.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Admin.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Antlr3.Runtime.dll
+D:\ThaiSon\Source\Web365Admin\bin\CKFinder.dll
+D:\ThaiSon\Source\Web365Admin\bin\Elmah.dll
+D:\ThaiSon\Source\Web365Admin\bin\Elmah.Mvc.dll
+D:\ThaiSon\Source\Web365Admin\bin\EntityFramework.dll
+D:\ThaiSon\Source\Web365Admin\bin\EntityFramework.SqlServer.dll
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Analytics.v3.dll
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Auth.dll
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.dll
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Core.dll
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.dll
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.PlatformServices.dll
+D:\ThaiSon\Source\Web365Admin\bin\log4net.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.dll
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Web.Infrastructure.dll
+D:\ThaiSon\Source\Web365Admin\bin\Newtonsoft.Json.dll
+D:\ThaiSon\Source\Web365Admin\bin\Ninject.dll
+D:\ThaiSon\Source\Web365Admin\bin\Ninject.Web.Common.dll
+D:\ThaiSon\Source\Web365Admin\bin\Ninject.Web.Mvc.dll
+D:\ThaiSon\Source\Web365Admin\bin\Owin.dll
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Helpers.dll
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Mvc.dll
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Optimization.dll
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Razor.dll
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.WebPages.Deployment.dll
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.WebPages.dll
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.WebPages.Razor.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Base.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Business.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Cached.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365DA.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Domain.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Models.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Utility.dll
+D:\ThaiSon\Source\Web365Admin\bin\WebActivatorEx.dll
+D:\ThaiSon\Source\Web365Admin\bin\WebGrease.dll
+D:\ThaiSon\Source\Web365Admin\bin\Zlib.Portable.dll
+D:\ThaiSon\Source\Web365Admin\bin\EPPlus.dll
+D:\ThaiSon\Source\Web365Admin\bin\ImageResizer.dll
+D:\ThaiSon\Source\Web365Admin\bin\Web365Base.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Web365Base.dll.config
+D:\ThaiSon\Source\Web365Admin\bin\Web365Business.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Web365Business.dll.config
+D:\ThaiSon\Source\Web365Admin\bin\Web365Cached.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Web365DA.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Web365DA.dll.config
+D:\ThaiSon\Source\Web365Admin\bin\Web365Domain.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Web365Models.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Web365Utility.pdb
+D:\ThaiSon\Source\Web365Admin\bin\CKFinder.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.xml
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Analytics.v3.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Analytics.v3.xml
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Auth.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Auth.xml
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.xml
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Core.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.Core.xml
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.PlatformServices.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Google.Apis.PlatformServices.xml
+D:\ThaiSon\Source\Web365Admin\bin\log4net.xml
+D:\ThaiSon\Source\Web365Admin\bin\Newtonsoft.Json.xml
+D:\ThaiSon\Source\Web365Admin\bin\Ninject.xml
+D:\ThaiSon\Source\Web365Admin\bin\Ninject.Web.Common.xml
+D:\ThaiSon\Source\Web365Admin\bin\Ninject.Web.Mvc.xml
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Helpers.xml
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Mvc.xml
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Optimization.xml
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.Razor.xml
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.WebPages.xml
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.WebPages.Deployment.xml
+D:\ThaiSon\Source\Web365Admin\bin\System.Web.WebPages.Razor.xml
+D:\ThaiSon\Source\Web365Admin\bin\Antlr3.Runtime.pdb
+D:\ThaiSon\Source\Web365Admin\bin\Zlib.Portable.xml
+D:\ThaiSon\Source\Web365Admin\bin\EntityFramework.xml
+D:\ThaiSon\Source\Web365Admin\bin\EntityFramework.SqlServer.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.xml
+D:\ThaiSon\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\ThaiSon\Source\Web365Admin\bin\EPPlus.xml
+D:\ThaiSon\Source\Web365Admin\bin\ImageResizer.xml
+D:\ThaiSon\Source\Web365Admin\obj\Debug\Web365Admin.csprojAssemblyReference.cache
+D:\ThaiSon\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CoreCompileInputs.cache
+D:\ThaiSon\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CopyComplete
+D:\ThaiSon\Source\Web365Admin\obj\Debug\Web365Admin.dll
+D:\ThaiSon\Source\Web365Admin\obj\Debug\Web365Admin.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Admin.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Admin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Admin.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Antlr3.Runtime.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\CKFinder.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Elmah.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Elmah.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\EntityFramework.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\EntityFramework.SqlServer.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Analytics.v3.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Auth.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Core.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.PlatformServices.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\log4net.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Web.Infrastructure.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Newtonsoft.Json.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Ninject.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Ninject.Web.Common.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Ninject.Web.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Helpers.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Optimization.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Razor.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.WebPages.Deployment.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.WebPages.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.WebPages.Razor.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Base.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Business.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Cached.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365DA.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Domain.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Models.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Utility.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\WebActivatorEx.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\WebGrease.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Zlib.Portable.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\EPPlus.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\ImageResizer.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Base.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Base.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Business.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Business.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Cached.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365DA.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365DA.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Domain.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Models.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Web365Utility.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\CKFinder.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Analytics.v3.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Analytics.v3.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Auth.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Auth.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Core.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.Core.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.PlatformServices.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Google.Apis.PlatformServices.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\log4net.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Newtonsoft.Json.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Ninject.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Ninject.Web.Common.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Ninject.Web.Mvc.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Helpers.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Mvc.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Optimization.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.Razor.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.WebPages.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.WebPages.Deployment.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\System.Web.WebPages.Razor.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Antlr3.Runtime.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Zlib.Portable.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\EntityFramework.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\EntityFramework.SqlServer.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\EPPlus.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\bin\ImageResizer.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\obj\Debug\Web365Admin.csprojAssemblyReference.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CoreCompileInputs.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CopyComplete
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\obj\Debug\Web365Admin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Admin\obj\Debug\Web365Admin.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Admin.dll.config
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Admin.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Admin.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Antlr3.Runtime.dll
+G:\G-Store_Web\Source\Web365Admin\bin\CKFinder.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Elmah.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Elmah.Mvc.dll
+G:\G-Store_Web\Source\Web365Admin\bin\EntityFramework.dll
+G:\G-Store_Web\Source\Web365Admin\bin\EntityFramework.SqlServer.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Analytics.v3.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Auth.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Core.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.PlatformServices.dll
+G:\G-Store_Web\Source\Web365Admin\bin\log4net.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Web.Infrastructure.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Newtonsoft.Json.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Ninject.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Ninject.Web.Common.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Ninject.Web.Mvc.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Owin.dll
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Helpers.dll
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Mvc.dll
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Optimization.dll
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Razor.dll
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.WebPages.Deployment.dll
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.WebPages.dll
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.WebPages.Razor.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Base.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Business.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Cached.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365DA.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Domain.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Models.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Utility.dll
+G:\G-Store_Web\Source\Web365Admin\bin\WebActivatorEx.dll
+G:\G-Store_Web\Source\Web365Admin\bin\WebGrease.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Zlib.Portable.dll
+G:\G-Store_Web\Source\Web365Admin\bin\EPPlus.dll
+G:\G-Store_Web\Source\Web365Admin\bin\ImageResizer.dll
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Base.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Base.dll.config
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Business.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Business.dll.config
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Cached.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Web365DA.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Web365DA.dll.config
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Domain.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Models.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Web365Utility.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\CKFinder.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Analytics.v3.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Analytics.v3.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Auth.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Auth.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Auth.PlatformServices.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Core.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.Core.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.PlatformServices.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Google.Apis.PlatformServices.xml
+G:\G-Store_Web\Source\Web365Admin\bin\log4net.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Newtonsoft.Json.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Ninject.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Ninject.Web.Common.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Ninject.Web.Mvc.xml
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Helpers.xml
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Mvc.xml
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Optimization.xml
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.Razor.xml
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.WebPages.xml
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.WebPages.Deployment.xml
+G:\G-Store_Web\Source\Web365Admin\bin\System.Web.WebPages.Razor.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Antlr3.Runtime.pdb
+G:\G-Store_Web\Source\Web365Admin\bin\Zlib.Portable.xml
+G:\G-Store_Web\Source\Web365Admin\bin\EntityFramework.xml
+G:\G-Store_Web\Source\Web365Admin\bin\EntityFramework.SqlServer.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Core.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Facebook.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Cookies.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.OAuth.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Google.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.Twitter.xml
+G:\G-Store_Web\Source\Web365Admin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\G-Store_Web\Source\Web365Admin\bin\EPPlus.xml
+G:\G-Store_Web\Source\Web365Admin\bin\ImageResizer.xml
+G:\G-Store_Web\Source\Web365Admin\obj\Debug\Web365Admin.csproj.AssemblyReference.cache
+G:\G-Store_Web\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CoreCompileInputs.cache
+G:\G-Store_Web\Source\Web365Admin\obj\Debug\Web365Admin.csproj.CopyComplete
+G:\G-Store_Web\Source\Web365Admin\obj\Debug\Web365Admin.dll
+G:\G-Store_Web\Source\Web365Admin\obj\Debug\Web365Admin.pdb

@@ -1,0 +1,129 @@
+﻿@using Web365.App_Code
+@using Web365Utility
+@model Web365Models.ListArticleModel
+@{
+    ViewBag.Title = ResourceLanguage.SearchText + ": " + ViewBag.Keywords;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@*<div id="mcn-breadcrumb" class="m-gioithieu">
+    <div class="container">
+        <div class="bread-crumb">
+            <span xmlns:v="http://rdf.data-vocabulary.org/#">
+                <span typeof="v:Breadcrumb">
+                    <a href="/" rel="v:url" property="v:title">@ResourceLanguage.Home <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    <span rel="v:child" typeof="v:Breadcrumb">
+                        @ResourceLanguage.SearchLabel <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        <span class="breadcrumb_last">@ResourceLanguage.SearchResultsFor : @(Request.Params["s"])</span>
+                    </span>
+                </span>
+            </span>
+        </div>
+    </div>
+</div>*@
+<div class="container-fluid title-page">
+    <h1>@ResourceLanguage.SearchResultsFor : @(Request.Params["s"])</h1>
+</div>
+
+
+
+@*<div class="tb_blog_section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+                <div class="blog_wrapper_catt">
+                    <div class="row">
+
+                        @if (Model != null && Model.List != null && Model.List.Any())
+                        {
+                            foreach (var item in Model.List)
+                            {
+                                <article class="entry entry-list">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="entry-media">
+                                                <figure>
+                                                    <a class="box-bg" href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" style="background-image: url('@Web365Utility.GetPathPicture(item.Picture.FileName)')" title="@item.Picture.Name"></a>
+                                                </figure>
+                                                <div class="entry-meta">
+                                                    <span><i class="fa fa-calendar"></i>@item.DateCreated.Value.ToString("dd/MM/yyyy")</span>
+                                                </div> End .entry-media 
+                                            </div> End .entry-media 
+                                        </div> End .col-md-6 
+                                        <div class="col-md-6">
+                                            <h2 class="entry-title"><a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">@item.Title</a></h2>
+                                            <div class="entry-content">
+                                                @Html.Raw(item.Summary)
+
+                                            </div> End .entry-content 
+                                        </div> End .col-md-6 
+                                    </div> End .row 
+                                </article>  
+                            }
+                        }
+                        else
+                        {
+                            <div class="text-center">
+                                @ResourceLanguage.SearchResultNotFound
+                            </div>
+                        }
+
+
+                        <div class="text-center">
+                            @Html.Pager(ConfigWeb.ListNewsInCate, (int)ViewBag.Page, Model.total).Options(o => o.DisplayTemplate("ProjectPagination").MaxNrOfPages(5))
+                        </div>
+
+                    </div>
+                </div> 
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 bs_btm_pader">
+                @Html.Action("RightBarInNews", new { typeId = (int)StaticEnum.ArticleType.News })
+            </div>
+        </div>
+    </div>
+</div>*@
+
+<div class="container row__up" id="features">
+    @if (Model != null && Model.List != null && Model.List.Any())
+    {
+        foreach (var item in Model.List)
+        {
+            <div class="sharethis-inline-share-buttons"></div>
+            <p class="blog__date" style="margin-bottom: 30px">
+                <i class="far fa-calendar-alt"></i>@item.DateCreated.Value.ToString("dd/MM/yyyy")
+            </p>
+
+            <div class="row row__blog">
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                    <h1><a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">@item.Title</a></h1>
+                    <img src="@Web365Utility.GetPathPicture(item.Picture.FileName)" title="@item.Picture.Name">
+                    <p>
+                        @Html.Raw(item.Summary)
+                    </p>
+                </div>
+                <div class="nearest__post col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <!-- searchfield -->
+                    <form class="search__box layout__container" role="search" action="@("vi".Equals(Culture) ? "/tim-kiem" : "/search")" id="searchform" method="get">
+                        <p class="title__box__nearest">Tìm Kiếm</p>
+                        <div class="input__search__blogs">
+                            <input type="text" class="form-control" name="s" placeholder="@ResourceLanguage.EnterSearchKeyword">
+                            <div class="icon__search">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- get posts -->
+                    @Html.Action("RightBarInNews", new { typeId = (int)StaticEnum.ArticleType.News })
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="text-center">
+            @ResourceLanguage.SearchResultNotFound
+        </div>
+    }
+</div>

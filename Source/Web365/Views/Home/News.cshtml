@@ -1,0 +1,95 @@
+﻿@using Web365.App_Code
+@using Web365Utility
+@model Web365Models.ListArticleModel
+@{ Layout = null; }
+@if (Model != null && Model.List != null)
+{
+    @*<div class="ts-hompage-news gray-bg">
+            <div class="container">
+                <div class="center-title margin-btm-30">
+                    <h1>@ResourceLanguage.NewsAndEvents</h1>
+                    <div class="border-width center-align"></div>
+                </div>
+                <div class="row ts-hompage-news-box clearfix">
+                    <div class="col-sm-9 margin-btm-20">
+                        <div class="row">
+                            @foreach (var item in Model.List)
+                            {
+                                <div class="col-sm-6">
+                                    <div class="post animated fadeInUp">
+                                        @HiconHtmlHelper.MakeLanguageHyperLinkWithMultiAttr(ViewContext.RouteData, String.Empty, item.ArticleType.NameAscii + "/" + item.TitleAscii, new Dictionary<string, string> {
+                                       {"class","box-bg"},
+                                       {"style", "background-image:url('"+@Web365Utility.GetPathPicture(item.Picture.FileName)+"')" }
+                                        })
+                                        <div class="post-meta">
+                                            <h4>@HiconHtmlHelper.MakeLanguageHyperLinkWithMultiAttr(ViewContext.RouteData, item.Title, item.ArticleType.NameAscii + "/" + item.TitleAscii)</h4>
+                                            <ul class="list-inline">
+                                                <li><a href="javascript:;"><i class="ion-person"></i>@(String.IsNullOrEmpty(item.CreatedBy) ? "ThaiSonCorp" : item.CreatedBy)</a></li>
+                                                <li><a href="javascript:;"><i class="ion-ios-clock"></i> @item.DateCreated</a></li>
+                                                <li><a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii)" title="@item.ArticleType.Name"><i class="ion-pound"></i>@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.ArticleType.Name, 25, "..."))</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="post-content">
+                                            <p>
+                                                @Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Summary, 175, "..."))
+                                            </p>
+                                            <p class="text-right">
+                                                @HiconHtmlHelper.MakeLanguageHyperLinkWithMultiAttr(ViewContext.RouteData, ResourceLanguage.ViewDetail, item.ArticleType.NameAscii + "/" + item.TitleAscii, new Dictionary<string, string> { { "class", "btn btn-link" } })
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        @Html.Action("OtherNewsHomepage")
+                    </div>
+                </div>
+            </div>
+        </div>*@
+
+
+
+
+    <div class="row__up section__introduction feature__container"
+         data-aos="fade-up">
+        <h2>Tin Tức</h2>
+        <p class="title">@ResourceLanguage.NewsAndEvents</p>
+        <div class="swiper__blogs container container__swiper">
+            <div class="swiper-container mySwiper">
+                <div class="swiper-wrapper">
+                    @foreach (var item in Model.List)
+                    {
+                        <div class="swiper-slide swiper__line">
+                            <div class="swiper__images">
+                                <img src="@Web365Utility.GetPathPicture(item.Picture.FileName)" title="@item.Picture.Name" />
+                            </div>
+                            <div class="swiper__content">
+                                <p class="swiper__date">
+                                    <i class="far fa-calendar-alt"></i> @item.DateCreated.Value.ToString("dd/MM/yyyy")
+                                </p>
+                                <p class="swiper__title">
+                                    @HiconHtmlHelper.MakeLanguageHyperLinkWithMultiAttr(ViewContext.RouteData, item.Title, item.ArticleType.NameAscii + "/" + item.TitleAscii)
+                                </p>
+                                <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">@item.Title">
+                                    @*<p class="swiper__short">
+                                       
+                                    </p>*@
+
+                                    @*<button class="swiper__btn">
+                @HiconHtmlHelper.MakeLanguageHyperLinkWithMultiAttr(ViewContext.RouteData, ResourceLanguage.ViewDetail, item.ArticleType.NameAscii + "/" + item.TitleAscii, new Dictionary<string, string> { { "class", "btn btn-link" } })
+            </button>*@
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+}

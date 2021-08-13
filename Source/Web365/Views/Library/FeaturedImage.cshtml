@@ -1,0 +1,38 @@
+﻿@model Web365Models.PictureModel
+@{
+    Layout = null;
+}
+@if (Model != null && Model.List != null && Model.List.Any())
+{
+    <div class="st-heading style-1 text-left">
+        <h3 class="box-title">@ResourceLanguage.FeatureImages</h3>
+        @*<div class="box-content">We are always working hard to build the real values.</div>*@
+    </div>
+
+    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1470320972347 zoom-gallery">
+        @foreach (var img in Model.List)
+        {
+            <div class="ab-color-01 wpb_column vc_column_container vc_col-sm-4">
+                <div class="vc_column-inner ">
+                    <div class="wpb_wrapper">
+                        <div class="st-promobox">
+                            <a href="@Web365Utility.Web365Utility.GetPathPicture(img.FileName)">
+                                <div class="box-image">
+                                    <span>
+                                        <img width="596" height="380" src="@Web365Utility.Web365Utility.GetPathPicture(img.FileName)" class="attachment-full size-full">
+                                    </span>
+                                </div>
+                                @*<div class="box-content">
+                                    <div class="box-content-inner">
+                                        <h4 class="box-title">Design &amp; Build Package</h4>
+                                        <div class="box-subtitle">@img.Alt</div>
+                                    </div>
+                                </div>*@
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

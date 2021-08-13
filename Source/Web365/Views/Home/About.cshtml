@@ -1,0 +1,72 @@
+﻿@model Web365Domain.Other.LayoutGroupItem
+@{ Layout = null; }
+@*@if (Model != null && Model.LayoutContents != null && Model.LayoutContents.Any())
+    {
+        <div class="vc_row wpb_row vc_row-fluid vc_custom_1471186111033 vc_row-has-fill wpb_section wpb_padding">
+
+            <div class="container">
+                <div class="row">
+                    @foreach (var item in Model.LayoutContents)
+                    {
+                        <div class="wpb_column vc_column_container vc_col-sm-3">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="st-iconbox style-1">
+                                        <div class="iconbox-container">
+                                            <div class="box-icon"><span><i class="fa @item.IconClassCss"></i></span></div>
+                                            <div class="box-content">
+                                                <h4 class="box-title">@item.Name</h4>
+                                                <div> @Html.Raw(item.Detail) </div>
+                                            </div>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }*@
+@if (Model != null && Model.LayoutContents != null && Model.LayoutContents.Any())
+{
+    @*<div id="aboutus" class="container-fluid" data-aos="fade-up">*@
+        <div class="title">
+            <h2>Về chúng tôi</h2>
+            <p>G-Store luôn nỗ lực hàng ngày nhằm mang lại những giá trị vượt bậc, sự tiện lợi, nhanh chóng cho mọi khách hàng, cộng đồng sử dụng ứng dụng G-Store</p>
+        </div>
+        @foreach (var item in Model.LayoutContents)
+        {
+            <div class="panel-group faq-inner-accordion"
+                 id="accordion"
+                 role="tablist">
+                <div class="panel panel-default" style="background-color: #ffffff">
+                    <div class="panel-heading" role="tab">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse"
+                               data-parent="#accordion"
+                               href="#first-question-1"
+                               class="btn-accordion"
+                               aria-expanded="true"
+                               role="button">
+                                <i class="fa fa-plus"></i>
+                                @item.Name                             
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="first-question-1"
+                         class="panel-collapse collapse in"
+                         aria-expanded="true"
+                         role="tabpanel"
+                         style="">
+                        <div class="panel-body">
+                            @Html.Raw(item.Detail)
+                        </div>
+                    </div>
+                </div>              
+            </div>
+        }
+    
+}
+

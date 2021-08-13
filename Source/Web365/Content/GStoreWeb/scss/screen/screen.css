@@ -1,0 +1,72 @@
+.title-page {
+  height: 70vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.title-page h1 {
+  font-weight: bold;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #918d8d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+#screen {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  font-family: "Quicksand",sans-serif;
+}
+
+#screen .title h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+#screen .title p {
+  font-size: 16px;
+  text-align: center;
+  padding: 30px 0px;
+  margin: 0;
+  font-weight: 500;
+}
+/*# sourceMappingURL=screen.css.map */

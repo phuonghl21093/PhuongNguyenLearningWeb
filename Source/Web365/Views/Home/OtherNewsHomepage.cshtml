@@ -1,0 +1,21 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Models
+@model IEnumerable<ArticleItem>
+@{ Layout = null; }
+@if (Model != null && Model != null && Model.Any())
+{
+    <ul class="ts-hompage-news-other card-list list-unstyled animated fadeInUp">
+        @foreach (var item in Model)
+        {
+            <li>
+                <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">
+                    <h4>
+                        @item.Title <em>(@(item.DateCreated.HasValue ? item.DateCreated.Value.ToString("dd/MM/yyyy") : "---"))</em>
+                    </h4>
+                </a>
+            </li>
+        }
+    </ul>
+
+}

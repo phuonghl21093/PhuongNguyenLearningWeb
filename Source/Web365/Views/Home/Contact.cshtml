@@ -1,0 +1,71 @@
+﻿@using Web365.App_Code
+@model Web365Domain.ArticleItem
+<!--START CONTACT HOMPAGE MODULE-->
+
+@if (Model != null)
+{
+<div class="ts-contact-homepage gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <form method="post" action="@Url.Action("SendContactInfo", "Customer")" id="contactInfoForm" name="contactInfoForm" class="b-contact">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="row">
+                                <div class="col-sm-12 margin-btm-20">
+                                    <input type="text" name="FullName" class="form-control" placeholder="@ResourceLanguage.FullName">
+                                </div>
+                                <div class="col-sm-12 margin-btm-20">
+                                    <input type="text" name="Email" class="form-control" placeholder="@ResourceLanguage.EmailAdress *">
+                                </div>
+                                <div class="col-sm-12 margin-btm-20">
+                                    <input type="text" name="Title" class="form-control" placeholder="@ResourceLanguage.Title">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="Message" class="form-control margin-btm-20" rows="10" placeholder="@ResourceLanguage.MessageContent"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="data-status animated fadeInDown"></div> <!-- data submit status -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-right">
+                            <button type="submit" name="submit" class="btn btn-xl btn-skin margin-b-20">@ResourceLanguage.SendMail</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <div class="sidebar-widget contact-info">
+                    <h3>@Model.Summary</h3>
+                    @Html.Raw(Model.Detail)
+                </div>
+                <div class="sidebar-widget">
+                    <ul class="list-inline social">
+                        @if (ViewBag.Facebook != null)
+                        {
+                            <li><a href="@HiconHelper.RemoveHtmlTag(ViewBag.Facebook.Content)" title="Facebook" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                        }
+                        @if (ViewBag.Twitter != null)
+                        {
+                            <li><a href="@HiconHelper.RemoveHtmlTag(ViewBag.Twitter.Content)" title="Twitter" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                        }
+                        <li><a href="javascript:;"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="javascript:;"><i class="ion-social-linkedin"></i></a></li>
+                        @if (ViewBag.Instagram != null)
+                        {
+                            <li><a href="@HiconHelper.RemoveHtmlTag(ViewBag.Instagram.Content)" title="Instagram"><i class="ion-social-instagram"></i></a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+}
+<!--END CONTACT HOMPAGE MODULE-->

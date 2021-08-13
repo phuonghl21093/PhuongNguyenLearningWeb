@@ -1,0 +1,29 @@
+﻿<div class="row-fluid">
+    <h3 class="header smaller lighter blue">Quản lý thông tin cấu hình website</h3>
+    <form class="form-horizontal" ng-submit="submit($event)" ng-repeat="item in listResouces">
+        <input type="hidden" name="source" value="Setting" />
+        <div class="control-group">
+            <label class="control-label" for="Name">{{item.Comment}}:</label>
+            <div class="controls">
+                <!--chosen color-->
+                <div class="span12" ng-if="item.Name.indexOf('Color') > -1">
+                    <input type="hidden" name="name" value="{{item.Name}}" />
+                    <input type="text" class="span6" name="value" value="{{item.Value}}" colorpicker />
+                    <button type="submit" class="btn btn-small btn-success">Lưu</button>
+                    <span class="help-button" data-trigger="click" data-placement="left" data-content="{{item.Comment}}" data-title="{{item.Name}}" popover>?</span>
+                </div>
+                <!--chosen true or false-->
+                <div class="span12" ng-if="item.Name.indexOf('OnOff') > -1">
+                    <label>
+                        <input type="hidden" name="name" value="{{item.Name}}" />
+                        <input type="checkbox" class="ace-switch ace-switch-1" name="value" ng-value="listResouces[$index].Value" ng-model="listResouces[$index].Value" />
+                        <span class="lbl"></span>
+                        <input type="hidden" name="value" ng-value="listResouces[$index].Value" />
+                        <button type="submit" class="btn btn-small btn-success">Lưu</button>
+                        <span class="help-button" data-trigger="click" data-placement="left" data-content="{{item.Comment}}" data-title="{{item.Name}}" popover>?</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

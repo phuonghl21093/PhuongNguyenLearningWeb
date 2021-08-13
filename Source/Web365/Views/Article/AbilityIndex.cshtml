@@ -1,0 +1,44 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Utility
+@model Web365Domain.ArticleTypeItem
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.Name;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    var otherArticles = ViewBag.OtherArticles as List<ArticleItem>;
+    var otherCates = ViewBag.OtherCategories as List<ArticleTypeItem>;
+}
+
+@if (Model != null)
+{
+    <section id="title-wrapper">
+        <div class="container p-t-15">
+            <ol class="breadcrumb">
+                <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, ResourceLanguage.Home, string.Empty)</li>
+                @if (Model.Parent.HasValue && Model.Parent.Value != 0)
+                {
+                    <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, Model.ParentName, Model.ParentAscii)</li>
+                }
+                <li>@Model.Name</li>
+            </ol>
+        </div>
+    </section>
+    <div class="container p-t-15">
+        <div class="center-title red-border-bottom margin-btm-20">
+            <div class="box-content">
+                <h3 class="text-left">@ViewBag.ParentName</h3>
+            </div>
+            <div class="border-width left-align"></div>
+        </div>
+        <div class="row blog-row">
+            <div class="col-md-9">
+                @Html.Action("AbilityDetail", new { type = Model.ID })
+            </div>
+            <div class="col-md-3">
+                @Html.Action("RightBarInNews", new { typeId = Convert.ToInt32(System.Configuration.ConfigurationManager.AppSettings["RightPageAbility"].ToString()) })
+            </div>
+        </div>
+    </div>
+}

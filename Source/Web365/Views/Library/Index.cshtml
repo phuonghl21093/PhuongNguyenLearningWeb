@@ -1,0 +1,81 @@
+﻿@using Web365.App_Code
+@{
+    ViewBag.Title = ResourceLanguage.Library;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="title-wrapper" style="background-image: url('/Content/uploads/tp_image05.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-holder">
+                    <div class="title-holder-cell text-left">
+                        <h1 class="page-title"><span>@ResourceLanguage.Document</span></h1>
+                        <ol class="breadcrumb">
+                            <li>@HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, ResourceLanguage.Home, string.Empty)</li>
+                            <li>@ResourceLanguage.Document</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="content-wrapper" class="not-vc">
+    <div class="container">
+        <div class="row">
+            @Html.Action("FeaturedImage")
+            @Html.Action("FeaturedVideo")
+            @Html.Action("FeaturedDocument")
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        document.getElementById('libs').addEventListener('load', function () {
+			setTimeout(function(){
+            jQuery('.zoom-gallery').magnificPopup({
+                    delegate: 'a',
+                    type: 'image',
+                    closeOnContentClick: false,
+                    closeBtnInside: false,
+                    mainClass: 'mfp-with-zoom mfp-img-mobile',
+                    image: {
+                        verticalFit: true,
+                        titleSrc: function(item) {
+                            return item.el.attr('title');
+                        }
+                    },
+                    gallery: {
+                        enabled: true
+                    },
+                    zoom: {
+                        enabled: true,
+                        duration: 300, // don't foget to change the duration also in CSS
+                        opener: function(element) {
+                            return element.find('img');
+                        }
+                    }
+                });
+
+            jQuery('.popup-video').magnificPopup({
+                    disableOn: 700,
+                    type: 'iframe',
+                    mainClass: 'mfp-fade',
+                    removalDelay: 160,
+                    preloader: false,
+
+                    fixedContentPos: false
+                });
+            //});
+        }, 1000);
+        });
+    </script>
+}
+
+
+
+
