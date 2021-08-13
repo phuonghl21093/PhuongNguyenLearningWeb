@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365", "Web365\Web365.csproj", "{85FEBCDC-0A2B-4280-88A2-669CC625CC4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Admin", "Web365Admin\Web365Admin.csproj", "{FED49BA5-0389-454A-86C4-E931F321C141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Base", "Web365Base\Web365Base.csproj", "{26C182E5-EF9B-4167-8A59-3B1208ED5DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Business", "Web365Business\Web365Business.csproj", "{CBFFD1FF-F5D2-4870-88A8-A21C2FD4E5DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Cached", "Web365Cached\Web365Cached.csproj", "{8B4EEAC6-E76E-4D9F-A03D-82ABAED2AA9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365DA", "Web365DA\Web365DA.csproj", "{18CC2EA2-9F84-49F6-96AE-A17AF9B7A212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Domain", "Web365Domain\Web365Domain.csproj", "{5D7C6C3B-B6F2-4F4D-B97E-B1DC76AFC303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Models", "Web365Models\Web365Models.csproj", "{FCC4FAC7-E0AE-493A-A76C-5139798B42C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Utility", "Web365Utility\Web365Utility.csproj", "{E2038272-8DCC-454D-A423-F5CEF009C346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web365Api", "Web365Api\Web365Api.csproj", "{EB11580B-59F9-4F3E-AB43-8FAB1DCA9AE2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://125.212.226.147:8080/tfs/ghdc
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Web365\\Web365.csproj
+		SccProjectName1 = Web365
+		SccLocalPath1 = Web365
+		SccProjectUniqueName2 = Web365Admin\\Web365Admin.csproj
+		SccProjectName2 = Web365Admin
+		SccLocalPath2 = Web365Admin
+		SccProjectUniqueName3 = Web365Api\\Web365Api.csproj
+		SccProjectName3 = Web365Api
+		SccLocalPath3 = Web365Api
+		SccProjectUniqueName4 = Web365Base\\Web365Base.csproj
+		SccProjectName4 = Web365Base
+		SccLocalPath4 = Web365Base
+		SccProjectUniqueName5 = Web365Business\\Web365Business.csproj
+		SccProjectName5 = Web365Business
+		SccLocalPath5 = Web365Business
+		SccProjectUniqueName6 = Web365Cached\\Web365Cached.csproj
+		SccProjectName6 = Web365Cached
+		SccLocalPath6 = Web365Cached
+		SccProjectUniqueName7 = Web365DA\\Web365DA.csproj
+		SccProjectName7 = Web365DA
+		SccLocalPath7 = Web365DA
+		SccProjectUniqueName8 = Web365Domain\\Web365Domain.csproj
+		SccProjectName8 = Web365Domain
+		SccLocalPath8 = Web365Domain
+		SccProjectUniqueName9 = Web365Models\\Web365Models.csproj
+		SccProjectName9 = Web365Models
+		SccLocalPath9 = Web365Models
+		SccProjectUniqueName10 = Web365Utility\\Web365Utility.csproj
+		SccProjectName10 = Web365Utility
+		SccLocalPath10 = Web365Utility
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85FEBCDC-0A2B-4280-88A2-669CC625CC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FEBCDC-0A2B-4280-88A2-669CC625CC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FEBCDC-0A2B-4280-88A2-669CC625CC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FEBCDC-0A2B-4280-88A2-669CC625CC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED49BA5-0389-454A-86C4-E931F321C141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED49BA5-0389-454A-86C4-E931F321C141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED49BA5-0389-454A-86C4-E931F321C141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED49BA5-0389-454A-86C4-E931F321C141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C182E5-EF9B-4167-8A59-3B1208ED5DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C182E5-EF9B-4167-8A59-3B1208ED5DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C182E5-EF9B-4167-8A59-3B1208ED5DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C182E5-EF9B-4167-8A59-3B1208ED5DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBFFD1FF-F5D2-4870-88A8-A21C2FD4E5DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBFFD1FF-F5D2-4870-88A8-A21C2FD4E5DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBFFD1FF-F5D2-4870-88A8-A21C2FD4E5DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBFFD1FF-F5D2-4870-88A8-A21C2FD4E5DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4EEAC6-E76E-4D9F-A03D-82ABAED2AA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4EEAC6-E76E-4D9F-A03D-82ABAED2AA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4EEAC6-E76E-4D9F-A03D-82ABAED2AA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4EEAC6-E76E-4D9F-A03D-82ABAED2AA9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18CC2EA2-9F84-49F6-96AE-A17AF9B7A212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18CC2EA2-9F84-49F6-96AE-A17AF9B7A212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18CC2EA2-9F84-49F6-96AE-A17AF9B7A212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18CC2EA2-9F84-49F6-96AE-A17AF9B7A212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7C6C3B-B6F2-4F4D-B97E-B1DC76AFC303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7C6C3B-B6F2-4F4D-B97E-B1DC76AFC303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7C6C3B-B6F2-4F4D-B97E-B1DC76AFC303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7C6C3B-B6F2-4F4D-B97E-B1DC76AFC303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC4FAC7-E0AE-493A-A76C-5139798B42C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC4FAC7-E0AE-493A-A76C-5139798B42C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC4FAC7-E0AE-493A-A76C-5139798B42C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC4FAC7-E0AE-493A-A76C-5139798B42C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2038272-8DCC-454D-A423-F5CEF009C346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2038272-8DCC-454D-A423-F5CEF009C346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2038272-8DCC-454D-A423-F5CEF009C346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2038272-8DCC-454D-A423-F5CEF009C346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB11580B-59F9-4F3E-AB43-8FAB1DCA9AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB11580B-59F9-4F3E-AB43-8FAB1DCA9AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB11580B-59F9-4F3E-AB43-8FAB1DCA9AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB11580B-59F9-4F3E-AB43-8FAB1DCA9AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{18CC2EA2-9F84-49F6-96AE-A17AF9B7A212}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web365DA</RootNamespace>
+    <AssemblyName>Web365DA</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RDBMS\Back-End\BaseBE.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IAdvertiesDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IAdvertiesPictureMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IArticleDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IArticleGroupDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IArticleGroupMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IArticleGroupTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IArticleGroupTypeMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IArticleTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IBaseDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\ICommentDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IContactDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\ICustomerDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IDatabaseDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IDistributorDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IFileDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IFileTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IGroupLayoutContentDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\ILanguageDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\ILayoutContentDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IManufacturerDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IMenuDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IOrderDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IPictureDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IPictureTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductAttributeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductFilterDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductGroupAttributeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductLabelDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductStatusDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductStatusMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductTypeGroupDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductTypeGroupMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IProductVariantDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IReceiveInfoDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IReceiveInfoGroupDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\ISettingDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\ISupportDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\ISupportTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IUserDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IUserPageDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IUserRoleDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IVideoDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\IRepository\IVideoTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\AdvertiesDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\AdvertiesPictureMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ArticleDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ArticleGroupDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ArticleGroupMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ArticleGroupTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ArticleGroupTypeMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ArticleTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\CommentDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ContactDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\CustomerDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\DatabaseDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\DistributorDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\FileDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\FileTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\GroupLayoutContentDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\LanguageDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\LayoutContentDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ManufacturerDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\MenuDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\OrderDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\PictureDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\PictureTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductAttributeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductFilterDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductGroupAttributeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductLabelDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductStatusDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductStatusMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductTypeGroupDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductTypeGroupMapDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ProductVariantDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ReceiveInfoDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\ReceiveInfoGroupDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\SettingDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\SupportDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\SupportTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\UserDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\UserPageDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\UserRoleDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\VideoDABERepository.cs" />
+    <Compile Include="RDBMS\Back-End\Repository\VideoTypeDABERepository.cs" />
+    <Compile Include="RDBMS\Front-End\BaseFE.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IAdvertiesDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IArticleDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IArticleTypeDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IFileDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\ILanguageDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\ILayoutContentDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IMenuDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IOrderDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\ISettingDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IOtherDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IPictureDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\IRepository\IVideoDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\AdvertiesDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\ArticleDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\ArticleTypeDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\FileDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\LanguageDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\LayoutContentDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\MenuDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\OrderDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\SettingDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\OtherDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\PictureDAFERepository.cs" />
+    <Compile Include="RDBMS\Front-End\Repository\VideoDAFERepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NoSQL\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Web365Base\Web365Base.csproj">
+      <Project>{26c182e5-ef9b-4167-8a59-3b1208ed5df0}</Project>
+      <Name>Web365Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Web365Domain\Web365Domain.csproj">
+      <Project>{5d7c6c3b-b6f2-4f4d-b97e-b1dc76afc303}</Project>
+      <Name>Web365Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Web365Models\Web365Models.csproj">
+      <Project>{fcc4fac7-e0ae-493a-a76c-5139798b42c9}</Project>
+      <Name>Web365Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Web365Utility\Web365Utility.csproj">
+      <Project>{e2038272-8dcc-454d-a423-f5cef009c346}</Project>
+      <Name>Web365Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

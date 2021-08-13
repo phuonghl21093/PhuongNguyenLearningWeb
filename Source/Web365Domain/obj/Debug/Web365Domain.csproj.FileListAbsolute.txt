@@ -1,0 +1,37 @@
+E:\GHD\TFS\Hicon\Web365\Web365Domain\bin\Debug\Web365Domain.dll
+E:\GHD\TFS\Hicon\Web365\Web365Domain\bin\Debug\Web365Domain.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Domain\obj\Debug\Web365Domain.csprojResolveAssemblyReference.cache
+E:\GHD\TFS\Hicon\Web365\Web365Domain\obj\Debug\Web365Domain.dll
+E:\GHD\TFS\Hicon\Web365\Web365Domain\obj\Debug\Web365Domain.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Domain\bin\Debug\Web365Domain.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Domain\bin\Debug\Web365Domain.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Domain\obj\Debug\Web365Domain.csprojResolveAssemblyReference.cache
+E:\GHD\TFS\ThaiSon\Source\Web365Domain\obj\Debug\Web365Domain.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Domain\obj\Debug\Web365Domain.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Domain\bin\Debug\Web365Domain.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Domain\bin\Debug\Web365Domain.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Domain\obj\Debug\Web365Domain.csprojResolveAssemblyReference.cache
+E:\Projects\TFS\ThaiSon\Source\Web365Domain\obj\Debug\Web365Domain.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Domain\obj\Debug\Web365Domain.pdb
+D:\Source\Source\Web365Domain\bin\Debug\Web365Domain.dll
+D:\Source\Source\Web365Domain\bin\Debug\Web365Domain.pdb
+D:\Source\Source\Web365Domain\obj\Debug\Web365Domain.csproj.CoreCompileInputs.cache
+D:\Source\Source\Web365Domain\obj\Debug\Web365Domain.dll
+D:\Source\Source\Web365Domain\obj\Debug\Web365Domain.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Domain\bin\Debug\Web365Domain.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Domain\bin\Debug\Web365Domain.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Domain\obj\Debug\Web365Domain.csproj.CoreCompileInputs.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Domain\obj\Debug\Web365Domain.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Domain\obj\Debug\Web365Domain.pdb
+G:\CongViec\WebCongTy\Source\Web365Domain\bin\Debug\Web365Domain.dll
+G:\CongViec\WebCongTy\Source\Web365Domain\bin\Debug\Web365Domain.pdb
+G:\CongViec\WebCongTy\Source\Web365Domain\obj\Debug\Web365Domain.csproj.CoreCompileInputs.cache
+G:\CongViec\WebCongTy\Source\Web365Domain\obj\Debug\Web365Domain.dll
+G:\CongViec\WebCongTy\Source\Web365Domain\obj\Debug\Web365Domain.pdb
+G:\CongViec\WebCongTy\Source\Web365Domain\obj\Debug\Web365Domain.csprojAssemblyReference.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Domain\bin\Debug\Web365Domain.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Domain\bin\Debug\Web365Domain.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Domain\obj\Debug\Web365Domain.csprojAssemblyReference.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Domain\obj\Debug\Web365Domain.csproj.CoreCompileInputs.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Domain\obj\Debug\Web365Domain.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Domain\obj\Debug\Web365Domain.pdb
