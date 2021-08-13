@@ -1,0 +1,1221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HiconModelStoreContainer" CdmEntityContainer="Entities365">
+    <FunctionImportMapping FunctionName="HiconModel.Store.SplitString" FunctionImportName="SplitString">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.SplitString_Result">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionName="HiconModel.Store.SplitStringWithOrder" FunctionImportName="SplitStringWithOrder">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.SplitStringWithOrder_Result">
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_AllChildTypeNews" FunctionName="HiconModel.Store.PRC_AllChildTypeNews">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_AllChildTypeNews_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="UrlPicture" ColumnName="UrlPicture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_AllChildTypeNewsByArrID" FunctionName="HiconModel.Store.PRC_AllChildTypeNewsByArrID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_AllChildTypeNewsByArrID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="ID1" ColumnName="ID1" />
+          <ScalarProperty Name="Name1" ColumnName="Name1" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Alt" ColumnName="Alt" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="IsShow1" ColumnName="IsShow1" />
+          <ScalarProperty Name="IsDeleted1" ColumnName="IsDeleted1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_AllChildTypePicureByArrID" FunctionName="HiconModel.Store.PRC_AllChildTypePicureByArrID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_AllChildTypePicureByArrID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_File_GetFileByType" FunctionName="HiconModel.Store.PRC_File_GetFileByType" />
+    <FunctionImportMapping FunctionImportName="PRC_FilterByParentAscii" FunctionName="HiconModel.Store.PRC_FilterByParentAscii">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_FilterByParentAscii_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="ParentName" ColumnName="ParentName" />
+          <ScalarProperty Name="ParentAscii" ColumnName="ParentAscii" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_FilterByParentId" FunctionName="HiconModel.Store.PRC_FilterByParentId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_FilterByParentId_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_GetListNewsByType" FunctionName="HiconModel.Store.PRC_GetListNewsByType" />
+    <FunctionImportMapping FunctionImportName="PRC_GetListProductByType" FunctionName="HiconModel.Store.PRC_GetListProductByType" />
+    <FunctionImportMapping FunctionImportName="PRC_GetMenu" FunctionName="HiconModel.Store.PRC_GetMenu">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_GetMenu_Result">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="ClassAtrtibute" ColumnName="ClassAtrtibute" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="HasChild" ColumnName="HasChild" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_InsertFilterForProduct" FunctionName="HiconModel.Store.PRC_InsertFilterForProduct" />
+    <FunctionImportMapping FunctionImportName="PRC_InsertLabelForProduct" FunctionName="HiconModel.Store.PRC_InsertLabelForProduct" />
+    <FunctionImportMapping FunctionImportName="PRC_InsertPageForRole" FunctionName="HiconModel.Store.PRC_InsertPageForRole" />
+    <FunctionImportMapping FunctionImportName="PRC_InsertRoleForUser" FunctionName="HiconModel.Store.PRC_InsertRoleForUser" />
+    <FunctionImportMapping FunctionImportName="PRC_MenuByParentId" FunctionName="HiconModel.Store.PRC_MenuByParentId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_MenuByParentId_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="CssClass" ColumnName="CssClass" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_Picture_GetPictureByType" FunctionName="HiconModel.Store.PRC_Picture_GetPictureByType" />
+    <FunctionImportMapping FunctionImportName="PRC_Product_GetAllChildTypeByParentID" FunctionName="HiconModel.Store.PRC_Product_GetAllChildTypeByParentID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="HiconModel.PRC_Product_GetAllChildTypeByParentID_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="UrlPicture" ColumnName="UrlPicture" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="PRC_Product_GetProductByType" FunctionName="HiconModel.Store.PRC_Product_GetProductByType" />
+    <FunctionImportMapping FunctionImportName="PRC_ResetFileProduct" FunctionName="HiconModel.Store.PRC_ResetFileProduct" />
+    <FunctionImportMapping FunctionImportName="PRC_ResetPictureArticle" FunctionName="HiconModel.Store.PRC_ResetPictureArticle" />
+    <FunctionImportMapping FunctionImportName="PRC_ResetPictureLayoutContent" FunctionName="HiconModel.Store.PRC_ResetPictureLayoutContent" />
+    <FunctionImportMapping FunctionImportName="PRC_ResetPictureProduct" FunctionName="HiconModel.Store.PRC_ResetPictureProduct" />
+    <FunctionImportMapping FunctionImportName="PRC_ResetPictureProductType" FunctionName="HiconModel.Store.PRC_ResetPictureProductType" />
+    <FunctionImportMapping FunctionImportName="PRC_Video_GetVideoByType" FunctionName="HiconModel.Store.PRC_Video_GetVideoByType" />
+    <FunctionImportMapping FunctionImportName="SQLNET_EvalResultSet" FunctionName="HiconModel.Store.SQLNET_EvalResultSet" />
+    <FunctionImportMapping FunctionImportName="SQLNET_EvalTVF_String" FunctionName="HiconModel.Store.SQLNET_EvalTVF_String" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="HiconModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="HiconModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="HiconModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="HiconModel.Store.sp_helpdiagramdefinition" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="HiconModel.Store.sp_helpdiagrams" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="HiconModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="HiconModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="HiconModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="HiconModel.AspNetRoles">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="HiconModel.AspNetUserClaims">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="HiconModel.AspNetUserLogins">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="HiconModel.AspNetUsers">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="HiconModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAdverties_Picture_Map">
+      <EntityTypeMapping TypeName="HiconModel.tblAdverties_Picture_Map">
+        <MappingFragment StoreEntitySet="tblAdverties_Picture_Map">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="AdvertiesID" ColumnName="AdvertiesID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAdvertise">
+      <EntityTypeMapping TypeName="HiconModel.tblAdvertise">
+        <MappingFragment StoreEntitySet="tblAdvertise">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblArticle">
+      <EntityTypeMapping TypeName="HiconModel.tblArticle">
+        <MappingFragment StoreEntitySet="tblArticle">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Viewed" ColumnName="Viewed" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="IconCss" ColumnName="IconCss" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="TitleAscii" ColumnName="TitleAscii" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblComment">
+      <EntityTypeMapping TypeName="HiconModel.tblComment">
+        <MappingFragment StoreEntitySet="tblComment">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsReslove" ColumnName="IsReslove" />
+          <ScalarProperty Name="IsApprove" ColumnName="IsApprove" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Url" ColumnName="Url" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblContact">
+      <EntityTypeMapping TypeName="HiconModel.tblContact">
+        <MappingFragment StoreEntitySet="tblContact">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsViewed" ColumnName="IsViewed" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Message" ColumnName="Message" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomer">
+      <EntityTypeMapping TypeName="HiconModel.tblCustomer">
+        <MappingFragment StoreEntitySet="tblCustomer">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="DateExpiredToken" ColumnName="DateExpiredToken" />
+          <ScalarProperty Name="Token" ColumnName="Token" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="BirthDay" ColumnName="BirthDay" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDetail">
+      <EntityTypeMapping TypeName="HiconModel.tblDetail">
+        <MappingFragment StoreEntitySet="tblDetail">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDistributor">
+      <EntityTypeMapping TypeName="HiconModel.tblDistributor">
+        <MappingFragment StoreEntitySet="tblDistributor">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblDomain">
+      <EntityTypeMapping TypeName="HiconModel.tblDomain">
+        <MappingFragment StoreEntitySet="tblDomain">
+          <ScalarProperty Name="FileCss" ColumnName="FileCss" />
+          <ScalarProperty Name="TypeProductID" ColumnName="TypeProductID" />
+          <ScalarProperty Name="Domain" ColumnName="Domain" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFile">
+      <EntityTypeMapping TypeName="HiconModel.tblFile">
+        <MappingFragment StoreEntitySet="tblFile">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGroup_Article_Map">
+      <EntityTypeMapping TypeName="HiconModel.tblGroup_Article_Map">
+        <MappingFragment StoreEntitySet="tblGroup_Article_Map">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="NewsID" ColumnName="NewsID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGroup_TypeArticle_Map">
+      <EntityTypeMapping TypeName="HiconModel.tblGroup_TypeArticle_Map">
+        <MappingFragment StoreEntitySet="tblGroup_TypeArticle_Map">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="GroupTypeID" ColumnName="GroupTypeID" />
+          <ScalarProperty Name="ArticleTypeID" ColumnName="ArticleTypeID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGroupArticle">
+      <EntityTypeMapping TypeName="HiconModel.tblGroupArticle">
+        <MappingFragment StoreEntitySet="tblGroupArticle">
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblGroupTypeArticle">
+      <EntityTypeMapping TypeName="HiconModel.tblGroupTypeArticle">
+        <MappingFragment StoreEntitySet="tblGroupTypeArticle">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLanguage">
+      <EntityTypeMapping TypeName="HiconModel.tblLanguage">
+        <MappingFragment StoreEntitySet="tblLanguage">
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLayoutContent">
+      <EntityTypeMapping TypeName="HiconModel.tblLayoutContent">
+        <MappingFragment StoreEntitySet="tblLayoutContent">
+          <ScalarProperty Name="GroupNumber" ColumnName="GroupNumber" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IconClassCss" ColumnName="IconClassCss" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="LayoutGroupId" ColumnName="LayoutGroupId" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLayoutContent_Picture_Map">
+      <EntityTypeMapping TypeName="HiconModel.tblLayoutContent_Picture_Map">
+        <MappingFragment StoreEntitySet="tblLayoutContent_Picture_Map">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="LayoutContentID" ColumnName="LayoutContentID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblLayoutGroup">
+      <EntityTypeMapping TypeName="HiconModel.tblLayoutGroup">
+        <MappingFragment StoreEntitySet="tblLayoutGroup">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblManufacturer">
+      <EntityTypeMapping TypeName="HiconModel.tblManufacturer">
+        <MappingFragment StoreEntitySet="tblManufacturer">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblMenu">
+      <EntityTypeMapping TypeName="HiconModel.tblMenu">
+        <MappingFragment StoreEntitySet="tblMenu">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="CssClass" ColumnName="CssClass" />
+          <ScalarProperty Name="Target" ColumnName="Target" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOrder">
+      <EntityTypeMapping TypeName="HiconModel.tblOrder">
+        <MappingFragment StoreEntitySet="tblOrder">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsViewed" ColumnName="IsViewed" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="Note" ColumnName="Note" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="TotalCost" ColumnName="TotalCost" />
+          <ScalarProperty Name="OrderStatusID" ColumnName="OrderStatusID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOrder_Shipping">
+      <EntityTypeMapping TypeName="HiconModel.tblOrder_Shipping">
+        <MappingFragment StoreEntitySet="tblOrder_Shipping">
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOrder_Status">
+      <EntityTypeMapping TypeName="HiconModel.tblOrder_Status">
+        <MappingFragment StoreEntitySet="tblOrder_Status">
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblOrderDetail">
+      <EntityTypeMapping TypeName="HiconModel.tblOrderDetail">
+        <MappingFragment StoreEntitySet="tblOrderDetail">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductVariantID" ColumnName="ProductVariantID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPage">
+      <EntityTypeMapping TypeName="HiconModel.tblPage">
+        <MappingFragment StoreEntitySet="tblPage">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="HasChild" ColumnName="HasChild" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="ClassAtrtibute" ColumnName="ClassAtrtibute" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPicture">
+      <EntityTypeMapping TypeName="HiconModel.tblPicture">
+        <MappingFragment StoreEntitySet="tblPicture">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Size" ColumnName="Size" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="Alt" ColumnName="Alt" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProduct">
+      <EntityTypeMapping TypeName="HiconModel.tblProduct">
+        <MappingFragment StoreEntitySet="tblProduct">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Viewed" ColumnName="Viewed" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="HighLights" ColumnName="HighLights" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Distributor" ColumnName="Distributor" />
+          <ScalarProperty Name="Manufacturer" ColumnName="Manufacturer" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProduct_Attribute_Map">
+      <EntityTypeMapping TypeName="HiconModel.tblProduct_Attribute_Map">
+        <MappingFragment StoreEntitySet="tblProduct_Attribute_Map">
+          <ScalarProperty Name="AttributeID" ColumnName="AttributeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProduct_Status_Map">
+      <EntityTypeMapping TypeName="HiconModel.tblProduct_Status_Map">
+        <MappingFragment StoreEntitySet="tblProduct_Status_Map">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="ProductStatusID" ColumnName="ProductStatusID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProduct_Variant">
+      <EntityTypeMapping TypeName="HiconModel.tblProduct_Variant">
+        <MappingFragment StoreEntitySet="tblProduct_Variant">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="IsOutOfStock" ColumnName="IsOutOfStock" />
+          <ScalarProperty Name="VAT" ColumnName="VAT" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductAttribute">
+      <EntityTypeMapping TypeName="HiconModel.tblProductAttribute">
+        <MappingFragment StoreEntitySet="tblProductAttribute">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdaetdBy" ColumnName="UpdaetdBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductFilter">
+      <EntityTypeMapping TypeName="HiconModel.tblProductFilter">
+        <MappingFragment StoreEntitySet="tblProductFilter">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductGroupAttribute">
+      <EntityTypeMapping TypeName="HiconModel.tblProductGroupAttribute">
+        <MappingFragment StoreEntitySet="tblProductGroupAttribute">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductLabel">
+      <EntityTypeMapping TypeName="HiconModel.tblProductLabel">
+        <MappingFragment StoreEntitySet="tblProductLabel">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductStatus">
+      <EntityTypeMapping TypeName="HiconModel.tblProductStatus">
+        <MappingFragment StoreEntitySet="tblProductStatus">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductType_Group_Map">
+      <EntityTypeMapping TypeName="HiconModel.tblProductType_Group_Map">
+        <MappingFragment StoreEntitySet="tblProductType_Group_Map">
+          <ScalarProperty Name="DisplayOrder" ColumnName="DisplayOrder" />
+          <ScalarProperty Name="GroupTypeID" ColumnName="GroupTypeID" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblProductTypeGroup">
+      <EntityTypeMapping TypeName="HiconModel.tblProductTypeGroup">
+        <MappingFragment StoreEntitySet="tblProductTypeGroup">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblReceiveInfo">
+      <EntityTypeMapping TypeName="HiconModel.tblReceiveInfo">
+        <MappingFragment StoreEntitySet="tblReceiveInfo">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblReceiveInfoGroup">
+      <EntityTypeMapping TypeName="HiconModel.tblReceiveInfoGroup">
+        <MappingFragment StoreEntitySet="tblReceiveInfoGroup">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSetting">
+      <EntityTypeMapping TypeName="HiconModel.tblSetting">
+        <MappingFragment StoreEntitySet="tblSetting">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSupport">
+      <EntityTypeMapping TypeName="HiconModel.tblSupport">
+        <MappingFragment StoreEntitySet="tblSupport">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Skype" ColumnName="Skype" />
+          <ScalarProperty Name="Yahoo" ColumnName="Yahoo" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTypeArticle">
+      <EntityTypeMapping TypeName="HiconModel.tblTypeArticle">
+        <MappingFragment StoreEntitySet="tblTypeArticle">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="IconCss" ColumnName="IconCss" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTypeFile">
+      <EntityTypeMapping TypeName="HiconModel.tblTypeFile">
+        <MappingFragment StoreEntitySet="tblTypeFile">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTypeLog">
+      <EntityTypeMapping TypeName="HiconModel.tblTypeLog">
+        <MappingFragment StoreEntitySet="tblTypeLog">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTypePicture">
+      <EntityTypeMapping TypeName="HiconModel.tblTypePicture">
+        <MappingFragment StoreEntitySet="tblTypePicture">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTypeProduct">
+      <EntityTypeMapping TypeName="HiconModel.tblTypeProduct">
+        <MappingFragment StoreEntitySet="tblTypeProduct">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTypeSupport">
+      <EntityTypeMapping TypeName="HiconModel.tblTypeSupport">
+        <MappingFragment StoreEntitySet="tblTypeSupport">
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTypeVideo">
+      <EntityTypeMapping TypeName="HiconModel.tblTypeVideo">
+        <MappingFragment StoreEntitySet="tblTypeVideo">
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdateBy" ColumnName="UpdateBy" />
+          <ScalarProperty Name="CreateBy" ColumnName="CreateBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Parent" ColumnName="Parent" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblVideo">
+      <EntityTypeMapping TypeName="HiconModel.tblVideo">
+        <MappingFragment StoreEntitySet="tblVideo">
+          <ScalarProperty Name="RootId" ColumnName="RootId" />
+          <ScalarProperty Name="LanguageId" ColumnName="LanguageId" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="DateUpdated" ColumnName="DateUpdated" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="SEOKeyword" ColumnName="SEOKeyword" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="PictureID" ColumnName="PictureID" />
+          <ScalarProperty Name="FileID" ColumnName="FileID" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="Link" ColumnName="Link" />
+          <ScalarProperty Name="TypeID" ColumnName="TypeID" />
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="NameAscii" ColumnName="NameAscii" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tempDelete">
+      <EntityTypeMapping TypeName="HiconModel.tempDelete">
+        <MappingFragment StoreEntitySet="tempDelete">
+          <ScalarProperty Name="ArticleDeleteId" ColumnName="ArticleDeleteId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="AspNetUserRoles" TypeName="HiconModel.AspNetUserRoles" StoreEntitySet="AspNetUserRoles">
+      <EndProperty Name="AspNetUsers">
+        <ScalarProperty Name="Id" ColumnName="UserId" />
+      </EndProperty>
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblArticle_Picture_Map" TypeName="HiconModel.tblArticle_Picture_Map" StoreEntitySet="tblArticle_Picture_Map">
+      <EndProperty Name="tblPicture">
+        <ScalarProperty Name="ID" ColumnName="PictureID" />
+      </EndProperty>
+      <EndProperty Name="tblArticle">
+        <ScalarProperty Name="ID" ColumnName="ArticleID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblPage_Role" TypeName="HiconModel.tblPage_Role" StoreEntitySet="tblPage_Role">
+      <EndProperty Name="tblPage">
+        <ScalarProperty Name="ID" ColumnName="PageId" />
+      </EndProperty>
+      <EndProperty Name="AspNetRoles">
+        <ScalarProperty Name="Id" ColumnName="RoleId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblProduct_File_Map" TypeName="HiconModel.tblProduct_File_Map" StoreEntitySet="tblProduct_File_Map">
+      <EndProperty Name="tblProduct">
+        <ScalarProperty Name="ID" ColumnName="ProductID" />
+      </EndProperty>
+      <EndProperty Name="tblFile">
+        <ScalarProperty Name="ID" ColumnName="FileID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblProduct_Filter_Map" TypeName="HiconModel.tblProduct_Filter_Map" StoreEntitySet="tblProduct_Filter_Map">
+      <EndProperty Name="tblProductFilter">
+        <ScalarProperty Name="ID" ColumnName="FilterID" />
+      </EndProperty>
+      <EndProperty Name="tblProduct">
+        <ScalarProperty Name="ID" ColumnName="ProductID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblProduct_Label_Map" TypeName="HiconModel.tblProduct_Label_Map" StoreEntitySet="tblProduct_Label_Map">
+      <EndProperty Name="tblProductLabel">
+        <ScalarProperty Name="ID" ColumnName="ProductLabelID" />
+      </EndProperty>
+      <EndProperty Name="tblProduct">
+        <ScalarProperty Name="ID" ColumnName="ProductID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblProduct_Picture_Map" TypeName="HiconModel.tblProduct_Picture_Map" StoreEntitySet="tblProduct_Picture_Map">
+      <EndProperty Name="tblProduct">
+        <ScalarProperty Name="ID" ColumnName="ProductID" />
+      </EndProperty>
+      <EndProperty Name="tblPicture">
+        <ScalarProperty Name="ID" ColumnName="PictureID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="tblTypeProduct_Picture_Map" TypeName="HiconModel.tblTypeProduct_Picture_Map" StoreEntitySet="tblTypeProduct_Picture_Map">
+      <EndProperty Name="tblTypeProduct">
+        <ScalarProperty Name="ID" ColumnName="ProductTypeID" />
+      </EndProperty>
+      <EndProperty Name="tblPicture">
+        <ScalarProperty Name="ID" ColumnName="PictureID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

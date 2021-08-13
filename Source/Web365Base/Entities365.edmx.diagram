@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d66d721d0274542b5f5d19ea5de845d" Name="Diagram1" ZoomLevel="39">
+        <EntityTypeShape EntityType="HiconModel.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="9.75" />
+        <EntityTypeShape EntityType="HiconModel.AspNetRoles" Width="1.5" PointX="0.75" PointY="5.5" />
+        <EntityTypeShape EntityType="HiconModel.AspNetUserClaims" Width="1.5" PointX="5.25" PointY="9.125" />
+        <EntityTypeShape EntityType="HiconModel.AspNetUserLogins" Width="1.5" PointX="5.25" PointY="6.625" />
+        <EntityTypeShape EntityType="HiconModel.AspNetUsers" Width="1.5" PointX="3" PointY="6.375" />
+        <EntityTypeShape EntityType="HiconModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="9.75" />
+        <EntityTypeShape EntityType="HiconModel.tblAdverties_Picture_Map" Width="1.5" PointX="13.5" PointY="60.75" />
+        <EntityTypeShape EntityType="HiconModel.tblAdvertise" Width="1.5" PointX="11.25" PointY="54" />
+        <EntityTypeShape EntityType="HiconModel.tblArticle" Width="1.5" PointX="6" PointY="59.875" />
+        <EntityTypeShape EntityType="HiconModel.tblComment" Width="1.5" PointX="15.75" PointY="55.375" />
+        <EntityTypeShape EntityType="HiconModel.tblContact" Width="1.5" PointX="10.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HiconModel.tblCustomer" Width="1.5" PointX="13.5" PointY="49.375" />
+        <EntityTypeShape EntityType="HiconModel.tblDetail" Width="1.5" PointX="11.75" PointY="9.75" />
+        <EntityTypeShape EntityType="HiconModel.tblDistributor" Width="1.5" PointX="13.5" PointY="64.625" />
+        <EntityTypeShape EntityType="HiconModel.tblDomain" Width="1.5" PointX="12.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HiconModel.tblFile" Width="1.5" PointX="16.5" PointY="66.875" />
+        <EntityTypeShape EntityType="HiconModel.tblGroup_Article_Map" Width="1.5" PointX="8.25" PointY="61.75" />
+        <EntityTypeShape EntityType="HiconModel.tblGroup_TypeArticle_Map" Width="1.5" PointX="21.75" PointY="91.125" />
+        <EntityTypeShape EntityType="HiconModel.tblGroupArticle" Width="1.5" PointX="18.5" PointY="53.375" />
+        <EntityTypeShape EntityType="HiconModel.tblGroupTypeArticle" Width="1.5" PointX="13.5" PointY="120" />
+        <EntityTypeShape EntityType="HiconModel.tblLanguage" Width="1.5" PointX="0.75" PointY="60.5" />
+        <EntityTypeShape EntityType="HiconModel.tblLayoutContent" Width="1.5" PointX="13.5" PointY="70.5" />
+        <EntityTypeShape EntityType="HiconModel.tblLayoutContent_Picture_Map" Width="1.5" PointX="21.75" PointY="70.5" />
+        <EntityTypeShape EntityType="HiconModel.tblLayoutGroup" Width="1.5" PointX="3" PointY="72.75" />
+        <EntityTypeShape EntityType="HiconModel.tblManufacturer" Width="1.5" PointX="13.5" PointY="114.75" />
+        <EntityTypeShape EntityType="HiconModel.tblMenu" Width="1.5" PointX="3" PointY="56.625" />
+        <EntityTypeShape EntityType="HiconModel.tblOrder" Width="1.5" PointX="15.75" PointY="49.375" />
+        <EntityTypeShape EntityType="HiconModel.tblOrder_Shipping" Width="1.5" PointX="18" PointY="49.625" />
+        <EntityTypeShape EntityType="HiconModel.tblOrder_Status" Width="1.5" PointX="13.5" PointY="47" />
+        <EntityTypeShape EntityType="HiconModel.tblOrderDetail" Width="1.5" PointX="20.25" PointY="73.5" />
+        <EntityTypeShape EntityType="HiconModel.tblPage" Width="1.5" PointX="3" PointY="1.375" />
+        <EntityTypeShape EntityType="HiconModel.tblPicture" Width="1.5" PointX="11.25" PointY="58.875" />
+        <EntityTypeShape EntityType="HiconModel.tblProduct" Width="1.5" PointX="15.75" PointY="85.125" />
+        <EntityTypeShape EntityType="HiconModel.tblProduct_Attribute_Map" Width="1.5" PointX="20.25" PointY="98" />
+        <EntityTypeShape EntityType="HiconModel.tblProduct_Status_Map" Width="1.5" PointX="18" PointY="88" />
+        <EntityTypeShape EntityType="HiconModel.tblProduct_Variant" Width="1.5" PointX="18" PointY="94.125" />
+        <EntityTypeShape EntityType="HiconModel.tblProductAttribute" Width="1.5" PointX="18" PointY="109.375" />
+        <EntityTypeShape EntityType="HiconModel.tblProductFilter" Width="1.5" PointX="18" PointY="99.125" />
+        <EntityTypeShape EntityType="HiconModel.tblProductGroupAttribute" Width="1.5" PointX="15.75" PointY="109.375" />
+        <EntityTypeShape EntityType="HiconModel.tblProductLabel" Width="1.5" PointX="18" PointY="74.375" />
+        <EntityTypeShape EntityType="HiconModel.tblProductStatus" Width="1.5" PointX="15.75" PointY="79.875" />
+        <EntityTypeShape EntityType="HiconModel.tblProductType_Group_Map" Width="1.5" PointX="15.75" PointY="106.125" />
+        <EntityTypeShape EntityType="HiconModel.tblProductTypeGroup" Width="1.5" PointX="13.5" PointY="103" />
+        <EntityTypeShape EntityType="HiconModel.tblReceiveInfo" Width="1.5" PointX="10" PointY="6" />
+        <EntityTypeShape EntityType="HiconModel.tblReceiveInfoGroup" Width="1.5" PointX="7.75" PointY="6.125" />
+        <EntityTypeShape EntityType="HiconModel.tblSetting" Width="1.5" PointX="3" PointY="68.875" />
+        <EntityTypeShape EntityType="HiconModel.tblSupport" Width="1.5" PointX="8" PointY="1" />
+        <EntityTypeShape EntityType="HiconModel.tblTypeArticle" Width="1.5" PointX="19.5" PointY="59.875" />
+        <EntityTypeShape EntityType="HiconModel.tblTypeFile" Width="1.5" PointX="19.5" PointY="67.125" />
+        <EntityTypeShape EntityType="HiconModel.tblTypeLog" Width="1.5" PointX="0.75" PointY="12.75" />
+        <EntityTypeShape EntityType="HiconModel.tblTypePicture" Width="1.5" PointX="21.5" PointY="53.125" />
+        <EntityTypeShape EntityType="HiconModel.tblTypeProduct" Width="1.5" PointX="13.5" PointY="108.375" />
+        <EntityTypeShape EntityType="HiconModel.tblTypeSupport" Width="1.5" PointX="5.75" PointY="1.25" />
+        <EntityTypeShape EntityType="HiconModel.tblTypeVideo" Width="1.5" PointX="16.5" PointY="59.875" />
+        <EntityTypeShape EntityType="HiconModel.tblVideo" Width="1.5" PointX="21.75" PointY="63" />
+        <EntityTypeShape EntityType="HiconModel.tempDelete" Width="1.5" PointX="2.75" PointY="12.75" />
+        <AssociationConnector Association="HiconModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="HiconModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="HiconModel.FK_tblAdverties_Picture_tblAdvertise" />
+        <AssociationConnector Association="HiconModel.FK_tblAdverties_Picture_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblArticle_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblArticle_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblGroup_News_Map_tblNews" />
+        <AssociationConnector Association="HiconModel.FK_tblNews_tblTypeNews" />
+        <AssociationConnector Association="HiconModel.FK_tblComment_tblComment1" />
+        <AssociationConnector Association="HiconModel.FK_tblComment_tblCustomer" />
+        <AssociationConnector Association="HiconModel.FK_tblCustomer_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblOrder_tblCustomer" />
+        <AssociationConnector Association="HiconModel.FK_tblDistributor_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_tblDistributor" />
+        <AssociationConnector Association="HiconModel.FK_tblFile_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblFile_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblFile_tblTypeFile" />
+        <AssociationConnector Association="HiconModel.FK_tblVideo_tblFile" />
+        <AssociationConnector Association="HiconModel.FK_tblGroup_News_Map_tblGroupNews" />
+        <AssociationConnector Association="HiconModel.FK_tblGroup_TypeArticle_Map_tblGroupTypeArticle" />
+        <AssociationConnector Association="HiconModel.FK_tblGroup_TypeArticle_Map_tblTypeArticle" />
+        <AssociationConnector Association="HiconModel.FK_tblGroupArticle_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblGroupNews_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblGroupTypeArticle_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblLayoutContent_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblLayoutGroup_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblMenu_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblSetting_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeArticle_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeFile_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblTypePicture_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeVideo_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblVideo_tblLanguage" />
+        <AssociationConnector Association="HiconModel.FK_tblLayoutContent_Picture_Map_tblLayoutContent" />
+        <AssociationConnector Association="HiconModel.FK_tblLayoutContent_tblLayoutGroup" />
+        <AssociationConnector Association="HiconModel.FK_tblLayoutContent_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblLayoutContent_Picture_Map_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblManufacturer_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_tblManufacturer" />
+        <AssociationConnector Association="HiconModel.FK_tblMenu_tblMenu" />
+        <AssociationConnector Association="HiconModel.FK_tblOrder_Shipping_tblOrder" />
+        <AssociationConnector Association="HiconModel.FK_tblOrder_tblOrder_Status" />
+        <AssociationConnector Association="HiconModel.FK_tblOrderDetail_tblOrder" />
+        <AssociationConnector Association="HiconModel.FK_tblOrderDetail_tblProduct" />
+        <AssociationConnector Association="HiconModel.FK_tblOrderDetail_tblProduct_Variant" />
+        <AssociationConnector Association="HiconModel.FK_tblPage_tblPage" />
+        <AssociationConnector Association="HiconModel.FK_tblImage_tblTypeImage" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblProductLabel_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeArticle_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeFile_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeImage_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeProduct_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeVideo_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblVideo_tblPicture" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_Attribute_Map_tblProduct" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_Status_Map_tblProduct" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_tblTypeProduct" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_Variant_tblProduct" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_Attribute_Map_tblProductAttribute" />
+        <AssociationConnector Association="HiconModel.FK_tblProduct_Status_Map_tblProductStatus" />
+        <AssociationConnector Association="HiconModel.FK_tblProductAttribute_tblProductGroupAttribute" />
+        <AssociationConnector Association="HiconModel.FK_tblProductFilter_tblProductFilter" />
+        <AssociationConnector Association="HiconModel.FK_tblProductGroupAttribute_tblTypeProduct" />
+        <AssociationConnector Association="HiconModel.FK_tblProductType_Group_Map_tblProductTypeGroup" />
+        <AssociationConnector Association="HiconModel.FK_tblProductType_Group_Map_tblTypeProduct" />
+        <AssociationConnector Association="HiconModel.FK_tblReceiveInfo_tblReceiveInfoGroup" />
+        <AssociationConnector Association="HiconModel.FK_tblSupport_tblTypeSupport" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeArticle_tblTypeArticle" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeFile_tblTypeFile" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeImage_tblTypeImage" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeProduct_tblTypeProduct1" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeVideo_tblTypeVideo" />
+        <AssociationConnector Association="HiconModel.FK_tblTypeVideo_tblTypeVideo1" />
+        <AssociationConnector Association="HiconModel.FK_tblVideo_tblTypeVideo" />
+        <AssociationConnector Association="HiconModel.AspNetUserRoles" />
+        <AssociationConnector Association="HiconModel.tblArticle_Picture_Map" />
+        <AssociationConnector Association="HiconModel.tblPage_Role" />
+        <AssociationConnector Association="HiconModel.tblProduct_File_Map" />
+        <AssociationConnector Association="HiconModel.tblProduct_Filter_Map" />
+        <AssociationConnector Association="HiconModel.tblProduct_Label_Map" />
+        <AssociationConnector Association="HiconModel.tblProduct_Picture_Map" />
+        <AssociationConnector Association="HiconModel.tblTypeProduct_Picture_Map" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

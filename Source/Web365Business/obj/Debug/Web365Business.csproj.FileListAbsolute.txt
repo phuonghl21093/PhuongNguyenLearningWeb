@@ -1,0 +1,244 @@
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Business.dll.config
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Business.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Business.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\EntityFramework.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Base.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Cached.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365DA.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Domain.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Models.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Utility.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Newtonsoft.Json.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\EPPlus.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\ImageResizer.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Base.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Cached.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365DA.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Domain.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Models.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Web365Utility.pdb
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\EntityFramework.xml
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\Newtonsoft.Json.xml
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\EPPlus.xml
+E:\GHD\TFS\Hicon\Web365\Web365Business\bin\Debug\ImageResizer.xml
+E:\GHD\TFS\Hicon\Web365\Web365Business\obj\Debug\Web365Business.csprojResolveAssemblyReference.cache
+E:\GHD\TFS\Hicon\Web365\Web365Business\obj\Debug\Web365Business.dll
+E:\GHD\TFS\Hicon\Web365\Web365Business\obj\Debug\Web365Business.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\obj\Debug\Web365Business.csprojResolveAssemblyReference.cache
+E:\GHD\TFS\ThaiSon\Source\Web365Business\obj\Debug\Web365Business.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\obj\Debug\Web365Business.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Business.dll.config
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Business.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Business.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Base.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Cached.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365DA.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Domain.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Models.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Utility.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Newtonsoft.Json.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\EPPlus.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\ImageResizer.dll
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Base.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Cached.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365DA.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Domain.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Models.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Utility.pdb
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.xml
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\Newtonsoft.Json.xml
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\EPPlus.xml
+E:\GHD\TFS\ThaiSon\Source\Web365Business\bin\Debug\ImageResizer.xml
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Business.dll.config
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Business.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Business.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Base.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Cached.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365DA.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Domain.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Models.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Utility.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\EPPlus.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\ImageResizer.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Base.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Cached.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365DA.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Domain.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Models.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Web365Utility.pdb
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.xml
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\EPPlus.xml
+E:\Projects\TFS\ThaiSon\Source\Web365Business\bin\Debug\ImageResizer.xml
+E:\Projects\TFS\ThaiSon\Source\Web365Business\obj\Debug\Web365Business.csprojResolveAssemblyReference.cache
+E:\Projects\TFS\ThaiSon\Source\Web365Business\obj\Debug\Web365Business.dll
+E:\Projects\TFS\ThaiSon\Source\Web365Business\obj\Debug\Web365Business.pdb
+D:\Source\Source\Web365Business\bin\Debug\Web365Business.dll.config
+D:\Source\Source\Web365Business\bin\Debug\Web365Business.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365Business.pdb
+D:\Source\Source\Web365Business\bin\Debug\EntityFramework.dll
+D:\Source\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365Base.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365Cached.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365DA.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365Domain.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365Models.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365Utility.dll
+D:\Source\Source\Web365Business\bin\Debug\Newtonsoft.Json.dll
+D:\Source\Source\Web365Business\bin\Debug\EPPlus.dll
+D:\Source\Source\Web365Business\bin\Debug\ImageResizer.dll
+D:\Source\Source\Web365Business\bin\Debug\Web365Base.pdb
+D:\Source\Source\Web365Business\bin\Debug\Web365Base.dll.config
+D:\Source\Source\Web365Business\bin\Debug\Web365Cached.pdb
+D:\Source\Source\Web365Business\bin\Debug\Web365DA.pdb
+D:\Source\Source\Web365Business\bin\Debug\Web365DA.dll.config
+D:\Source\Source\Web365Business\bin\Debug\Web365Domain.pdb
+D:\Source\Source\Web365Business\bin\Debug\Web365Models.pdb
+D:\Source\Source\Web365Business\bin\Debug\Web365Utility.pdb
+D:\Source\Source\Web365Business\bin\Debug\EntityFramework.xml
+D:\Source\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Source\Source\Web365Business\bin\Debug\Newtonsoft.Json.xml
+D:\Source\Source\Web365Business\bin\Debug\EPPlus.xml
+D:\Source\Source\Web365Business\bin\Debug\ImageResizer.xml
+D:\Source\Source\Web365Business\obj\Debug\Web365Business.csprojAssemblyReference.cache
+D:\Source\Source\Web365Business\obj\Debug\Web365Business.csproj.CoreCompileInputs.cache
+D:\Source\Source\Web365Business\obj\Debug\Web365Business.csproj.CopyComplete
+D:\Source\Source\Web365Business\obj\Debug\Web365Business.dll
+D:\Source\Source\Web365Business\obj\Debug\Web365Business.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Business.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Business.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Business.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Base.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Cached.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365DA.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Domain.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Models.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Utility.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Newtonsoft.Json.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\EPPlus.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\ImageResizer.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Base.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Base.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Cached.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365DA.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365DA.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Domain.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Models.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Web365Utility.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\Newtonsoft.Json.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\EPPlus.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\bin\Debug\ImageResizer.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.csprojAssemblyReference.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.csproj.CoreCompileInputs.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.csproj.CopyComplete
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Business.dll.config
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Business.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Business.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Base.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Cached.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365DA.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Domain.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Models.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Utility.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Newtonsoft.Json.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\EPPlus.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\ImageResizer.dll
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Base.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Base.dll.config
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Cached.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365DA.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365DA.dll.config
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Domain.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Models.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Web365Utility.pdb
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.xml
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\Newtonsoft.Json.xml
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\EPPlus.xml
+G:\CongViec\WebCongTy\Source\Web365Business\bin\Debug\ImageResizer.xml
+G:\CongViec\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.csprojAssemblyReference.cache
+G:\CongViec\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.csproj.CoreCompileInputs.cache
+G:\CongViec\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.csproj.CopyComplete
+G:\CongViec\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.dll
+G:\CongViec\WebCongTy\Source\Web365Business\obj\Debug\Web365Business.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Business.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Business.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Business.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\EntityFramework.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Base.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Cached.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365DA.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Domain.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Models.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Utility.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Newtonsoft.Json.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\EPPlus.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\ImageResizer.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Base.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Base.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Cached.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365DA.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365DA.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Domain.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Models.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Web365Utility.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\EntityFramework.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\Newtonsoft.Json.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\EPPlus.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\bin\Debug\ImageResizer.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\obj\Debug\Web365Business.csprojAssemblyReference.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\obj\Debug\Web365Business.csproj.CoreCompileInputs.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\obj\Debug\Web365Business.csproj.CopyComplete
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\obj\Debug\Web365Business.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Business\obj\Debug\Web365Business.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Business.dll.config
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Business.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Business.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\EntityFramework.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Base.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Cached.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365DA.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Domain.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Models.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Utility.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Newtonsoft.Json.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\EPPlus.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\ImageResizer.dll
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Base.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Base.dll.config
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Cached.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365DA.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365DA.dll.config
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Domain.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Models.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Web365Utility.pdb
+G:\G-Store_Web\Source\Web365Business\bin\Debug\EntityFramework.xml
+G:\G-Store_Web\Source\Web365Business\bin\Debug\EntityFramework.SqlServer.xml
+G:\G-Store_Web\Source\Web365Business\bin\Debug\Newtonsoft.Json.xml
+G:\G-Store_Web\Source\Web365Business\bin\Debug\EPPlus.xml
+G:\G-Store_Web\Source\Web365Business\bin\Debug\ImageResizer.xml
+G:\G-Store_Web\Source\Web365Business\obj\Debug\Web365Business.csproj.AssemblyReference.cache
+G:\G-Store_Web\Source\Web365Business\obj\Debug\Web365Business.csproj.CoreCompileInputs.cache
+G:\G-Store_Web\Source\Web365Business\obj\Debug\Web365Business.csproj.CopyComplete
+G:\G-Store_Web\Source\Web365Business\obj\Debug\Web365Business.dll
+G:\G-Store_Web\Source\Web365Business\obj\Debug\Web365Business.pdb

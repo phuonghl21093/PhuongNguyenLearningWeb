@@ -1,0 +1,308 @@
+D:\Source\Source\Web365Api\bin\Web365Api.dll.config
+D:\Source\Source\Web365Api\bin\Web365Api.dll
+D:\Source\Source\Web365Api\bin\Web365Api.pdb
+D:\Source\Source\Web365Api\bin\Antlr3.Runtime.dll
+D:\Source\Source\Web365Api\bin\Elmah.dll
+D:\Source\Source\Web365Api\bin\Elmah.Mvc.dll
+D:\Source\Source\Web365Api\bin\EntityFramework.dll
+D:\Source\Source\Web365Api\bin\EntityFramework.SqlServer.dll
+D:\Source\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Source\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Source\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Google.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Source\Source\Web365Api\bin\Microsoft.Web.Infrastructure.dll
+D:\Source\Source\Web365Api\bin\Newtonsoft.Json.dll
+D:\Source\Source\Web365Api\bin\Ninject.dll
+D:\Source\Source\Web365Api\bin\Ninject.Web.Common.dll
+D:\Source\Source\Web365Api\bin\Ninject.Web.Mvc.dll
+D:\Source\Source\Web365Api\bin\Owin.dll
+D:\Source\Source\Web365Api\bin\System.Net.Http.Formatting.dll
+D:\Source\Source\Web365Api\bin\System.Web.Cors.dll
+D:\Source\Source\Web365Api\bin\System.Web.Helpers.dll
+D:\Source\Source\Web365Api\bin\System.Web.Http.Cors.dll
+D:\Source\Source\Web365Api\bin\System.Web.Http.dll
+D:\Source\Source\Web365Api\bin\System.Web.Http.Owin.dll
+D:\Source\Source\Web365Api\bin\System.Web.Http.WebHost.dll
+D:\Source\Source\Web365Api\bin\System.Web.Mvc.dll
+D:\Source\Source\Web365Api\bin\System.Web.Optimization.dll
+D:\Source\Source\Web365Api\bin\System.Web.Razor.dll
+D:\Source\Source\Web365Api\bin\System.Web.WebPages.Deployment.dll
+D:\Source\Source\Web365Api\bin\System.Web.WebPages.dll
+D:\Source\Source\Web365Api\bin\System.Web.WebPages.Razor.dll
+D:\Source\Source\Web365Api\bin\WebActivatorEx.dll
+D:\Source\Source\Web365Api\bin\WebGrease.dll
+D:\Source\Source\Web365Api\bin\Newtonsoft.Json.xml
+D:\Source\Source\Web365Api\bin\Ninject.xml
+D:\Source\Source\Web365Api\bin\Ninject.Web.Common.xml
+D:\Source\Source\Web365Api\bin\Ninject.Web.Mvc.xml
+D:\Source\Source\Web365Api\bin\System.Web.Http.Cors.xml
+D:\Source\Source\Web365Api\bin\System.Net.Http.Formatting.xml
+D:\Source\Source\Web365Api\bin\System.Web.Helpers.xml
+D:\Source\Source\Web365Api\bin\System.Web.Http.xml
+D:\Source\Source\Web365Api\bin\System.Web.Http.WebHost.xml
+D:\Source\Source\Web365Api\bin\System.Web.Mvc.xml
+D:\Source\Source\Web365Api\bin\System.Web.Optimization.xml
+D:\Source\Source\Web365Api\bin\System.Web.Razor.xml
+D:\Source\Source\Web365Api\bin\System.Web.WebPages.xml
+D:\Source\Source\Web365Api\bin\System.Web.WebPages.Deployment.xml
+D:\Source\Source\Web365Api\bin\System.Web.WebPages.Razor.xml
+D:\Source\Source\Web365Api\bin\Antlr3.Runtime.pdb
+D:\Source\Source\Web365Api\bin\EntityFramework.xml
+D:\Source\Source\Web365Api\bin\EntityFramework.SqlServer.xml
+D:\Source\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Source\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Source\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Google.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Source\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Source\Source\Web365Api\bin\System.Web.Http.Owin.xml
+D:\Source\Source\Web365Api\obj\Debug\Web365Api.csprojAssemblyReference.cache
+D:\Source\Source\Web365Api\obj\Debug\Web365Api.csproj.CoreCompileInputs.cache
+D:\Source\Source\Web365Api\obj\Debug\Web365Api.csproj.CopyComplete
+D:\Source\Source\Web365Api\obj\Debug\Web365Api.dll
+D:\Source\Source\Web365Api\obj\Debug\Web365Api.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Web365Api.dll.config
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Web365Api.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Web365Api.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Antlr3.Runtime.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Elmah.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Elmah.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\EntityFramework.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\EntityFramework.SqlServer.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Google.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Web.Infrastructure.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Newtonsoft.Json.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Ninject.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Ninject.Web.Common.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Ninject.Web.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Net.Http.Formatting.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Cors.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Helpers.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.Cors.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.Owin.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.WebHost.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Mvc.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Optimization.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Razor.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Deployment.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Razor.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\WebActivatorEx.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\WebGrease.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Newtonsoft.Json.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Ninject.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Ninject.Web.Common.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Ninject.Web.Mvc.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.Cors.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Net.Http.Formatting.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Helpers.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.WebHost.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Mvc.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Optimization.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Razor.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Deployment.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Razor.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Antlr3.Runtime.pdb
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\EntityFramework.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\EntityFramework.SqlServer.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Google.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\bin\System.Web.Http.Owin.xml
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.csprojAssemblyReference.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.csproj.CoreCompileInputs.cache
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.csproj.CopyComplete
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.dll
+D:\PartTime\Job A Tú\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.pdb
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Web365Api.dll.config
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Web365Api.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Web365Api.pdb
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Antlr3.Runtime.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Elmah.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Elmah.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\EntityFramework.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\EntityFramework.SqlServer.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Google.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Web.Infrastructure.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Newtonsoft.Json.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Ninject.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Ninject.Web.Common.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Ninject.Web.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Owin.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Net.Http.Formatting.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Cors.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Helpers.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.Cors.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.Owin.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.WebHost.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Mvc.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Optimization.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Razor.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Deployment.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Razor.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\WebActivatorEx.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\WebGrease.dll
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Newtonsoft.Json.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Ninject.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Ninject.Web.Common.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Ninject.Web.Mvc.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.Cors.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Net.Http.Formatting.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Helpers.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.WebHost.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Mvc.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Optimization.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Razor.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Deployment.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.WebPages.Razor.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Antlr3.Runtime.pdb
+G:\CongViec\WebCongTy\Source\Web365Api\bin\EntityFramework.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\EntityFramework.SqlServer.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Google.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\CongViec\WebCongTy\Source\Web365Api\bin\System.Web.Http.Owin.xml
+G:\CongViec\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.csprojAssemblyReference.cache
+G:\CongViec\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.csproj.CoreCompileInputs.cache
+G:\CongViec\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.csproj.CopyComplete
+G:\CongViec\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.dll
+G:\CongViec\WebCongTy\Source\Web365Api\obj\Debug\Web365Api.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Web365Api.dll.config
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Web365Api.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Web365Api.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Antlr3.Runtime.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Elmah.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Elmah.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\EntityFramework.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\EntityFramework.SqlServer.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Google.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Web.Infrastructure.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Newtonsoft.Json.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Ninject.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Ninject.Web.Common.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Ninject.Web.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Net.Http.Formatting.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Cors.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Helpers.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.Cors.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.Owin.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.WebHost.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Mvc.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Optimization.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Razor.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.WebPages.Deployment.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.WebPages.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.WebPages.Razor.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\WebActivatorEx.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\WebGrease.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Newtonsoft.Json.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Ninject.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Ninject.Web.Common.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Ninject.Web.Mvc.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.Cors.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Net.Http.Formatting.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Helpers.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.WebHost.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Mvc.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Optimization.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Razor.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.WebPages.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.WebPages.Deployment.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.WebPages.Razor.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Antlr3.Runtime.pdb
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\EntityFramework.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\EntityFramework.SqlServer.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.AspNet.Identity.Core.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Facebook.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Cookies.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.OAuth.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Google.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.Twitter.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\bin\System.Web.Http.Owin.xml
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\obj\Debug\Web365Api.csprojAssemblyReference.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\obj\Debug\Web365Api.csproj.CoreCompileInputs.cache
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\obj\Debug\Web365Api.csproj.CopyComplete
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\obj\Debug\Web365Api.dll
+G:\CongViec\GStore\GstoreCompany\Source\Web365Api\obj\Debug\Web365Api.pdb

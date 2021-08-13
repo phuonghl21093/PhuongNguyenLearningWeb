@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{26C182E5-EF9B-4167-8A59-3B1208ED5DF0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web365Base</RootNamespace>
+    <AssemblyName>Web365Base</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AspNetRoles.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaims.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogins.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUsers.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities365.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Entities365.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities365.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities365.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Entities365.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_AllChildTypeNewsByArrID_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_AllChildTypeNews_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_AllChildTypePicureByArrID_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_FilterByParentAscii_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_FilterByParentId_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_GetMenu_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_MenuByParentId_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PRC_Product_GetAllChildTypeByParentID_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplitStringWithOrder_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SplitString_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SQLNET_EvalTVF_2_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SQLNET_EvalTVF_3_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SQLNET_EvalTVF_4_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SQLNET_EvalTVF_5_Result.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAdverties_Picture_Map.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAdvertise.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblArticle.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblComment.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblContact.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomer.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDetail.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDistributor.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblDomain.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblFile.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGroupArticle.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGroupTypeArticle.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGroup_Article_Map.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblGroup_TypeArticle_Map.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLanguage.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLayoutContent.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLayoutContent_Picture_Map.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblLayoutGroup.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblManufacturer.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblMenu.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOrder.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOrderDetail.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOrder_Shipping.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblOrder_Status.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPage.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPicture.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProduct.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductAttribute.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductFilter.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductGroupAttribute.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductLabel.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductStatus.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductTypeGroup.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductType_Group_Map.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProduct_Attribute_Map.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProduct_Status_Map.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProduct_Variant.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblReceiveInfo.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblReceiveInfoGroup.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSetting.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupport.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTypeArticle.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTypeFile.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTypeLog.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTypePicture.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTypeProduct.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTypeSupport.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTypeVideo.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblVideo.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tempDelete.cs">
+      <DependentUpon>Entities365.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Entities365.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Entities365.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Entities365.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Entities365.edmx</DependentUpon>
+      <LastGenOutput>Entities365.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Entities365.edmx.diagram">
+      <DependentUpon>Entities365.edmx</DependentUpon>
+    </None>
+    <None Include="Entities365.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Entities365.edmx</DependentUpon>
+      <LastGenOutput>Entities365.cs</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
