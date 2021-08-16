@@ -29,7 +29,22 @@
     
 ////}
 
-////changeNavBarHandler();
+////changeNavBarHandler(); 
+
+const hamburgerBtn = () => {
+    const btn = document.querySelector('.hamburger'); 
+    const navBar = document.querySelector('.nav__bar');
+    const overlay = document.querySelector('.overlay');
+    const transformHandler = () => {
+        navBar.classList.toggle('list__nav__back');
+        overlay.classList.toggle('overlay__block');
+        btn.classList.toggle('hamburger__transform');
+    }
+    btn.addEventListener('click', transformHandler);
+    overlay.addEventListener('click', transformHandler);
+}
+hamburgerBtn();
+
 const navbar = document.querySelector('.nav__bar');
 const logo = document.querySelector('.nav__logo img');
 const fixedNavbarHandler = () => {

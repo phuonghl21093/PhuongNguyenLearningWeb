@@ -4,6 +4,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.Title = "Giới thiệu";
     <link href="~/Content/GStoreWeb/scss/introduction/Subscription.module.css" rel="stylesheet" />
+
 }
 <!--<div id="mcn-breadcrumb" class="m-gioithieu">
     <div class="container">
@@ -33,31 +34,62 @@
     <h1>@Model.Title</h1>
 </div>
 <!-- introduction -->
-<div class="container-fluid" id="introduction">
-    <div class="container">
+ @*<div class="container-fluid" id="introduction">
+      <div class="container">
         <div class="title" data-aos="fade-up-right">
-            <h2></h2>
+          <h2>Video giới thiệu app <span>G-Store</span></h2>
         </div>
         <div class="layout container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <iframe class="video"
-                            width="560"
-                            height="315"
-                            src="https://www.youtube.com/embed/2BfQv8HVcIg"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                </div>
-                <div class="col-button col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                    <div class="button btn_video">
-                        <i class="fad fa-play"></i>
-                        <span class="ripple"></span>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <iframe
+                class="video"
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/2BfQv8HVcIg"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
+            <div class="col-button col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="button btn_video">
+                <i class="fad fa-play"></i>
+                <span class="ripple"></span>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+    </div>*@
 
+
+
+ <div class="container-fluid" id="introduction">
+     <div class="container">
+         <div data-aos="fade-up">
+             <h2>Video giới thiệu app <span>G-Store</span></h2>
+             <div class="layout__intro container container__get">
+                 <div class="row">
+                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                         <iframe id="video__intro"
+                                 width="560"
+                                 height="315"
+                                 src="https://www.youtube.com/embed/2BfQv8HVcIg"
+                                 title="YouTube video player"
+                                 frameborder="0"
+                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                 allowfullscreen></iframe>
+                     </div>
+                     <div class="col-button col-md-6 col-lg-6">
+                         <div class="introduction__button">
+                             <i class="fas fa-play"></i>
+                             <span class="ripple"></span>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+</div>
+</div>

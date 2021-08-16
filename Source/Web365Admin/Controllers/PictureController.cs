@@ -126,7 +126,7 @@ namespace Web365Admin.Controllers
             }
             catch (Exception e)
             {
-                
+
             }
 
             return Json(new

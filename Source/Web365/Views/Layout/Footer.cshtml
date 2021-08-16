@@ -100,16 +100,16 @@
                     <li class="row__footer row__ft">
                         <p><i class="fas fa-map-marker-alt"></i></p>
                         <p>
-                            @HiconHelper.RemoveHtmlTag(ViewBag.Address.Content)
+                            @Html.Raw(ViewBag.Address.Content)
                         </p>
                     </li>
                     <li class="row__footer">
                         <p><i class="fas fa-mobile-alt"></i></p>
-                        <p>@HiconHelper.RemoveHtmlTag(ViewBag.Phone.Content)</p>
+                        <p>@Html.Raw(ViewBag.Phone.Content)</p>
                     </li>
                     <li class="row__footer">
                         <p><i class="far fa-envelope"></i></p>
-                        <p>@HiconHelper.RemoveHtmlTag(ViewBag.Email.Content)</p>
+                        <p>@Html.Raw(ViewBag.Email.Content)</p>
                     </li>
                 </ul>
             </div>

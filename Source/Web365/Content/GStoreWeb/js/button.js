@@ -7,3 +7,4 @@ const onPlayHandler = () =>{
     btn.addEventListener('click', onplayVideoHandler)
 }
 onPlayHandler();
+
