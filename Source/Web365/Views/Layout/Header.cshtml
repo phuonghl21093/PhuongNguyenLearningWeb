@@ -8,27 +8,12 @@
 }
 
 <header>
-    <!--bottom header wrappper start-->
-    @*<div class="transparent-menu header-area hidden-menu-bar stick">
-
-        <div class="container">
-            <div class="row">
-                <div class="bt_main_menu_wrapper">
-                    <div class="main-menu-wrapper clear-fix">
-
-                        <div class="logo float-left">
-                            <a href="/">
-                                <img src="~/Content/BIDELAND/images/logo.png" style="width:98%;" alt="LOGO Bidland Group">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="sc_navigation hidden-sm hidden-xs">
-                        <nav id="primary-nav" class="dropdown nav_left_margin">
-                            <ul class="dropdown menu cart_dropdown_wrapper">*@
     <div class='overlay'></div>
     <nav class="nav__bar">
         <div class="nav__logo">
-            <img src="~/Content/GStoreWeb/images/img/images/logo3.png" />
+            <a href="/">
+                <img src="~/Content/GStoreWeb/images/img/images/logo3.png" style="width:98%"/>
+            </a>
         </div>
         <ul class="list__nav" id="nav">
             <li><a href="/" title="">Trang chủ</a></li>
@@ -61,75 +46,9 @@
             <div class="ham1"></div>
         </div>
     </nav>
-    <!-- Menu -->
-    <!-- /.main-menu-wrapper -->
-    <!-- mobile menu area start -->
-    @* <div class="mobile-menu-area visible-sm visible-xs">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 cc_menu_top_margin">
-                        <!-- mobile menu start -->
-                        <div class="mobile-menu">
-                            <nav>
-                                <ul class="nav">
-                                    <li>
-                                        <a href="/">Trang chủ</a>
-                                    </li>
-                                    @if (Model != null && Model.Any())
-                                    {
-                                        foreach (var menu in Model.Where(c => !c.Parent.HasValue || c.Parent == Convert.ToInt32(ConfigWeb.MenuParentId)))
-                                        {
-                                            <li @(Model.Any(m => m.Parent == menu.ID) ? "class=dropdown" : "")>
-                                                @HiconHtmlHelper.MakeParentLanguageHyperLink(ViewContext.RouteData, menu.Name, menu.Link, (Model.Any(m => m.Parent == menu.ID)))
-                                                @if (Model.Any(m => m.Parent == menu.ID))
-                                                {
-                                                    <ul class="dropdown-menu">
-                                                        @foreach (var child in Model.Where(m => m.Parent == menu.ID))
-                                                        {
-                                                            <li>
-                                                                @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, child.Name, child.Link)
-                                                            </li>
-                                                        }
-                                                    </ul>
-                                                }
-                                            </li>
-                                        }
-                                    }
-
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- mobile menu end -->
-                    </div>
-                </div>
-            </div>
-        </div>*@
-    <!-- mobile menu area end -->
-    <!-- /.main-menu-wrapper -->
-    <!--header section end-->
+   
+   
 
 </header>
 
-@*<div id="header">
-    <div class="overlay"></div>
-    <nav class="nav__bar">
-        <div class="nav__logo">
-            <img src="~/Content/GStoreWeb/images/img/images/logo3.png" />   
-        </div>@if (Model != null && Model.Any())
-        {
-            <ul class="list__nav" id="nav">
-                @foreach (var menu in Model.Where(c => !c.Parent.HasValue || c.Parent == Convert.ToInt32(ConfigWeb.MenuParentId)))
-                {
-                    <li class="news__documents"> 
-                        <a href="@menu.Link">@menu.Name</a>
-                    </li>
-                }
-            </ul>
-        }
-        <div class="hamburger">
-            <div class="ham1"></div>
-            <div class="ham1"></div>
-            <div class="ham1"></div>
-        </div>
-    </nav>
-</div>*@
+

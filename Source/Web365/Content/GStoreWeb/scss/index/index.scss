@@ -509,24 +509,17 @@ li:active > a,li:focus > a {
 .swiper__partner{
     width: 100%;
     padding-bottom: 50px;
-    .slide {
-        background-position: center !important;
-        background-size: cover !important;
-        width: 250px !important;
-        height: 250px !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img {
-          width: 100% !important;
-          height: auto !important;
-        }
-      }
-    .swiper-slide-shadow-left, .swiper-slide-shadow-right{
-        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
-
-    }   
-}
+    img{
+        width: 80%;
+        height: auto;
+    }
+    .swiper-slide{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    margin-bottom: 35px;
+}  
 .download__links{
     position: fixed;
     top: 50%;
@@ -704,6 +697,11 @@ li:active > a,li:focus > a {
         display: flex;
         justify-content: space-between;
     }
+    .swiper__partner{
+        img{
+            width: 100%;
+        }
+    }
 }
 @media screen and (max-width: 772px) {
     .wave {
@@ -749,6 +747,11 @@ li:active > a,li:focus > a {
     .img-fluid {
         width: 50%;
     }
+    .swiper__partner{
+        img{
+            width: 60%;
+        }
+    }
     #features {
         h2 {
             font-size: 22px;
@@ -770,6 +773,7 @@ li:active > a,li:focus > a {
                 border-radius: 0px;
             }
     } 
+    
 }
 }
 @media screen and (max-width: 400px){

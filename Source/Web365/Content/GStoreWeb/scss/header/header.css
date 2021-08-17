@@ -10,7 +10,7 @@ body {
 }
 
 .nav__bar {
-  height: 12vh;
+  height: 9vh;
   background: transparent;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,8 +87,9 @@ body {
 }
 
 .add__class {
-  background: #fff;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 1);
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+          backdrop-filter: saturate(180%) blur(5px);
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
 }
@@ -166,6 +167,8 @@ body {
   background: #fff;
   z-index: 3;
   visibility: visible;
+  -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 @media screen and (max-width: 1340px) {

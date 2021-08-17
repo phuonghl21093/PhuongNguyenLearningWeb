@@ -1314,8 +1314,6 @@
     <Content Include="Content\GStoreWeb\scss\footer\footer.scss" />
     <Content Include="Content\GStoreWeb\scss\header\header.css.map" />
     <Content Include="Content\GStoreWeb\scss\header\header.scss" />
-    <Content Include="Content\GStoreWeb\scss\index\index.css.map" />
-    <Content Include="Content\GStoreWeb\scss\index\index.scss" />
     <Content Include="Content\GStoreWeb\scss\introduction\Subscription.module.css.map" />
     <Content Include="Content\GStoreWeb\scss\introduction\Subscription.module.scss" />
     <Content Include="Content\GStoreWeb\scss\NewsSpecific\NewsSpecific.css.map" />
@@ -1326,6 +1324,8 @@
     <Content Include="Content\GStoreWeb\scss\screen\screen.scss" />
     <Content Include="Content\GStoreWeb\scss\detail\detail.css.map" />
     <Content Include="Content\GStoreWeb\scss\detail\detail.scss" />
+    <Content Include="Content\GStoreWeb\scss\index\index.css.map" />
+    <Content Include="Content\GStoreWeb\scss\index\index.scss" />
     <None Include="Properties\PublishProfiles\HICON.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

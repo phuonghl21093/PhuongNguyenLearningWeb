@@ -622,32 +622,24 @@ li:active > a, li:focus > a {
 .swiper__partner {
   width: 100%;
   padding-bottom: 50px;
+  margin-bottom: 35px;
 }
 
-.swiper__partner .slide {
-  background-position: center !important;
-  background-size: cover !important;
-  width: 250px !important;
-  height: 250px !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.swiper__partner img {
+  width: 80%;
+  height: auto;
 }
 
-.swiper__partner .slide img {
-  width: 100% !important;
-  height: auto !important;
-}
-
-.swiper__partner .swiper-slide-shadow-left, .swiper__partner .swiper-slide-shadow-right {
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0)));
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+.swiper__partner .swiper-slide {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
 }
 
 .download__links {
@@ -914,6 +906,9 @@ li:active > a, li:focus > a {
     padding: 10px 12px !important;
     font-size: 13px !important;
   }
+  .swiper__partner img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 772px) {
@@ -959,6 +954,9 @@ li:active > a, li:focus > a {
 @media screen and (max-width: 576px) {
   .img-fluid {
     width: 50%;
+  }
+  .swiper__partner img {
+    width: 60%;
   }
   #features h2 {
     font-size: 22px;

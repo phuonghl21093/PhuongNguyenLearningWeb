@@ -10,64 +10,23 @@
     <h2> @ResourceLanguage.Partners</h2>
     <p class="title">Các đối tác liên kết với G-STORE</p>
     <div class="container__swiper container">
-        <div class="swiper-container mySwiper2 swiper__partner">
+        @*<div class="swiper-container mySwiper2 swiper__partner">*@
+        <div class="swiper-container mySwiperPartner swiper__partner">
             <div class="swiper-wrapper">
                 @if (Model.LayoutContents.Any())
                 {
                     foreach (var item in Model.LayoutContents)
                     {
-                <div class="swiper-slide slide">
-                    <img style="width:auto;height:95px" src="@Web365Utility.Web365Utility.GetPathPicture(item.UrlPicture)" alt="@item.Name" />
-                </div>
+                        <div class="swiper-slide">
+                            <img src="@Web365Utility.Web365Utility.GetPathPicture(item.UrlPicture)" alt="@item.Name" />
+                        </div>
 
                     }
 
                 }
             </div>
-            </div>
             <div class="swiper-pagination"></div>
         </div>
     </div>
+    
 </div>
-
-@*<script>
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 10,
-        responsiveClass: true,
-        autoplay: true,
-        nav: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            375: {
-                items: 2,
-                nav: true
-            },
-            425: {
-                items: 2,
-                nav: true
-            },
-            768: {
-                items: 3,
-                nav: true
-            },
-            1024: {
-                items: 4,
-                nav: true
-            },
-            1440: {
-                items: 5,
-                nav: true
-            },
-
-            2560: {
-                items: 5,
-                nav: true,
-            }
-        }
-    })
-
-</script>*@
