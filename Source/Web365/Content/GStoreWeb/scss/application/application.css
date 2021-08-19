@@ -59,7 +59,7 @@
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 50px;
-    margin-right: 20px;
+    margin-right: 20px !important;
 }
 
 .row p {
