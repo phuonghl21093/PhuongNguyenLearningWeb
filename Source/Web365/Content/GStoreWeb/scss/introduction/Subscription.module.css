@@ -38,9 +38,9 @@
 }
 
 .title-page {
-  height: 70vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
+  height: 50vh;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35))), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("http://gstorevn.com/wp-content/uploads/2021/02/105-scaled.jpg");
   background-position: center;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -59,6 +59,7 @@
 
 .title-page h1 {
   font-weight: bold;
+  font-size:50px !important;
 }
 
 .row {
