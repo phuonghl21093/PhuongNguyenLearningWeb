@@ -316,6 +316,7 @@
     <Content Include="Content\GStoreWeb\images\img\images\banner.jpeg" />
     <Content Include="Content\GStoreWeb\images\img\images\banner.jpg" />
     <Content Include="Content\GStoreWeb\images\img\images\blog-1.jpeg" />
+    <Content Include="Content\GStoreWeb\images\img\images\buoc5.jpg" />
     <Content Include="Content\GStoreWeb\images\img\images\danhgia.png" />
     <Content Include="Content\GStoreWeb\images\img\images\dexuat.png" />
     <Content Include="Content\GStoreWeb\images\img\images\facebook2.png" />
@@ -335,6 +336,9 @@
     <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\7-min.PNG" />
     <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\8-min.PNG" />
     <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\9-min.PNG" />
+    <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\buoc3.PNG" />
+    <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\buoc4.PNG" />
+    <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\buoc5.PNG" />
     <Content Include="Content\GStoreWeb\images\img\images\load - Copy.png" />
     <Content Include="Content\GStoreWeb\images\img\images\load.png" />
     <Content Include="Content\GStoreWeb\images\img\images\location.jpg" />

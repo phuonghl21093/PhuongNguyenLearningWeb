@@ -7,57 +7,7 @@
     List<Web365Domain.ArticleItem> ltsArticle = ViewBag.ltsArticle;
 }
   
-@*<div class="tb_work_wrapper pb20">
-    <div class="container">
-        <div class="row">
 
-            @if (ltsArticle != null && ltsArticle.Any())
-            {
-                foreach (var item in ltsArticle.Take(1))
-                {
-
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                        <div class="tb_work_txt_wrapper">
-
-
-                            <div class="abt_txt_box">
-                                <div class="tb_left_heading_wraper">
-                                    <h4>Chào Mừng Bạn Đến Với Bidland GROUP</h4>
-                                    <h3>@item.Title</h3>
-                                    <h2><span></span></h2>
-                                </div>
-                                <p>@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Summary, 200, "..."))</p>
-
-                                <div class="abt_btn_wrapper">
-                                    <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)">
-                                        <div class="blob-btn abt_btn">
-                                            Xem Thêm
-                                            <span class="blob-btn__inner">
-                                                <span class="blob-btn__blobs">
-                                                    <span class="blob-btn__blob"></span>
-                                                    <span class="blob-btn__blob"></span>
-                                                    <span class="blob-btn__blob"></span>
-                                                    <span class="blob-btn__blob"></span>
-                                                </span>
-                                            </span>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-                        <div class="tb-flex-bdr-img">
-                            <img src="@(item.Picture != null ? Web365Utility.GetPathPicture(item.Picture.FileName) : "")" alt="About" class="img-responsive">
-                        </div>
-                    </div>
-                }
-            }
-
-
-        </div>
-    </div>
-</div>*@
 <div id="introduction" class="row__up introduction__container">
     @if (ltsArticle != null && ltsArticle.Any())
     {
@@ -71,7 +21,7 @@
                             <iframe id="video__intro"
                                     width="560"
                                     height="315"
-                                    src="https://www.youtube.com/embed/2BfQv8HVcIg"
+                                    src="https://www.youtube.com/embed/RGJVQj5Sczw"
                                     title="YouTube video player"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
