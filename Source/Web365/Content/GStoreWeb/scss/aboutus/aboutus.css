@@ -25,8 +25,8 @@
 #aboutus {
   font-family: "Quicksand",sans-serif;
   padding: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 187, 69, 0.8)), to(rgba(235, 57, 113, 0.6))), url(/images/img/images/p1.jpeg);
-  background: linear-gradient(rgba(240, 187, 69, 0.8), rgba(235, 57, 113, 0.6)), url(/images/img/images/p1.jpeg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(240, 187, 69, 0.8)), to(rgba(235, 57, 113, 0.6)));
+  background: linear-gradient(rgba(240, 187, 69, 0.8), rgba(235, 57, 113, 0.6));
   background-size: cover;
   background-attachment: fixed;
 }

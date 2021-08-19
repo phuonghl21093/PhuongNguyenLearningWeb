@@ -3,7 +3,7 @@
 <div id="aboutus" class="container-fluid" data-aos="fade-up">
         <div class="title">
             <h2>@Model.Title</h2>
-            <p>@Model.Summary</p>
+            <p>@Html.Raw(Model.Summary)</p>
         </div>
         @Html.Raw(Model.Detail)
     </div>

@@ -10,7 +10,7 @@
     ViewBag.Image = (Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "");
     ViewBag.Url = HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, Model.ArticleType.NameAscii + "/" + Model.TitleAscii);
 
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
     var otherProjects = ViewBag.OtherProjects as List<ArticleItem>;
 }
 

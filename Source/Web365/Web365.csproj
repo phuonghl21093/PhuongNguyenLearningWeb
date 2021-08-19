@@ -350,7 +350,6 @@
     <Content Include="Content\GStoreWeb\images\img\images\logo3.png" />
     <Content Include="Content\GStoreWeb\images\img\images\logo4.png" />
     <Content Include="Content\GStoreWeb\images\img\images\nguyentrongtu.jpg" />
-    <Content Include="Content\GStoreWeb\images\img\images\p1.jpeg" />
     <Content Include="Content\GStoreWeb\images\img\images\Partner\0.png" />
     <Content Include="Content\GStoreWeb\images\img\images\Partner\1.png" />
     <Content Include="Content\GStoreWeb\images\img\images\Partner\2.png" />
@@ -1261,8 +1260,6 @@
     <Content Include="Content\GStoreWeb\images\img\images\ScreenApp.zip" />
     <Content Include="Content\GStoreWeb\images\img\images\ScreenApp\.DS_Store" />
     <Content Include="Content\GStoreWeb\scss\.DS_Store" />
-    <Content Include="Content\GStoreWeb\scss\aboutus\aboutus.css.map" />
-    <Content Include="Content\GStoreWeb\scss\aboutus\aboutus.scss" />
     <Content Include="Content\GStoreWeb\scss\application\application.css.map" />
     <Content Include="Content\GStoreWeb\scss\application\application.scss" />
     <Content Include="Content\GStoreWeb\scss\blog\blog.css.map" />
@@ -1291,6 +1288,8 @@
     <Content Include="Content\GStoreWeb\scss\index\index.scss" />
     <Content Include="Content\GStoreWeb\scss\header\header.css.map" />
     <Content Include="Content\GStoreWeb\scss\header\header.scss" />
+    <Content Include="Content\GStoreWeb\scss\aboutus\aboutus.css.map" />
+    <Content Include="Content\GStoreWeb\scss\aboutus\aboutus.scss" />
     <None Include="Properties\PublishProfiles\HICON.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -1415,6 +1414,7 @@
     <Content Include="Views\Home\Manhinhapp.cshtml" />
     <Content Include="Views\Article\Vechungtoi.cshtml" />
     <Content Include="Views\Article\Ungdung.cshtml" />
+    <Content Include="Views\Shared\_LayoutTrangTrong.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
