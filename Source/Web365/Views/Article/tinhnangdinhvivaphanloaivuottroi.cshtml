@@ -1,0 +1,31 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Utility
+@model Web365Domain.ArticleItem
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    ViewBag.Image = (Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "");
+    ViewBag.Title = "Tính năng";
+    Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
+}
+
+@*<div class="overlay"></div>
+<div class="container-fluid title-page">
+    <h1>@Model.Type.Name</h1>
+</div>*@
+
+<div class="container-fluid title-page">
+    <h1>@Model.Title</h1>
+</div>
+<div class="container row__up" id="features">
+    <h2 class="d-flex justify-content-center font-weight-bold">
+        @Model.Title
+    </h2>
+    <p class="title">
+        @Html.Raw(Model.Summary)
+    </p>
+    @Html.Raw(Model.Detail)
+</div>
+

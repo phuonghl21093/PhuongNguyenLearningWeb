@@ -6,7 +6,7 @@
         @Model.Title
     </h2>
     <p class="title">
-        @Model.Summary
+        @Html.Raw(Model.Summary)
     </p>
     @Html.Raw(Model.Detail)
 </div>

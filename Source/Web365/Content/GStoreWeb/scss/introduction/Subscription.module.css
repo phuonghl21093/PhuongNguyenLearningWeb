@@ -15,15 +15,16 @@
 .container-fluid iframe {
   width: 100%;
   border-radius: 15px;
+  height: 505px;
 }
 
-.container-fluid h2 {
-  padding-bottom: 20px;
-  text-align: center;
-  font-weight: bold;
-  text-transform: capitalize;
-  color: #fff;
-}
+    .container-fluid h2 {
+        padding-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: capitalize;
+        color: #fff;
+    }
 
 .container-fluid h2 span {
   text-transform: uppercase;
@@ -59,7 +60,7 @@
 
 .title-page h1 {
   font-weight: bold;
-  font-size:50px !important;
+  font-size:50px;
 }
 
 .row {
@@ -182,11 +183,23 @@
             transform: scale(1.5);
   }
 }
+@media screen and (max-width: 1024px) {
+  
+    .container-fluid iframe {
+        height: 420px;
+    }
+}
 
 @media screen and (max-width: 768px) {
   .button {
     display: none;
   }
+    .title-page h1 {
+        font-size: 30px;
+    }
+    .container-fluid iframe {      
+        height: 372px;
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -200,4 +213,17 @@
     font-size: 20px;
   }
 }
+@media screen and (max-width: 425px) {
+
+    .container-fluid iframe {
+        height: 204px;
+    }
+}
+
+ @media screen and (max-width: 375px) {
+
+        .container-fluid iframe {
+            height: 174px;
+        }
+    }
 /*# sourceMappingURL=Subscription.module.css.map */

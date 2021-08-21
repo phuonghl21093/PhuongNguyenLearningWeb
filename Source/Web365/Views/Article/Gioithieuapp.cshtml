@@ -1,0 +1,24 @@
+﻿@using Web365.App_Code
+@using Web365Domain
+@using Web365Utility
+@{
+    ViewBag.Title = Model.Title;
+    ViewBag.Description = Model.SEODescription;
+    ViewBag.Keywords = Model.SEOKeyword;
+    ViewBag.Image = (Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "");
+    ViewBag.Title = "Giới thiệu App";
+    Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
+    <link href="~/Content/GStoreWeb/scss/introduction/Subscription.module.css" rel="stylesheet" />
+}
+
+<div class="container-fluid title-page">
+    <h1>@Model.Title</h1>
+</div>
+<div class="container-fluid" id="introduction">
+    <div class="container">
+        <div data-aos="fade-up">
+            <h2>@Model.Title</h2>
+            @Html.Raw(Model.Detail)
+        </div>
+    </div>
+</div>

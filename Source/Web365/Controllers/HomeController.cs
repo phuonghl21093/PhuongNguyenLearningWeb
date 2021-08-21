@@ -295,6 +295,22 @@ namespace Web365.Controllers
             }
             return View(vechungtoi);
         }
+        // Video Giới thiệu app
+        public ActionResult Gioithieuapp()
+        {
+            var Gioithieuapp = new ArticleItem();
+            try
+            {
+                //dong nay lay ra ID 75 trong bang tblArtile.
+                Gioithieuapp = _article.GetItemById(ConfigWeb.Gioithieuapp);
+                //ViewBag.taiungdung = taiungdung;
+            }
+            catch (Exception e)
+            {
+                Elmah.ErrorSignal.FromCurrentContext().Raise(e);
+            }
+            return View(Gioithieuapp);
+        }
 
         //Đối tác
         public ActionResult Partner()

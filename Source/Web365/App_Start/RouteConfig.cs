@@ -22,7 +22,7 @@ namespace Web365
             //TuNT  15/04/2017 hard code introduction news
             routes.MapRoute(
                 name: "GioiThieu",
-                url: "gioi-thieu",
+                url: "gioi-thieu1",
                 defaults: new { controller = "Article", action = "Introduction" }
             );
             routes.MapRoute(
@@ -37,15 +37,27 @@ namespace Web365
             );
             //10/8/2021 Phuong tao bai viet vechungtoi
             routes.MapRoute(
-              name: "Vechungtoi",
+              name: "vechungtoi1",
               url: "ve-chung-toi",
-              defaults: new { controller = "Article", action = "Vechungtoi" }
+              defaults: new { controller = "Article", action = "vechungtoi" }
             );
-            //10/8/2021 Phuong tao bai viet vechungtoi
+            //10/8/2021 Phuong tao bai viet Undung
             routes.MapRoute(
               name: "Ungdung",
               url: "ung-dung",
               defaults: new { controller = "Article", action = "Ungdung" }
+            );
+            //10/8/2021 Phuong tao bai viet GioiThieuApp
+            routes.MapRoute(
+              name: "GioiThieuApp",
+              url: "gioi-thieu",
+              defaults: new { controller = "Article", action = "Gioithieuapp" }
+            );
+            //10/8/2021 Phuong tao bai viet Tinhnang
+            routes.MapRoute(
+              name: "Tinhnang",
+              url: "tinh-nang",
+              defaults: new { controller = "Article", action = "tinhnangdinhvivaphanloaivuottroi" }
             );
             //TuNT  15/04/2017 hard code introduction news
 

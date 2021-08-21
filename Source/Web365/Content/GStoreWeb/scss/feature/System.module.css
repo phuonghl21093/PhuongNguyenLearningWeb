@@ -31,7 +31,8 @@
 
 .title-page h1 {
   font-weight: bold;
-  font-size: 50px !important;
+  font-size: 45px;
+  text-align:center;
 }
 
 .img {
@@ -88,11 +89,16 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
+@media screen and (max-width: 1024px) {
+    .title-page h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+}
 @media screen and (max-width: 968px) {
-  .content {
-    font-size: 14px;
-  }
+    .content {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -125,5 +131,13 @@
   .container p {
     text-align: center;
   }
+  .title-page h1 {
+      font-size: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+    .title-page h1 {
+        font-size: 23px;
+    }
 }
 /*# sourceMappingURL=System.module.css.map */

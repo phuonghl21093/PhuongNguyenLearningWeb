@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Web365Business.Front_End.IRepository;
+using Web365Domain;
 using Web365Models;
 using Web365Utility;
 
@@ -425,17 +426,71 @@ namespace Web365.Controllers
                 return 0;
             }
         }
-        public ActionResult Vechungtoi()
+        //public ActionResult Vechungtoi()
+        //{
+        //    //var Article = _article.GetItemByNameAscii ("ve-chung-toi");
+        //    var Article = _article.GetItemByNameAscii("ve-chung-toi");
+        //    return View(Article);
+        //}
+        public ActionResult vechungtoi()
         {
-            //var Article = _article.GetItemByNameAscii ("ve-chung-toi");
-            var Article = _article.GetItemByNameAscii("ve-chung-toi");
-            return View(Article);
+            var vechungtoi = new ArticleItem();
+            try
+            {
+                //dong nay lay ra ID 75 trong bang tblArtile.
+                vechungtoi = _article.GetItemById(ConfigWeb.vechungtoi);
+                //ViewBag.taiungdung = taiungdung;
+            }
+            catch (Exception e)
+            {
+                Elmah.ErrorSignal.FromCurrentContext().Raise(e);
+            }
+            return View(vechungtoi);
         }
         public ActionResult Ungdung()
         {
-            //var Article = _article.GetItemByNameAscii ("ve-chung-toi");
-            var Article = _article.GetItemByNameAscii("ung-dung");
-            return View(Article);
+            var Ungdung = new ArticleItem();
+            try
+            {
+                //dong nay lay ra ID 1767 trong bang tblArtile.
+                Ungdung = _article.GetItemById(ConfigWeb.Ungdung);
+                //ViewBag.taiungdung = taiungdung;
+            }
+            catch (Exception e)
+            {
+                Elmah.ErrorSignal.FromCurrentContext().Raise(e);
+            }
+            return View(Ungdung);
+        }
+        public ActionResult Gioithieuapp()
+        {
+            var Gioithieuapp = new ArticleItem();
+            try
+            {
+                //dong nay lay ra ID 1741 trong bang tblArtile.
+                Gioithieuapp = _article.GetItemById(ConfigWeb.Gioithieuapp);
+                //ViewBag.taiungdung = taiungdung;
+            }
+            catch (Exception e)
+            {
+                Elmah.ErrorSignal.FromCurrentContext().Raise(e);
+            }
+            return View(Gioithieuapp);
+        }
+        public ActionResult tinhnangdinhvivaphanloaivuottroi()
+        {
+            var tinhnangdinhvivaphanloaivuottroi = new ArticleItem();
+            try
+            {
+                //dong nay lay ra ID 63 trong bang tblArtile.
+                tinhnangdinhvivaphanloaivuottroi = _article.GetItemById(ConfigWeb.tinhnangdinhvivaphanloaivuottroi);
+                //ViewBag.tinhnangdinhvivaphanloaivuottroi = tinhnangdinhvivaphanloaivuottroi;
+            }
+            catch (Exception e)
+            {
+                Elmah.ErrorSignal.FromCurrentContext().Raise(e);
+            }
+            return View(tinhnangdinhvivaphanloaivuottroi);
         }
 
 

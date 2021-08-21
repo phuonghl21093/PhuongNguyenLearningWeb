@@ -7,38 +7,7 @@
     var articleGroup = ViewBag.ArticleGroup as ArticleGroupItem;
     List<Web365Domain.ArticleItem> ltsArticle = ViewBag.ltsArticle;
 }
-@*<div class="jp_banner_jobs_categories_wrapper">
-    <div class="container-fluid">
-        <div class="row">
 
-            @if (ltsArticle != null && ltsArticle.Any())
-            {
-                var i = 0;
-                foreach (var item in ltsArticle)
-                {
-                    <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.TitleAscii)">
-                        <div class="jp_top_jobs_category_wrapper @(i%2==0 ? "" : "jp_top_clr_category_wrapper") ">
-                            <div class="jp_top_jobs_category">
-                                <div class="jp_top_category_icon">
-                                    <i class="@item.IconCss"></i>
-                                </div>
-                                <h3>
-                                    @item.Title
-                                </h3>
-                                <p>@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Summary, 700, "..."))</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    {
-                        i++;
-                    }
-                }
-            }
-
-        </div>
-    </div>
-</div>*@
 <section class="container section__introduction row__up container__get">
     <div data-aos="fade-up" class="feature__container">
         <h2>Tính năng vượt trội trên ứng dụng <span>G-Store</span></h2>

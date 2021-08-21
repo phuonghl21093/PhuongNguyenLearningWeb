@@ -1,9 +1,12 @@
 html {
   overflow-x: hidden;
 }
-
+.video__intro {
+    width : 560px;
+    height : 415px;
+}
 li:active > a, li:focus > a {
-  border-bottom: 2px solid #eee;
+    border-bottom: 2px solid #eee;
 }
 
 .active {
@@ -516,6 +519,10 @@ li:active > a, li:focus > a {
 .introduction__container iframe {
   width: 100%;
   border-radius: 15px;
+  height: 518px;
+}
+#player {
+    height: 130% !important;
 }
 
 .introduction__container h2 {
@@ -651,7 +658,7 @@ li:active > a, li:focus > a {
   background: #fff;
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
-  width: 50%;
+  width: 30%;
   padding: 20px;
   z-index: -2;
   opacity: 0;
@@ -870,6 +877,14 @@ li:active > a, li:focus > a {
     bottom: -50px;
   }
 }
+@media screen and (max-width: 1024px) {
+   .download__links {
+        width: 30%;
+    }
+    .introduction__container iframe {
+        height: 460px;
+    }
+}
 
 @media screen and (max-width: 991px) {
   .row__btn {
@@ -909,6 +924,10 @@ li:active > a, li:focus > a {
   .swiper__partner img {
     width: 100%;
   }
+    .introduction__button {
+        display: none !important;
+    }
+    
 }
 
 @media screen and (max-width: 772px) {
@@ -949,6 +968,10 @@ li:active > a, li:focus > a {
   .introduction__button {
     display: none !important;
   }
+    .introduction__container iframe {
+        height: 368px;
+    }
+   
 }
 
 @media screen and (max-width: 576px) {
@@ -974,11 +997,18 @@ li:active > a, li:focus > a {
     width: 50%;
     border-radius: 0px;
   }
+    .introduction__container iframe {
+        height: 225px;
+    }
 }
 
 @media screen and (max-width: 400px) {
-  .btn__row button {
-    padding: 10px !important;
-  }
+    .btn__row button {
+        padding: 10px !important;
+    }
+    .introduction__container iframe {
+        height: 160px;
+    }
+
 }
 /*# sourceMappingURL=index.css.map */

@@ -60,9 +60,12 @@ namespace Web365Utility
         public static readonly string SpecialArticle = ConfigurationManager.AppSettings["SpecialArticle"];
 
         public static readonly string OtherArticle = ConfigurationManager.AppSettings["OtherArticle"];
-
         //phuong Manhinhapp
         public static readonly int Manhinhapp = Convert.ToInt32(ConfigurationManager.AppSettings["Manhinhapp"].ToString());
+        //phuong Gioithieuapp
+        public static readonly int Gioithieuapp = Convert.ToInt32(ConfigurationManager.AppSettings["Gioithieuapp"].ToString());
+        //phuong Ungdung
+        public static readonly int Ungdung = Convert.ToInt32(ConfigurationManager.AppSettings["Ungdung"].ToString());
         //phuong tinhnangdinhvivaphanloaivuottroi
         public static readonly int tinhnangdinhvivaphanloaivuottroi = Convert.ToInt32(ConfigurationManager.AppSettings["tinhnangdinhvivaphanloaivuottroi"].ToString());       
         //phuong taiungdung
