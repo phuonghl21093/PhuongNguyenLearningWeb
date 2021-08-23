@@ -13,10 +13,9 @@
         <h4><i class="mcn-ic ic-menusb"></i> @ResourceLanguage.LastestNews</h4>*@
         @if (Model != null && Model.Any())
         {
-            <ul class="tintuc-sb"style="margin-right: 40px;">
-                @foreach (var item in Model)
-                {
-                    <li>
+            
+                foreach (var item in Model)
+                {                 
                         @*<div class="detail m-shine">
                                 <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" class="img">
                                     <img width="150" height="150" src="@(item.Picture != null ? Web365Utility.Web365Utility.GetPathPicture(item.Picture.FileName) : "")" class="attachment-thumbnail size-thumbnail wp-post-image" alt="@(item.Picture != null ? item.Picture.Alt : "")">
@@ -27,40 +26,21 @@
                                 </div>
                             </div>*@
                         <div class="near__post__component row">
-                            <div class="image__post col-xs-5 col-sm-5 col-md-6 col-lg-5">
+                            <div class="image__post col-xs-5 col-sm-5 col-md-6 col-lg-6">
                                 <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)">
                                     <img src="@(item.Picture != null ? Web365Utility.Web365Utility.GetPathPicture(item.Picture.FileName) : "")" alt="@(item.Picture != null ? item.Picture.Alt : "")" />
                                 </a>
                             </div>
-                            <div class="content__post col-xs-7 col-sm-7 col-md-6 col-lg-7">
+                            <div class="content__post col-xs-7 col-sm-7 col-md-6 col-lg-6">
                                 <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)">@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Title, 50, "..."))</a>
                                 <p class="date__near"><i class="far fa-calendar-alt"></i> @(item.DateCreated.HasValue ? item.DateCreated.Value.ToString("dd/MM/yyyy") : "")</p>
                             </div>
-                        </div>
-                    </li>
-
+                        </div>                   
                 }
-            </ul>
+          
         }
     </div>
-    @*<div class="sb-menu box" style="margin-bottom: 30px;">
-            <h4><i class="mcn-ic ic-menusb"></i> @ResourceLanguage.Categories</h4>
-            @if (otherTypes != null && otherTypes.Any())
-            {
-                <ul class="category-list">
-                    @foreach (var cate in otherTypes)
-                    {
-                        <li>
-                            <h5>
-                                <a href="#">
-                                    @HiconHtmlHelper.MakeLanguageHyperLink(ViewContext.RouteData, cate.Name, cate.NameAscii)
-                                </a>
-                            </h5>
-                        </li>
-                    }
-                </ul>
-            }
-        </div>*@
+
 
 
 

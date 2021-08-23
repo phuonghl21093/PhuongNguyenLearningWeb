@@ -28,7 +28,7 @@
     </p>
 
     <div class="row row__blog">
-        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8" style="text-align:justify">
             <img style="width: auto;max-width: 100%;" src="@(Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "")" alt="@(Model.Picture != null ? Model.Picture.Alt : "")">
             <p>
                 @Html.Raw(Model.Detail)
@@ -72,9 +72,7 @@
                         </div>
                     }
                     </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination" style="margin-bottom:20px"></div>             
             </div>
         }
         </div>

@@ -9,8 +9,6 @@
     ViewBag.Image = (Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "");
     Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
     ViewBag.Title = "Ứng dụng";
-
-
     <link href="~/Content/GStoreWeb/scss/application/application.css" rel="stylesheet" />
 }
 
@@ -19,5 +17,7 @@
 </div>
 <!-- application -->
 <div class="container">
-    @Html.Raw(Model.Detail)
+    <div class="wrapper">
+        @Html.Raw(Model.Detail)
+    </div>
 </div>
