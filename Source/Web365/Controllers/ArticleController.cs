@@ -462,20 +462,20 @@ namespace Web365.Controllers
             }
             return View(Ungdung);
         }
-        public ActionResult Gioithieuapp()
+        public ActionResult Gioithieucongty()
         {
-            var Gioithieuapp = new ArticleItem();
+            var Gioithieucongty = new ArticleItem();
             try
             {
                 //dong nay lay ra ID 1741 trong bang tblArtile.
-                Gioithieuapp = _article.GetItemById(ConfigWeb.Gioithieuapp);
+                Gioithieucongty = _article.GetItemById(ConfigWeb.Gioithieucongty);
                 //ViewBag.taiungdung = taiungdung;
             }
             catch (Exception e)
             {
                 Elmah.ErrorSignal.FromCurrentContext().Raise(e);
             }
-            return View(Gioithieuapp);
+            return View(Gioithieucongty);
         }
         public ActionResult tinhnangdinhvivaphanloaivuottroi()
         {

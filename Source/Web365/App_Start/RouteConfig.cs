@@ -49,10 +49,10 @@ namespace Web365
             );
             //10/8/2021 Phuong tao bai viet GioiThieuApp
             routes.MapRoute(
-              name: "GioiThieuApp",
-              url: "gioi-thieu",
-              defaults: new { controller = "Article", action = "Gioithieuapp" }
-            );
+               name: "GioiThieuCongTy",
+               url: "gioi-thieu",
+               defaults: new { controller = "Article", action = "Gioithieucongty" }
+             );
             //10/8/2021 Phuong tao bai viet Tinhnang
             routes.MapRoute(
               name: "Tinhnang",

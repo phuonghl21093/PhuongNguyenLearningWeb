@@ -20,13 +20,13 @@
     {
         <meta property="og:image" content="@ViewBag.Image" />
     }
-
+    else
+    {
+        <meta property="og:image" content="~/Content/GStoreWeb/images/img/images/GStore-SEO.png" />
+    }
     <meta property="article:author" content="@ResourceLanguage.HomeTitle" />
     <meta property="article:publisher" content="@ResourceLanguage.HomeTitle" />
     <title>@Html.Raw(ViewBag.Title)</title>
-
-
-
 
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
     <meta charset="UTF-8">
@@ -129,7 +129,6 @@
     <div id="st-wrapper">
         <!-- header -->
         @Html.Action("Header", "Layout")
-        @*<script src="~/Content/GStoreWeb/components/Header/Header.js"></script>*@
         <!-- end header -->
         <!-- main-container -->
         @RenderBody()

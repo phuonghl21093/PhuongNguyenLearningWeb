@@ -320,6 +320,7 @@
     <Content Include="Content\GStoreWeb\images\img\images\features_icon_s.png" />
     <Content Include="Content\GStoreWeb\images\img\images\g-store-1-999.jpg" />
     <Content Include="Content\GStoreWeb\images\img\images\G-Store-Banner1.jpg" />
+    <Content Include="Content\GStoreWeb\images\img\images\GStore-SEO.png" />
     <Content Include="Content\GStoreWeb\images\img\images\icons8-close-window-96.png" />
     <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\1-min.PNG" />
     <Content Include="Content\GStoreWeb\images\img\images\imagecompressor\10-min.PNG" />
@@ -1399,7 +1400,7 @@
     <Content Include="Views\Article\Vechungtoi.cshtml" />
     <Content Include="Views\Article\tinhnangdinhvivaphanloaivuottroi.cshtml" />
     <Content Include="Views\Home\Gioithieuapp.cshtml" />
-    <Content Include="Views\Article\Gioithieuapp.cshtml" />
+    <Content Include="Views\Article\Gioithieucongty.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

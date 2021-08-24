@@ -9,9 +9,7 @@
     ViewBag.Image = (Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "");
     //ViewBag.Url = HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, Model.ArticleType.NameAscii + "/" + Model.TitleAscii);
     ViewBag.Title = "Về chúng tôi";
-    Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
-
-
+    Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";    
 }
 <!-- abooutus -->
 <div class="container-fluid title-page">
@@ -24,4 +22,4 @@
         <p>@Html.Raw(Model.Summary)</p>
     </div>
     @Html.Raw(Model.Detail)
- </div>
+</div>

@@ -1,14 +1,15 @@
-﻿@using Web365.App_Code
+﻿<meta property="og:image" content="/UploadFile/Images/637648232679472259_Picture1.png" />
+@using Web365.App_Code
 @using Web365Domain
 @using Web365Utility
 @model Web365Models.ListArticleModel
 @{
+    
     Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
     Web365Domain.ArticleTypeItem articleTypeItem = ViewBag.TypeArticle;
     ViewBag.Title = articleTypeItem.Name;
     ViewBag.Description = articleTypeItem.SEODescription;
     ViewBag.Keywords = articleTypeItem.SEOKeyword;
-
 
 }
 
@@ -33,18 +34,19 @@
                             <p class="blog__date">
                                 <i class="far fa-calendar-alt"></i> @item.DateCreated.Value.ToString("dd/MM/yyyy")
                             </p>
-                            <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">@item.Title
-                          
-                           
+                            <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">
+                                @item.Title
+
+
                             </a>
                         </div>
                     </div>
                 }
             }
-                    <div class="pagination__blog">                       
-                        @Html.Pager(ConfigWeb.ListNewsInCate, (int)ViewBag.Page, Model.total).Options(o => o.DisplayTemplate("ProjectPagination").MaxNrOfPages(5))                    
-                    </div>
-                </div>
+            <div class="pagination__blog">
+                @Html.Pager(ConfigWeb.ListNewsInCate, (int)ViewBag.Page, Model.total).Options(o => o.DisplayTemplate("ProjectPagination").MaxNrOfPages(5))
+            </div>
+        </div>
         <div class="nearest__post col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <!-- searchfield -->
             <form class="search__box layout__container" role="search" action="@("vi".Equals(Culture) ? "/tim-kiem" : "/search")" id="searchform" method="get">
@@ -75,7 +77,7 @@
                         </div>
                     }
                 }
-                    </div>
+            </div>
         </div>
     </div>
 </div>

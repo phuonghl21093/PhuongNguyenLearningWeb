@@ -6,10 +6,12 @@
     ViewBag.Description = Model.SEODescription;
     ViewBag.Keywords = Model.SEOKeyword;
     ViewBag.Image = (Model.Picture != null ? Web365Utility.GetPathPicture(Model.Picture.FileName) : "");
-    ViewBag.Title = "Giới thiệu App";
+    ViewBag.Title = "Giới thiệu công ty";
     Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
+    <meta property="og:image" content="/UploadFile/Images/637648232679472259_Picture1.png" />
     <link href="~/Content/GStoreWeb/scss/introduction/Subscription.module.css" rel="stylesheet" />
 }
+
 
 <div class="container-fluid title-page">
     <h1>@Model.Title</h1>
@@ -17,10 +19,9 @@
 <div class="container-fluid" id="introduction">
     <div class="container">
         <div data-aos="fade-up">
-            <h2>@Model.Title</h2>
+            <h2>@Model.Title 12312312</h2>
             @Html.Raw(Model.Detail)
         </div>
     </div>
 </div>
-
 <script src="~/Content/GStoreWeb/js/button.js"></script>
