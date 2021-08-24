@@ -1046,7 +1046,10 @@ li:active > a, li:focus > a {
         .introduction__container iframe {
             height: 225px;
         }
-    }
+        .title-page {
+            
+            background-position: center -280px;
+        }
 
     @media screen and (max-width: 400px) {
         .btn__row button {

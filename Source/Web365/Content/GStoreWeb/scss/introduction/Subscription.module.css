@@ -1,15 +1,15 @@
 .container-fluid {
-  margin-left: 0;
-  margin-right: 0;
-  max-width: 100%;
-  line-height: 30px;
-  background-image: linear-gradient(150deg, rgba(75, 199, 237, 0.7) 0%, rgba(240, 187, 69, 0.7) 100%), url("/Content/GStoreWeb/images/img/images/banner-cut.png");
-  background-position: center;
-  background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
-  background-attachment: fixed;
-  padding: 50px 0px;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    line-height: 30px;
+    background-image: linear-gradient( 150deg, #dbe9f7 0%, rgba(240, 187, 69, 0.7) 100%), url(/Content/GStoreWeb/images/img/images/banner-cut.png);
+    background-position: center;
+    background-size: cover;
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    padding: 50px 0px;
 }
 
 .container-fluid iframe {
