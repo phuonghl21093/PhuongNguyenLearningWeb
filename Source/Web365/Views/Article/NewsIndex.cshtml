@@ -1,15 +1,14 @@
-﻿<meta property="og:image" content="/UploadFile/Images/637648232679472259_Picture1.png" />
-@using Web365.App_Code
+﻿@using Web365.App_Code
 @using Web365Domain
 @using Web365Utility
 @model Web365Models.ListArticleModel
 @{
-    
-    Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
+    Layout = "~/Views/Shared/_Layout.cshtml";
     Web365Domain.ArticleTypeItem articleTypeItem = ViewBag.TypeArticle;
     ViewBag.Title = articleTypeItem.Name;
     ViewBag.Description = articleTypeItem.SEODescription;
     ViewBag.Keywords = articleTypeItem.SEOKeyword;
+
 
 }
 
@@ -38,11 +37,11 @@
                                 @item.Title
 
 
-                            </a>
-                        </div>
+                        </a>
                     </div>
-                }
+                </div>
             }
+        }
             <div class="pagination__blog">
                 @Html.Pager(ConfigWeb.ListNewsInCate, (int)ViewBag.Page, Model.total).Options(o => o.DisplayTemplate("ProjectPagination").MaxNrOfPages(5))
             </div>
@@ -70,9 +69,9 @@
                             <div class="image__post col-xs-5 col-sm-5 col-md-6 col-lg-5">
                                 <img src="@Web365Utility.GetPathPicture(item.Picture.FileName)" title="@item.Picture.Name" />
                             </div>
-                            <div class="content__post col-xs-7 col-sm-7 col-md-6 col-lg-7">
-                                <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">@item.Title">@Html.Raw(item.Summary)</a>
-                                <p class="date__near"><i class="far fa-calendar-alt"></i> @item.DateCreated.Value.ToString("dd/MM/yyyy")</p>
+                            <div class="content__post col-xs-7 col-sm-7 col-md-6 col-lg-7">                              
+                                <a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)">@Html.Raw(HiconHtmlHelper.TruncateContentInHtml(item.Title, 50, "..."))</a>
+                                <p class="date__near"><i class="far fa-calendar-alt"></i> @(item.DateCreated.HasValue ? item.DateCreated.Value.ToString("dd/MM/yyyy") : "")</p>
                             </div>
                         </div>
                     }
