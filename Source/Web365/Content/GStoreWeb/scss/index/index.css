@@ -1011,6 +1011,10 @@ li:active > a, li:focus > a {
         .introduction__container iframe {
             height: 368px;
         }
+        .title-page {
+            background-position: center -200px;
+        }
+
     }
 
     @media screen and (max-width: 576px) {

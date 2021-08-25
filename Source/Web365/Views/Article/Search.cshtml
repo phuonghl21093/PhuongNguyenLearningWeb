@@ -3,7 +3,7 @@
 @model Web365Models.ListArticleModel
 @{
     ViewBag.Title = ResourceLanguage.SearchText + ": " + ViewBag.Keywords;
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Views/Shared/_LayoutTrangTrong.cshtml";
 }
 
 
@@ -26,7 +26,7 @@
                 <i class="far fa-calendar-alt"></i>@item.DateCreated.Value.ToString("dd/MM/yyyy")
             </p>
 
-            <div class="row row__blog">
+            <div class="row row__blog"style="margin-bottom: 50px">
                 <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                     <h1><a href="@HiconHtmlHelper.GetHyperLinkWithLanguage(ViewContext.RouteData, item.ArticleType.NameAscii + "/" + item.TitleAscii)" title="@item.Title">@item.Title</a></h1>
                     <img src="@Web365Utility.GetPathPicture(item.Picture.FileName)" title="@item.Picture.Name">
@@ -53,8 +53,24 @@
     }
     else
     {
-        <div class="text-center">
-            @ResourceLanguage.SearchResultNotFound
+        <div class="row row__blog" style="margin: 50px 0px 50px 0px">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <h3 style="color:red; text-align:justify;">@ResourceLanguage.SearchResultNotFound</h3>
+            </div>
+            <div class="nearest__post col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <!-- searchfield -->
+                <form class="search__box layout__container" role="search" action="@("vi".Equals(Culture) ? "/tim-kiem" : "/search")" id="searchform" method="get">
+                    <p class="title__box__nearest">Tìm Kiếm</p>
+                    <div class="input__search__blogs">
+                        <input type="text" class="form-control" name="s" placeholder="@ResourceLanguage.EnterSearchKeyword">
+                        <div class="icon__search">
+                            <button type="submit"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                </form>
+                <!-- get posts -->
+                @Html.Action("RightBarInNews", new { typeId = (int)StaticEnum.ArticleType.News })
+            </div>
+            </div>
+            }
         </div>
-    }
-</div>
