@@ -320,7 +320,7 @@ namespace Web365.Controllers
             return View();
         }
 
-        public ActionResult RightBarInNews()
+        public ActionResult RightBarInNews(int typeId)
         {
             try
             {
