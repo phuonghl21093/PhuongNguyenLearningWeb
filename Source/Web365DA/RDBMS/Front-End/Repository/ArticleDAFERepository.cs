@@ -357,13 +357,14 @@ namespace Web365DA.RDBMS.Front_End.Repository
         public ListArticleModel ArticleSeach(string[] keyword, string[] keywordAscii, int currentRecord, int top, bool isShow = true, bool isDeleted = false, int languageId = (int)StaticEnum.LanguageId.Vietnamese)
         {
             var list = new ListArticleModel();
-            var listNewsType = from c in web365db.tblTypeArticle
-                               where c.IsDeleted == false && c.IsShow == true && c.Parent.HasValue && ConfigWeb.ListNewsRootCategoryId.Contains(c.Parent.Value)
-                               select c.ID;
+            //var listNewsType = from c in web365db.tblTypeArticle
+            //                   where c.IsDeleted == false && c.IsShow == true && c.Parent.HasValue
+            //                   select c.ID;
 
             var query = (from p in web365db.tblArticle
                          where (keyword.All(k => p.Title.ToLower().Contains(k)) || keyword.All(k => p.TitleAscii.Contains(k)))
-                         && p.TypeID > 1 && p.LanguageId == languageId && p.IsShow == isShow && p.IsDeleted == isDeleted && listNewsType.Contains(p.TypeID.Value)
+                         && p.TypeID > 1 && p.LanguageId == languageId && p.IsShow == isShow && p.IsDeleted == isDeleted 
+                         //&& listNewsType.Contains(p.TypeID.Value)
                          orderby p.ID descending
                          select new ArticleItem()
                          {
